@@ -1,2 +1,2 @@
-# civ7-colors
-Color Guard mod for Civilization VII
+# Color Guard 1.0.0
+better leader colors
