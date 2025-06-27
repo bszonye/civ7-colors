@@ -255,10 +255,10 @@ UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_VIOLET_MD"       WHERE Type =
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_CHARLEMAGNE";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_DK"         WHERE Type = "LEADER_CONFUCIUS";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_WT"       WHERE Type = "LEADER_CONFUCIUS";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_WT"       WHERE Type = "LEADER_FRIEDRICH";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLACK"           WHERE Type = "LEADER_FRIEDRICH";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GRAY_DK"         WHERE Type = "LEADER_FRIEDRICH_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_FRIEDRICH_ALT";
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GRAY_DK"         WHERE Type = "LEADER_FRIEDRICH";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_FRIEDRICH";
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_WT"        WHERE Type = "LEADER_FRIEDRICH_ALT";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLACK"           WHERE Type = "LEADER_FRIEDRICH_ALT";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_DK"         WHERE Type = "LEADER_HARRIET_TUBMAN";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_WT"       WHERE Type = "LEADER_HARRIET_TUBMAN";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_HATSHEPSUT";
@@ -292,4 +292,4 @@ UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type =
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_MD"         WHERE Type = "LEADER_XERXES";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_VIOLET_WT"       WHERE Type = "LEADER_XERXES";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_VIOLET_DK"       WHERE Type = "LEADER_XERXES_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_AZURE_LT"        WHERE Type = "LEADER_XERXES_ALT";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_CERULEAN_LT"     WHERE Type = "LEADER_XERXES_ALT";
