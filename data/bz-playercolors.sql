@@ -290,6 +290,6 @@ UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type =
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ORANGE_LT"       WHERE Type = "LEADER_TRUNG_TRAC";  -- TODO
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_TRUNG_TRAC";  -- TODO
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_MD"         WHERE Type = "LEADER_XERXES";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_VIOLET_WT"       WHERE Type = "LEADER_XERXES";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_VIOLET_DK"       WHERE Type = "LEADER_XERXES_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_CERULEAN_LT"     WHERE Type = "LEADER_XERXES_ALT";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_XERXES";
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_LT"         WHERE Type = "LEADER_XERXES_ALT";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_XERXES_ALT";
