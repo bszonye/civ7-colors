@@ -239,8 +239,8 @@ UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_DK"         WHERE Type =
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_WT"       WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_HIMIKO";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_HIMIKO";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_DK"       WHERE Type = "LEADER_PACHACUTI";  -- TODO
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_PACHACUTI";  -- TODO
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_DK"        WHERE Type = "LEADER_PACHACUTI";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_PACHACUTI";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_DK"         WHERE Type = "LEADER_CONFUCIUS";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_WT"       WHERE Type = "LEADER_CONFUCIUS";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CERULEAN_DK"     WHERE Type = "LEADER_HATSHEPSUT";
@@ -257,8 +257,8 @@ UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_MD"         WHERE Type =
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_APPLE_LT"        WHERE Type = "LEADER_IBN_BATTUTA";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED_MD"          WHERE Type = "LEADER_ISABELLA";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_ISABELLA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_MD"        WHERE Type = "LEADER_TRUNG_TRAC";  -- TODO
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_TRUNG_TRAC";  -- TODO
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_MD"        WHERE Type = "LEADER_TRUNG_TRAC";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_TRUNG_TRAC";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_CATHERINE";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLACK"           WHERE Type = "LEADER_CATHERINE";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GREEN_MD"        WHERE Type = "LEADER_AMINA";
