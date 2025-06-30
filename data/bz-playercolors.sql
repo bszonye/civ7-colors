@@ -108,8 +108,8 @@ INSERT OR REPLACE INTO Colors
 -- medium colors
 ("COLOR_BZ_ROSE_MD",            "184,0,73,255",    "184,0,73,255"),    -- #b80049 oklch(0.50 0.20  10)
 ("COLOR_BZ_RED_MD",             "208,32,16,255",   "208,32,16,255"),   -- #d02010 oklch(0.55 0.21  30)
-("COLOR_BZ_ORANGE_MD",          "247,114,0,255",   "247,114,0,255"),   -- #f77200 oklch(0.70 0.19  50)
-("COLOR_BZ_AMBER_MD",           "244,159,30,255",  "244,159,30,255"),  -- #f49f1e oklch(0.77 0.16  70)
+("COLOR_BZ_ORANGE_MD",          "255,117,0,255",   "255,117,0,255"),   -- #ff7500 oklch(0.72 0.20  50)
+("COLOR_BZ_AMBER_MD",           "254,169,47,255",  "254,169,47,255"),  -- #fea92f oklch(0.80 0.16  70)
 ("COLOR_BZ_YELLOW_MD",          "249,199,24,255",  "249,199,24,255"),  -- #f9c718 oklch(0.85 0.17  90)
 ("COLOR_BZ_OLIVE_MD",           "181,182,20,255",  "181,182,20,255"),  -- #b5b614 oklch(0.75 0.16 110)
 ("COLOR_BZ_APPLE_MD",           "107,162,17,255",  "107,162,17,255"),  -- #6ba211 oklch(0.65 0.17 130)
@@ -239,15 +239,15 @@ UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_DK"         WHERE Type =
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_HIMIKO";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_HIMIKO";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_DK"       WHERE Type = "LEADER_PACHACUTI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_PACHACUTI";
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_DK"       WHERE Type = "LEADER_JOSE_RIZAL";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_JOSE_RIZAL";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_DK"         WHERE Type = "LEADER_CONFUCIUS";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_APPLE_WT"        WHERE Type = "LEADER_CONFUCIUS";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CERULEAN_DK"     WHERE Type = "LEADER_HATSHEPSUT";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_HATSHEPSUT";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_DK"         WHERE Type = "LEADER_NAPOLEON";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_NAPOLEON";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PURPLE_DK"       WHERE Type = "LEADER_CHARLEMAGNE";
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_MD"         WHERE Type = "LEADER_CHARLEMAGNE";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_CHARLEMAGNE";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_DK"         WHERE Type = "LEADER_AUGUSTUS";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_AUGUSTUS";
@@ -257,6 +257,8 @@ UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_MD"         WHERE Type =
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_APPLE_LT"        WHERE Type = "LEADER_IBN_BATTUTA";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED_MD"          WHERE Type = "LEADER_ISABELLA";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_ISABELLA";
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ORANGE_MD"       WHERE Type = "LEADER_PACHACUTI";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_PINK_DK"         WHERE Type = "LEADER_PACHACUTI";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_MD"        WHERE Type = "LEADER_TRUNG_TRAC";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_TRUNG_TRAC";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_CATHERINE";
@@ -273,6 +275,8 @@ UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_MD"         WHERE Type =
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_ASHOKA";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_LT"         WHERE Type = "LEADER_LAFAYETTE";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_LAFAYETTE";
+UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ORANGE_LT"       WHERE Type = "LEADER_LAKSHMIBAI";
+UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_MINT_DK"         WHERE Type = "LEADER_LAKSHMIBAI";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_BOLIVAR";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLUE_DK"         WHERE Type = "LEADER_BOLIVAR";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AZURE_LT"        WHERE Type = "LEADER_MACHIAVELLI";
@@ -287,7 +291,5 @@ UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_WT"        WHERE Type =
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLACK"           WHERE Type = "LEADER_FRIEDRICH_ALT";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_WT"         WHERE Type = "LEADER_HIMIKO_ALT";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_HIMIKO_ALT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_VIOLET_WT"       WHERE Type = "LEADER_JOSE_RIZAL";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_DK"       WHERE Type = "LEADER_JOSE_RIZAL";
 UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_WT"         WHERE Type = "LEADER_ASHOKA_ALT";
 UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_AMBER_DK"        WHERE Type = "LEADER_ASHOKA_ALT";
