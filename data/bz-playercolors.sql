@@ -6,10 +6,23 @@ INSERT OR REPLACE INTO Colors
 -- #ada4a0 oklch(0.725 0.012  45.7)
 ("PLAYERCOLOR_BZ_MINOR_MD",     "173,164,160,255", "173,164,160,255"),
 
+-- 90 Simón Bolívar
+-- 85 Catherine
+-- 60 Ada Lovelace
+-- 57 Charlemagne
+-- 55 Amina
+-- 48 Confucius
+-- 47 Isabella
+-- 45 Benjamin Franklin
+-- 40 Ibn Battuta
+-- 39 Hatshepsut
+-- 37 Augustus
+-- 35 Harriet Tubman
+
 -- ADA_LOVELACE: bluebells, flag of Great Britain
 -- white on lavender or rose pink
--- #fd2a6d  oklch(0.65 0.24 10)  rgb(253, 42, 109)
-("BZ1_ADA_LOVELACE", "253,42,109,255", "253,42,109,255"),
+-- #e71960  oklch(0.6 0.23 10)  rgb(231, 25, 96)
+("BZ1_ADA_LOVELACE", "231,25,96,255", "231,25,96,255"),
 ("BZ2_ADA_LOVELACE", "249,249,249,255", "249,249,249,255"),
 
 -- AMINA: Hausa emblem, flag of Nigeria
@@ -23,8 +36,8 @@ INSERT OR REPLACE INTO Colors
 
 -- AUGUSTUS: Tyrian purple
 -- purple: L35-45 350-10°
--- #6a0644  oklch(0.35 0.14 350)  rgb(106, 6, 68)
-("BZ1_AUGUSTUS", "106,6,68,255", "106,6,68,255"),
+-- #71104a  oklch(0.37 0.14 350)  rgb(113, 16, 74)
+("BZ1_AUGUSTUS", "113,16,74,255", "113,16,74,255"),
 -- yellow
 -- #ffcb00  oklch(0.8633 0.1764 89.91)  rgb(255, 203, 0)
 ("BZ2_AUGUSTUS", "255,203,0,255", "255,203,0,255"),
@@ -61,27 +74,32 @@ INSERT OR REPLACE INTO Colors
 -- CHARLEMAGNE: coat of arms of France
 -- azure, semé-de-lys or
 -- blue: L55-60 270°
--- #445def  oklch(0.55 0.22 270)  rgb(68, 93, 239)
-("BZ1_CHARLEMAGNE", "68,93,239,255", "68,93,239,255"),
+-- #4761fc  oklch(0.57 0.23 270)  rgb(71, 97, 252)
+("BZ1_CHARLEMAGNE", "71,97,252,255", "71,97,252,255"),
 -- yellow
--- #fddb7c  oklch(0.9 0.12 90)  rgb(253, 219, 124)
-("BZ2_CHARLEMAGNE", "253,219,124,255", "253,219,124,255"),
+-- #fddc5b  oklch(0.9 0.15 95)  rgb(253, 220, 91)
+("BZ2_CHARLEMAGNE", "253,220,91,255", "253,220,91,255"),
 
 -- CONFUCIUS: jade
--- rgb(10, 176, 116)  oklch(0.48 0.1 160)  rgb(23, 110, 74)
-("BZ1_CONFUCIUS", "23,110,74,255", "23,110,74,255"),
+-- #176c5f  oklch(0.48 0.08 180)  rgb(23, 108, 95)
+("BZ1_CONFUCIUS", "23,108,95,255", "23,108,95,255"),
 -- #f0f2cc  oklch(0.95 0.05 110)  rgb(240, 242, 204)
 ("BZ2_CONFUCIUS", "240,242,204,255", "240,242,204,255"),
 
 -- FRIEDRICH . . . .  GRAY_DK      YELLOW_MD
 -- FRIEDRICH_ALT . .  AMBER_WT     BLACK
--- HARRIET_TUBMAN  .  CERULEAN_LT  WHITE
--- HATSHEPSUT  . . .  CERULEAN_DK  YELLOW_LT
 
 -- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
 -- blue: cmyk(100 60 0 0)  #0066ff
 -- yellow: cmyk(0 15 100 0)  #ffd900
 -- red: cmyk(10 100 90 0)  #e60019
+
+-- HATSHEPSUT: Egyptian blue and gold
+-- Egyptian blue: #1034a6
+-- #1133a8  oklch(0.39 0.19 265)  rgb(17, 51, 168)
+("BZ1_HATSHEPSUT", "17,51,168,255", "17,51,168,255"),
+-- #f0c12a  oklch(0.83 0.16 90)  rgb(240, 193, 42)
+("BZ2_HATSHEPSUT", "240,193,42,255", "240,193,42,255"),
 
 -- HIMIKO: imperial standard of the empress of Japan
 -- #dedede oklch(0.900 0.000   0.0)
@@ -93,22 +111,20 @@ INSERT OR REPLACE INTO Colors
 -- HIMIKO_ALT  . . .  BLUE_WT      RED_DK
 
 -- IBN BATTUTA: flag of Morocco
--- red: PMS 193C
--- #bf0d3e  oklch(0.5148 0.2006 15.96)  rgb(191, 13, 62)
--- #7f1e30  oklch(0.4 0.13 15)  rgb(127, 30, 48)
-("BZ1_IBN_BATTUTA", "127,30,48,255", "127,30,48,255"),
--- green: PMS 363C
--- #4c8c2b  oklch(0.5764 0.1459 136.84)  rgb(76, 140, 43)
--- #82c509  oklch(0.75 0.2 130)  rgb(130, 197, 9)
-("BZ2_IBN_BATTUTA", "130,197,9,255", "130,197,9,255"),
+-- red: PMS 193C  #bf0d3e  oklch(0.5148 0.2006 15.96)
+-- #900d30  oklch(0.42 0.16 15)  rgb(144, 13, 48)
+("BZ1_IBN_BATTUTA", "144,13,48,255", "144,13,48,255"),
+-- green: PMS 363C  #4c8c2b  oklch(0.5764 0.1459 136.84)
+-- #8fd718  oklch(0.8 0.21 130)  rgb(143, 215, 24)
+("BZ2_IBN_BATTUTA", "143,215,24,255", "143,215,24,255"),
 
 -- ISABELLA: flag of Spain
--- Flag Red = lch(37 70 35)
--- #aa141a  oklch(0.4727 0.1815 26.45)  rgb(170, 20, 26)
-("BZ1_ISABELLA", "170,20,26,255", "170,20,26,255"),
--- Flag Reseda Yellow = lch(80 95 85)
--- #f1bf00  oklch(0.8241 0.1846 91.38)  rgb(241, 191, 0)
-("BZ2_ISABELLA", "241,191,0,255", "241,191,0,255"),
+-- Flag Red = lch(37 70 35)  #aa141a  oklch(0.4722 0.1813 26.56)
+-- #ac011a  oklch(0.47 0.19 25)  rgb(172, 1, 26)
+("BZ1_ISABELLA", "172,1,26,255", "172,1,26,255"),
+-- Flag Reseda Yellow = lch(80 95 85)  #f1bf00  oklch(0.8258 0.1687 89.56)
+-- #f2c100  oklch(0.83 0.17 90)  rgb(242, 193, 0)
+("BZ2_ISABELLA", "242,193,0,255", "242,193,0,255"),
 
 -- JOSE_RIZAL  . . .  YELLOW_DK    WHITE
 
