@@ -1,176 +1,184 @@
 INSERT OR REPLACE INTO Colors
 (Type, Color, Color3D) VALUES
--- city-states
-("PLAYERCOLOR_BZ_MINOR_LT",     "200,192,189,255", "200,192,189,255"), -- #c8c0bd oklch(0.813 0.010  40.0)
-("PLAYERCOLOR_BZ_MINOR_MD",     "173,164,160,255", "173,164,160,255"), -- #ada4a0 oklch(0.725 0.012  45.7)
-("COLOR_BZ_BRONZE_LT",          "229,210,172,255", "229,210,172,255"), -- #e5d2ac oklch(0.870 0.055  84.5)
-("COLOR_BZ_BRONZE_MD",          "140,126,98,255",  "140,126,98,255"),  -- #8c7e62 oklch(0.598 0.044  84.5)
-("COLOR_BZ_BRONZE_DK",          "76,71,61,255",    "76,71,61,255"),    -- #4c473d oklch(0.400 0.018  84.6)
--- Amina
-("COLOR_BZ_PMS_348C",           "0,132,61,255",    "0,132,61,255"),    -- #00843d oklch(0.536 0.146 150.6) .27
-("COLOR_BZ_PMS_355C",           "0,150,57,255",    "0,150,57,255"),    -- #009639 oklch(0.587 0.171 147.7) .29
-("COLOR_BZ_HAUSA_GREEN",        "0,132,61,255",    "0,132,61,255"),    -- #00843d oklch(0.536 0.146 150.6)
--- Ashoka
--- flag of India, xyY(.538 .360 .215) India Saffron and xyY(.288 .395 .089) India Green
-("COLOR_BZ_PMS_165C",           "255,103,31,255",  "255,103,31,255"),  -- #ff671f oklch(0.698 0.200  41.5) .29
-("COLOR_BZ_PMS_349C",           "4,106,56,255",    "4,106,56,255"),    -- #046a38 oklch(0.461 0.116 153.6) .25
-("COLOR_BZ_PMS_2738C",          "4,106,56,255",    "4,106,56,255"),    -- #06038d oklch(0.295 0.199 265.5) .67
--- Ibn Battuta
--- flag of Morocco, PMS 363C on 193C (lightened to PMS 360C)
-("COLOR_BZ_PMS_193C",           "191,13,62,255",   "191,13,62,255"),   -- #bf0d3e oklch(0.515 0.201  16.0) .39
-("COLOR_BZ_PMS_363C",           "76,140,43,255",   "76,140,43,255"),   -- #4c8c2b oklch(0.576 0.146 136.8) .25
-("COLOR_BZ_PMS_360C",           "108,194,74,255",  "108,194,74,255"),  -- #6cc24a oklch(0.734 0.177 137.9) .24
-("COLOR_BZ_MOROCCO_RED",        "191,13,62,255",   "191,13,62,255"),   -- #bf0d3e oklch(0.515 0.201  16.0)
-("COLOR_BZ_MOROCCO_GREEN",      "108,194,74,255",  "108,194,74,255"),  -- #6cc24a oklch(0.734 0.177 137.9)
--- Benjamin Franklin, Harriet Tubman, Lafayette
--- Old Glory Red and Old Glory Blue on white cloth + adjusted to sRGB white point
-("COLOR_BZ_OLD_GLORY_RED",      "155,28,44,255",   "155,28,44,255"),   -- #9b1c2c oklch(0.451 0.161  20.7) .36
-("COLOR_BZ_OLD_GLORY_BLUE",     "51,51,95,255",    "51,51,95,255"),    -- #33335f oklch(0.344 0.076 281.7) .22
-("COLOR_BZ_WHITE_70001",        "227,222,212,255", "227,222,212,255"), -- #e3ded4 oklch(0.900 0.015  86.4)
-("COLOR_BZ_AMERICA_RED",        "179,34,52,255",   "179,34,52,255"),   -- #b32234 oklch(0.500 0.179  20.7)
-("COLOR_BZ_AMERICA_BLUE",       "60,60,110,255",   "60,60,110,255"),   -- #3c3c6e oklch(0.382 0.084 281.7)
--- Himiko
-("COLOR_BZ_JAPAN_WHITE",        "222,222,222,255", "222,222,222,255"), -- #dedede oklch(0.900 0.000   0.0)
-("COLOR_BZ_JAPAN_RED",          "186,4,38,255",    "186,4,38,255"),    -- #ba0426 oklch(0.500 0.200  23.0)
--- Isabella
--- flag of Spain, lch(37 70 35) Flag Red and lch(80 95 85) Flag Reseda Yellow
-("COLOR_BZ_SPAIN_RED",          "170,20,26,255",   "170,20,26,255"),   -- #aa141a oklch(0.472 0.181  26.6)
-("COLOR_BZ_SPAIN_YELLOW",       "241,191,0,255",   "241,191,0,255"),   -- #f1bf00 oklch(0.826 0.169  89.6)
--- Lafayette, Napoleon
--- flag of the French Republic, Reflex Blue and Red 032C / Blue 072C and 485C
-("COLOR_BZ_PMS_REFLEX_BLUE_C",  "0,20,137,255",    "0,20,137,255"),    -- #001489 oklch(0.303 0.185 264.2) .61
-("COLOR_BZ_PMS_RED_032C",       "239,51,64,255",   "239,51,64,255"),   -- #ef3340 oklch(0.622 0.221  23.5) .35
-("COLOR_BZ_PMS_BLUE_072C",      "16,6,159,255",    "16,6,159,255"),    -- #10069f oklch(0.326 0.214 267.2) .66
-("COLOR_BZ_PMS_485C",           "218,41,28,255",   "218,41,28,255"),   -- #da291c oklch(0.575 0.213  29.6) .37
-("COLOR_BZ_FRANCE_BLUE",        "0,20,137,255",    "0,20,137,255"),    -- #001489 oklch(0.303 0.185 264.2)
-("COLOR_BZ_FRANCE_RED",         "239,51,64,255",   "239,51,64,255"),   -- #ef3340 oklch(0.622 0.221  23.5)
--- custom colors
--- ROSE, RED, ORANGE, AMBER, YELLOW, OLIVE,
--- APPLE, GREEN, MINT, TEAL, CYAN, AZURE,
--- CERULEAN, BLUE, VIOLET, PURPLE, MAGENTA, PINK
+-- CITY-STATES: warm gray sampled from suzerain notification
+-- #c8c0bd oklch(0.813 0.010  40.0)
+("PLAYERCOLOR_BZ_MINOR_LT",     "200,192,189,255", "200,192,189,255"),
+-- #ada4a0 oklch(0.725 0.012  45.7)
+("PLAYERCOLOR_BZ_MINOR_MD",     "173,164,160,255", "173,164,160,255"),
+
+-- ADA_LOVELACE: bluebells, flag of Great Britain
+-- white on lavender or rose pink
+-- #fd2a6d  oklch(0.65 0.24 10)  rgb(253, 42, 109)
+("BZ1_ADA_LOVELACE", "253,42,109,255", "253,42,109,255"),
+("BZ2_ADA_LOVELACE", "249,249,249,255", "249,249,249,255"),
+
+-- AMINA: Hausa emblem, flag of Nigeria
+-- green: L55-60 150°
+-- #05893e  oklch(0.55 0.15 150)  rgb(5, 137, 62)
+("BZ1_AMINA", "5,137,62,255", "5,137,62,255"),
+("BZ2_AMINA", "249,249,249,255", "249,249,249,255"),
+
+-- ASHOKA  . . . . .  PINK_MD      YELLOW_LT
+-- ASHOKA_ALT  . . .  PINK_WT      AMBER_DK
+
+-- AUGUSTUS: Tyrian purple
+-- purple: L35-45 350-10°
+-- #6a0644  oklch(0.35 0.14 350)  rgb(106, 6, 68)
+("BZ1_AUGUSTUS", "106,6,68,255", "106,6,68,255"),
+-- yellow
+-- #ffcb00  oklch(0.8633 0.1764 89.91)  rgb(255, 203, 0)
+("BZ2_AUGUSTUS", "255,203,0,255", "255,203,0,255"),
+
+-- BENJAMIN FRANKLIN, HARRIET TUBMAN: flag of USA
+-- n.70001 White: lab(88.7 -0.2 5.4)
+--   #e3ded4  oklch(0.9018 0.0145 84.59)  rgb(227, 222, 212)  abs
+--   #e0ded7  oklch(0.9 0.01 90)  rgb(224, 222, 215)
+("BZ2_BENJAMIN_FRANKLIN", "224,222,215,255", "224,222,215,255"),
+("BZ2_HARRIET_TUBMAN", "224,222,215,255", "224,222,215,255"),
+-- n.70180 Old Glory Red: lab(33.9 51.2 24.7)
+--   #9b1c2c  oklch(0.4505 0.161 20.68)  rgb(155, 28, 44)
+--   #a10128  oklch(0.45 0.18 20)  rgb(161, 1, 40)
+("BZ1_BENJAMIN_FRANKLIN", "161,1,40,255", "161,1,40,255"),
+-- n.70075 Old Glory Blue: lab(23.2 13.1 -26.4)
+--   #33335f  oklch(0.344 0.0758 281.66)  rgb(51, 51, 95)
+--   #333463  oklch(0.35 0.08 280)  rgb(51, 52, 99)
+("BZ1_HARRIET_TUBMAN", "51,52,99,255", "51,52,99,255"),
+
+-- BOLIVAR: flag of Gran Colombia
+-- yellow: L90 90-100°
+-- #fadf27  oklch(0.9 0.18 100)  rgb(250, 223, 39)
+("BZ1_BOLIVAR", "250,223,39,255", "250,223,39,255"),
+-- blue: L35-40 260°
+-- #03409c  oklch(0.4 0.16 260)  rgb(3, 64, 156)
+("BZ2_BOLIVAR", "3,64,156,255", "3,64,156,255"),
+
+-- CATHERINE: standard of the Empress of Russia
+-- yellow: 90°
+-- rgb(252, 223, 0)  oklch(0.85 0.17 90)  rgb(249, 199, 24)
+("BZ1_CATHERINE", "249,199,24,255", "249,199,24,255"),
+("BZ2_CATHERINE", "0,0,0,255", "0,0,0,255"),
+
+-- CHARLEMAGNE: coat of arms of France
+-- azure, semé-de-lys or
+-- blue: L55-60 270°
+-- #445def  oklch(0.55 0.22 270)  rgb(68, 93, 239)
+("BZ1_CHARLEMAGNE", "68,93,239,255", "68,93,239,255"),
+-- yellow
+-- #fddb7c  oklch(0.9 0.12 90)  rgb(253, 219, 124)
+("BZ2_CHARLEMAGNE", "253,219,124,255", "253,219,124,255"),
+
+-- CONFUCIUS: jade
+-- rgb(10, 176, 116)  oklch(0.48 0.1 160)  rgb(23, 110, 74)
+("BZ1_CONFUCIUS", "23,110,74,255", "23,110,74,255"),
+-- #f0f2cc  oklch(0.95 0.05 110)  rgb(240, 242, 204)
+("BZ2_CONFUCIUS", "240,242,204,255", "240,242,204,255"),
+
+-- FRIEDRICH . . . .  GRAY_DK      YELLOW_MD
+-- FRIEDRICH_ALT . .  AMBER_WT     BLACK
+-- HARRIET_TUBMAN  .  CERULEAN_LT  WHITE
+-- HATSHEPSUT  . . .  CERULEAN_DK  YELLOW_LT
+
+-- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
+-- blue: cmyk(100 60 0 0)  #0066ff
+-- yellow: cmyk(0 15 100 0)  #ffd900
+-- red: cmyk(10 100 90 0)  #e60019
+
+-- HIMIKO: imperial standard of the empress of Japan
+-- #dedede oklch(0.900 0.000   0.0)
+("COLOR_BZ_JAPAN_WHITE",        "222,222,222,255", "222,222,222,255"),
+-- #ba0426 oklch(0.500 0.200  23.0)
+("COLOR_BZ_JAPAN_RED",          "186,4,38,255",    "186,4,38,255"),
+
+-- HIMIKO  . . . . .  RED_DK       YELLOW_LT
+-- HIMIKO_ALT  . . .  BLUE_WT      RED_DK
+
+-- IBN BATTUTA: flag of Morocco
+-- red: PMS 193C
+-- #bf0d3e  oklch(0.5148 0.2006 15.96)  rgb(191, 13, 62)
+-- #7f1e30  oklch(0.4 0.13 15)  rgb(127, 30, 48)
+("BZ1_IBN_BATTUTA", "127,30,48,255", "127,30,48,255"),
+-- green: PMS 363C
+-- #4c8c2b  oklch(0.5764 0.1459 136.84)  rgb(76, 140, 43)
+-- #82c509  oklch(0.75 0.2 130)  rgb(130, 197, 9)
+("BZ2_IBN_BATTUTA", "130,197,9,255", "130,197,9,255"),
+
+-- ISABELLA: flag of Spain
+-- Flag Red = lch(37 70 35)
+-- #aa141a  oklch(0.4727 0.1815 26.45)  rgb(170, 20, 26)
+("BZ1_ISABELLA", "170,20,26,255", "170,20,26,255"),
+-- Flag Reseda Yellow = lch(80 95 85)
+-- #f1bf00  oklch(0.8241 0.1846 91.38)  rgb(241, 191, 0)
+("BZ2_ISABELLA", "241,191,0,255", "241,191,0,255"),
+
+-- JOSE_RIZAL  . . .  YELLOW_DK    WHITE
+
+-- LAFAYETTE: family coat of arms
+-- gules, a bend or, with a bordure vair
+-- red
+-- yellow
+
+-- LAKSHMIBAI: flag of India
+-- India Saffron: xyY(.538 .360 .215) or PMS 165 C
+-- #ff671f oklch(0.698 0.200  41.5) .29
+("COLOR_BZ_PMS_165C",           "255,103,31,255",  "255,103,31,255"),
+-- India Green: xyY(.288 .395 .089) or PMS 349 C
+-- #046a38 oklch(0.461 0.116 153.6) .25
+("COLOR_BZ_PMS_349C",           "4,106,56,255",    "4,106,56,255"),
+-- navy blue: PMS 2738 C
+-- #06038d oklch(0.295 0.199 265.5) .67
+("COLOR_BZ_PMS_2738C",          "4,106,56,255",    "4,106,56,255"),
+
+-- MACHIAVELLI: family coat of arms
+-- argent, a cross azure, pierced by four nails
+-- white
+-- blue
+
+-- NAPOLEON: flag of the French Republic
+-- blue: L30-40 265-270°
+-- white
+-- red: L55-65 25-30°
+
+-- PACHACUTI: Inca textiles
+-- orange
+-- dark red or brown
+
+-- TECUMSEH: seal of Shawnee tribe
+-- sky blue
+-- yellow
+
+-- TRUNG_TRAC: flag of Vietnam
+-- yellow
+-- red
+
+-- XERXES: Persian textiles, flag of Persia
+-- Persian green
+-- Persian red or pink
+
 -- fully saturated colors
-("COLOR_BZ_ROSE",               "255,0,104,255",   "255,0,104,255"),   -- #ff0068 oklch(0.64 0.26  10) .41
-("COLOR_BZ_RED",                "255,21,0,255",    "255,21,0,255"),    -- #ff1500 oklch(0.63 0.25  30) .40
-("COLOR_BZ_ORANGE",             "255,121,0,255",   "255,121,0,255"),   -- #ff7900 oklch(0.72 0.19  50) .26
-("COLOR_BZ_AMBER",              "255,164,0,255",   "255,164,0,255"),   -- #ffa400 oklch(0.79 0.17  70) .22
-("COLOR_BZ_YELLOW",             "255,203,0,255",   "255,203,0,255"),   -- #ffcb00 oklch(0.86 0.18  90) .21
-("COLOR_BZ_OLIVE",              "254,255,0,255",   "254,255,0,255"),   -- #feff00 oklch(0.97 0.21 110) .22
-("COLOR_BZ_APPLE",              "169,255,0,255",   "169,255,0,255"),   -- #a9ff00 oklch(0.91 0.24 130) .26
-("COLOR_BZ_GREEN",              "0,255,120,255",   "0,255,120,255"),   -- #00ff78 oklch(0.87 0.24 150) .28
-("COLOR_BZ_MINT",               "0,255,201,255",   "0,255,201,255"),   -- #00ffc9 oklch(0.89 0.18 170) .20
-("COLOR_BZ_TEAL",               "0,255,246,255",   "0,255,246,255"),   -- #00fff6 oklch(0.90 0.16 190) .18
-("COLOR_BZ_CYAN",               "0,228,255,255",   "0,228,255,255"),   -- #00e4ff oklch(0.84 0.15 210) .18
-("COLOR_BZ_AZURE",              "0,194,255,255",   "0,194,255,255"),   -- #00c2ff oklch(0.72 0.16 230) .22
-("COLOR_BZ_CERULEAN",           "0,150,255,255",   "0,150,255,255"),   -- #0096ff oklch(0.66 0.19 250) .29
-("COLOR_BZ_BLUE",               "48,0,255,255",    "48,0,255,255"),    -- #3000ff oklch(0.46 0.30 270) .65
-("COLOR_BZ_VIOLET",             "116,0,255,255",   "116,0,255,255"),   -- #7400ff oklch(0.52 0.29 290) .56
-("COLOR_BZ_PURPLE",             "180,0,255,255",   "180,0,255,255"),   -- #b400ff oklch(0.59 0.30 310) .51
-("COLOR_BZ_MAGENTA",            "255,0,247,255",   "255,0,247,255"),   -- #ff00f7 oklch(0.70 0.32 330) .46
-("COLOR_BZ_PINK",               "255,0,169,255",   "255,0,169,255"),   -- #ff00a9 oklch(0.66 0.28 350) .42
--- off-white colors v1
-("COLOR_BZ_ROSE_WT",            "255,231,234,255", "255,231,234,255"), -- #ffe7ea oklch(0.95 0.03  10)
-("COLOR_BZ_RED_WT",             "255,232,227,255", "255,232,227,255"), -- #ffe8e3 oklch(0.95 0.03  30)
-("COLOR_BZ_ORANGE_WT",          "255,233,221,255", "255,233,221,255"), -- #ffe9dd oklch(0.95 0.03  50)
-("COLOR_BZ_AMBER_WT",           "252,236,217,255", "252,236,217,255"), -- #fcecd9 oklch(0.95 0.03  70)
-("COLOR_BZ_YELLOW_WT",          "246,238,216,255", "246,238,216,255"), -- #f6eed8 oklch(0.95 0.03  90)
-("COLOR_BZ_OLIVE_WT",           "239,241,218,255", "239,241,218,255"), -- #eff1da oklch(0.95 0.03 110)
-("COLOR_BZ_APPLE_WT",           "232,243,222,255", "232,243,222,255"), -- #e8f3de oklch(0.95 0.03 130)
-("COLOR_BZ_GREEN_WT",           "225,245,228,255", "225,245,228,255"), -- #e1f5e4 oklch(0.95 0.03 150)
-("COLOR_BZ_MINT_WT",            "220,245,235,255", "220,245,235,255"), -- #dcf5eb oklch(0.95 0.03 170)
-("COLOR_BZ_TEAL_WT",            "217,245,243,255", "217,245,243,255"), -- #d9f5f3 oklch(0.95 0.03 190)
-("COLOR_BZ_CYAN_WT",            "217,245,250,255", "217,245,250,255"), -- #d9f5fa oklch(0.95 0.03 210)
-("COLOR_BZ_AZURE_WT",           "219,243,255,255", "219,243,255,255"), -- #dbf3ff oklch(0.95 0.03 230)
-("COLOR_BZ_CERULEAN_WT",        "224,241,255,255", "224,241,255,255"), -- #e0f1ff oklch(0.95 0.03 250)
-("COLOR_BZ_BLUE_WT",            "230,238,255,255", "230,238,255,255"), -- #e6eeff oklch(0.95 0.03 270)
-("COLOR_BZ_VIOLET_WT",          "238,236,255,255", "238,236,255,255"), -- #eeecff oklch(0.95 0.03 290)
-("COLOR_BZ_PURPLE_WT",          "245,233,254,255", "245,233,254,255"), -- #f5e9fe oklch(0.95 0.03 310)
-("COLOR_BZ_MAGENTA_WT",         "251,232,248,255", "251,232,248,255"), -- #fbe8f8 oklch(0.95 0.03 330)
-("COLOR_BZ_PINK_WT",            "255,231,241,255", "255,231,241,255"), -- #ffe7f1 oklch(0.95 0.03 350)
-("COLOR_BZ_GRAY_WT",            "249,249,249,255", "249,249,249,255"), -- #f9f9f9 oklch(0.98 0.00   0)
--- light colors v1
-("COLOR_BZ_ROSE_LT",            "244,106,134,255", "244,106,134,255"), -- #f46a86 oklch(0.70 0.17  10)
-("COLOR_BZ_RED_LT",             "254,134,116,255", "254,134,116,255"), -- #fe8674 oklch(0.75 0.15  30)
-("COLOR_BZ_ORANGE_LT",          "255,164,110,255", "255,164,110,255"), -- #ffa46e oklch(0.80 0.13  50)
-("COLOR_BZ_AMBER_LT",           "252,193,124,255", "252,193,124,255"), -- #fcc17c oklch(0.85 0.11  70)
-("COLOR_BZ_YELLOW_LT",          "255,218,114,255", "255,218,114,255"), -- #ffda72 oklch(0.90 0.13  90)
-("COLOR_BZ_OLIVE_LT",           "218,220,92,255",  "218,220,92,255"),  -- #dadc5c oklch(0.87 0.15 110)
-("COLOR_BZ_APPLE_LT",           "162,221,92,255",  "162,221,92,255"),  -- #a2dd5c oklch(0.83 0.17 130)
-("COLOR_BZ_GREEN_LT",           "84,221,125,255",  "84,221,125,255"),  -- #54dd7d oklch(0.80 0.18 150)
-("COLOR_BZ_MINT_LT",            "51,223,178,255",  "51,223,178,255"),  -- #33dfb2 oklch(0.81 0.15 170)
-("COLOR_BZ_TEAL_LT",            "0,229,221,255",   "0,229,221,255"),   -- #00e5dd oklch(0.83 0.15 190)
-("COLOR_BZ_CYAN_LT",            "46,230,255,255",  "46,230,255,255"),  -- #2ee6ff oklch(0.85 0.14 210)
-("COLOR_BZ_AZURE_LT",           "96,204,252,255",  "96,204,252,255"),  -- #60ccfc oklch(0.80 0.12 230)
-("COLOR_BZ_CERULEAN_LT",        "106,179,253,255", "106,179,253,255"), -- #6ab3fd oklch(0.75 0.13 250)
-("COLOR_BZ_BLUE_LT",            "128,158,255,255", "128,158,255,255"), -- #839ffc oklch(0.72 0.15 270)
-("COLOR_BZ_VIOLET_LT",          "159,136,255,255", "159,136,255,255"), -- #9f88ff oklch(0.70 0.17 290)
-("COLOR_BZ_PURPLE_LT",          "199,128,247,255", "199,128,247,255"), -- #c780f7 oklch(0.72 0.18 310)
-("COLOR_BZ_MAGENTA_LT",         "241,120,233,255", "241,120,233,255"), -- #f178e9 oklch(0.75 0.20 330)
-("COLOR_BZ_PINK_LT",            "248,114,183,255", "248,114,183,255"), -- #f872b7 oklch(0.73 0.18 350)
-("COLOR_BZ_GRAY_LT",            "174,174,174,255", "174,174,174,255"), -- #aeaeae oklch(0.75 0.000   0.0)
--- medium colors
-("COLOR_BZ_ROSE_MD",            "238,38,102,255",  "238,38,102,255"),  -- #ee2666 oklch(0.62 0.23  10) .37   B:37  +W:67   Ym:43
-("COLOR_BZ_RED_MD",             "252,60,41,255",   "252,60,41,255"),   -- #fc3c29 oklch(0.65 0.23  30) .35   B:42  +W:63   Ym:38
-("COLOR_BZ_ORANGE_MD",          "254,120,2,255",   "254,120,2,255"),   -- #fe7802 oklch(0.72 0.19  50) .26  -B:53  -W:52   Ym:27
-("COLOR_BZ_AMBER_MD",           "254,164,8,255",   "254,164,8,255"),   -- #fea408 oklch(0.79 0.17  70) .22  +B:65   W:38   Ym:13
-("COLOR_BZ_YELLOW_MD",          "255,203,0,255",   "255,203,0,255"),   -- #ffcb00 oklch(0.86 0.18  90) .20  +B:79   W:23   Ym:00
-("COLOR_BZ_OLIVE_MD",           "200,201,33,255",  "200,201,33,255"),  -- #c8c921 oklch(0.81 0.17 110) .21  +B:71   W:32   Ym:07
-("COLOR_BZ_APPLE_MD",           "136,204,28,255",  "136,204,28,255"),  -- #88cc1c oklch(0.77 0.20 130) .26  +B:66   W:37   Ym:13
-("COLOR_BZ_GREEN_MD",           "0,197,91,255",    "0,197,91,255"),    -- #00c55b oklch(0.72 0.20 150) .28  -B:59  -W:45   Ym:20
-("COLOR_BZ_MINT_MD",            "4,189,148,255",   "4,189,148,255"),   -- #04bd94 oklch(0.71 0.14 170) .20  -B:57  -W:47   Ym:23
-("COLOR_BZ_TEAL_MD",            "8,182,175,255",   "8,182,175,255"),   -- #08b6af oklch(0.70 0.12 190) .17  -B:55  -W:50   Ym:25
-("COLOR_BZ_CYAN_MD",            "0,175,196,255",   "0,175,196,255"),   -- #00afc4 oklch(0.69 0.12 210) .17  -B:53  -W:52   Ym:27
-("COLOR_BZ_AZURE_MD",           "0,156,207,255",   "0,156,207,255"),   -- #009ccf oklch(0.65 0.13 230) .20  -B:46  -W:59   Ym:34
-("COLOR_BZ_CERULEAN_MD",        "0,131,224,255",   "0,131,224,255"),   -- #0083e0 oklch(0.60 0.17 250) .28   B:38  +W:67   Ym:42
-("COLOR_BZ_BLUE_MD",            "75,103,250,255",  "75,103,250,255"),  -- #4b67fa oklch(0.58 0.22 270) .38   B:33  +W:72  -Ym:47
-("COLOR_BZ_VIOLET_MD",          "119,72,235,255",  "119,72,235,255"),  -- #7748eb oklch(0.55 0.23 290) .42   B:28  +W:77  -Ym:52
-("COLOR_BZ_PURPLE_MD",          "162,55,221,255",  "162,55,221,255"),  -- #a237dd oklch(0.57 0.24 310) .42   B:30  +W:75  -Ym:50
-("COLOR_BZ_MAGENTA_MD",         "194,39,187,255",  "194,39,187,255"),  -- #c227bb oklch(0.58 0.24 330) .41   B:31  +W:73  -Ym:49
-("COLOR_BZ_PINK_MD",            "222,25,148,255",  "222,25,148,255"),  -- #de1994 oklch(0.60 0.24 350) .40   B:35  +W:70  -Ym:45
-("COLOR_BZ_GRAY_MD",            "113,113,113,255", "113,113,113,255"), -- #717171 oklch(0.55 0.00   0) .00   B:30  +W:75  -Ym:50
--- dark colors v1
-("COLOR_BZ_ROSE_DK",            "132,14,53,255",   "132,14,53,255"),   -- #840e35 oklch(0.40 0.15  10) .36  TODO
-("COLOR_BZ_RED_DK",             "138,7,0,255",     "138,7,0,255"),     -- #8a0700 oklch(0.40 0.16  30) .40  TODO
-("COLOR_BZ_ORANGE_DK",          "132,63,15,255",   "132,63,15,255"),   -- #843f0f oklch(0.45 0.11  50) .24  TODO
-("COLOR_BZ_AMBER_DK",           "135,88,20,255",   "135,88,20,255"),   -- #875814 oklch(0.50 0.10  70) .20  TODO
-("COLOR_BZ_YELLOW_DK",          "138,110,8,255",   "138,110,8,255"),   -- #8a6e08 oklch(0.55 0.11  90) .20  TODO
-("COLOR_BZ_OLIVE_DK",           "118,119,0,255",   "118,119,0,255"),   -- #767700 oklch(0.55 0.12 110) .22  TODO
-("COLOR_BZ_APPLE_DK",           "74,113,10,255",   "74,113,10,255"),   -- #4a710a oklch(0.50 0.13 130) .26  TODO
-("COLOR_BZ_GREEN_DK",           "9,103,46,255",    "9,103,46,255"),    -- #09672e oklch(0.45 0.12 150) .27  TODO
-("COLOR_BZ_MINT_DK",            "9,91,70,255",     "9,91,70,255"),     -- #095b46 oklch(0.42 0.08 170) .19  TODO
-("COLOR_BZ_TEAL_DK",            "22,82,79,255",    "22,82,79,255"),    -- #16524f oklch(0.40 0.06 190) .15  TODO
-("COLOR_BZ_CYAN_DK",            "22,80,90,255",    "22,80,90,255"),    -- #16505a oklch(0.40 0.06 210) .15  TODO
-("COLOR_BZ_AZURE_DK",           "8,70,93,255",     "8,70,93,255"),     -- #08465d oklch(0.37 0.07 230) .19  TODO
-("COLOR_BZ_CERULEAN_DK",        "3,55,97,255",     "3,55,97,255"),     -- #033761 oklch(0.33 0.09 250) .27  TODO
-("COLOR_BZ_BLUE_DK",            "22,32,114,255",   "22,32,114,255"),   -- #162072 oklch(0.30 0.14 270) .47  TODO
-("COLOR_BZ_VIOLET_DK",          "57,27,123,255",   "57,27,123,255"),   -- #391b7b oklch(0.33 0.15 290) .45  TODO
-("COLOR_BZ_PURPLE_DK",          "91,18,128,255",   "91,18,128,255"),   -- #5b1280 oklch(0.37 0.17 310) .46  TODO
-("COLOR_BZ_MAGENTA_DK",         "118,15,114,255",  "118,15,114,255"),  -- #760f72 oklch(0.40 0.17 330) .43  TODO
-("COLOR_BZ_PINK_DK",            "128,9,83,255",    "128,9,83,255"),    -- #800953 oklch(0.40 0.16 350) .40  TODO
-("COLOR_BZ_GRAY_DK",            "58,58,58,255",    "58,58,58,255"),    -- #3a3a3a oklch(0.35 0.000   0.0)
--- extra-dark colors
-("COLOR_BZ_ROSE_BK",            "91,0,32,255",     "91,0,32,255"),     -- #5b0020 oklch(0.30 0.12  10) .XX   m:30
-("COLOR_BZ_RED_BK",             "92,3,0,255",      "92,3,0,255"),      -- #5c0300 oklch(0.30 0.12  30) .XX   m:34
-("COLOR_BZ_ORANGE_BK",          "76,31,0,255",     "76,31,0,255"),     -- #4c1f00 oklch(0.30 0.08  50) .XX  -m:46
-("COLOR_BZ_AMBER_BK",           "68,38,0,255",     "68,38,0,255"),     -- #442600 oklch(0.30 0.07  70) .XX  -m:59
-("COLOR_BZ_YELLOW_BK",          "57,44,1,255",     "57,44,1,255"),     -- #392c01 oklch(0.30 0.06  90) .XX  +m:74
-("COLOR_BZ_OLIVE_BK",           "48,48,0,255",     "48,48,0,255"),     -- #303000 oklch(0.30 0.07 110) .XX  +m:65
-("COLOR_BZ_APPLE_BK",           "32,53,1,255",     "32,53,1,255"),     -- #203501 oklch(0.30 0.08 130) .XX  -m:59
-("COLOR_BZ_GREEN_BK",           "3,56,22,255",     "3,56,22,255"),     -- #033816 oklch(0.30 0.08 150) .XX  -m:52
-("COLOR_BZ_MINT_BK",            "0,55,41,255",     "0,55,41,255"),     -- #003729 oklch(0.30 0.06 170) .XX  -m:49
-("COLOR_BZ_TEAL_BK",            "3,54,51,255",     "3,54,51,255"),     -- #033633 oklch(0.30 0.05 190) .XX  -m:47
-("COLOR_BZ_CYAN_BK",            "3,52,60,255",     "3,52,60,255"),     -- #03343c oklch(0.30 0.05 210) .XX  -m:45
-("COLOR_BZ_AZURE_BK",           "0,51,70,255",     "0,51,70,255"),     -- #003346 oklch(0.30 0.06 230) .XX   m:38
-("COLOR_BZ_CERULEAN_BK",        "0,47,88,255",     "0,47,88,255"),     -- #002f58 oklch(0.30 0.09 250) .XX   m:30
-("COLOR_BZ_BLUE_BK",            "21,15,133,255",   "21,15,133,255"),   -- #150f85 oklch(0.30 0.18 270) .XX   m:26
-("COLOR_BZ_VIOLET_BK",          "51,8,118,255",    "51,8,118,255"),    -- #330876 oklch(0.30 0.16 290) .XX   m:21
-("COLOR_BZ_PURPLE_BK",          "68,1,100,255",    "68,1,100,255"),    -- #440164 oklch(0.30 0.15 310) .XX   m:23
-("COLOR_BZ_MAGENTA_BK",         "78,5,76,255",     "78,5,76,255"),     -- #4e054c oklch(0.30 0.13 330) .XX   m:24
-("COLOR_BZ_PINK_BK",            "85,4,54,255",     "85,4,54,255"),     -- #550436 oklch(0.30 0.12 350) .XX   m:27
-("COLOR_BZ_GRAY_BK",            "0,0,0,255",       "0,0,0,255"),       -- #000000 oklch(0.00 0.00   0) .XX   m:27
+-- ROSE      255,0,104,255  #ff0068  oklch(0.64 0.26  10)  .41
+-- RED       255,21,0,255   #ff1500  oklch(0.63 0.25  30)  .40
+-- ORANGE    255,121,0,255  #ff7900  oklch(0.72 0.19  50)  .26
+-- AMBER     255,164,0,255  #ffa400  oklch(0.79 0.17  70)  .22
+-- YELLOW    255,203,0,255  #ffcb00  oklch(0.86 0.18  90)  .21
+-- OLIVE     254,255,0,255  #feff00  oklch(0.97 0.21 110)  .22
+-- APPLE     169,255,0,255  #a9ff00  oklch(0.91 0.24 130)  .26
+-- GREEN     0,255,120,255  #00ff78  oklch(0.87 0.24 150)  .28
+-- MINT      0,255,201,255  #00ffc9  oklch(0.89 0.18 170)  .20
+-- TEAL      0,255,246,255  #00fff6  oklch(0.90 0.16 190)  .18
+-- CYAN      0,228,255,255  #00e4ff  oklch(0.84 0.15 210)  .18
+-- AZURE     0,194,255,255  #00c2ff  oklch(0.72 0.16 230)  .22
+-- CERULEAN  0,150,255,255  #0096ff  oklch(0.66 0.19 250)  .29
+-- BLUE      48,0,255,255   #3000ff  oklch(0.46 0.30 270)  .65
+-- VIOLET    116,0,255,255  #7400ff  oklch(0.52 0.29 290)  .56
+-- PURPLE    180,0,255,255  #b400ff  oklch(0.59 0.30 310)  .51
+-- MAGENTA   255,0,247,255  #ff00f7  oklch(0.70 0.32 330)  .46
+-- PINK      255,0,169,255  #ff00a9  oklch(0.66 0.28 350)  .42
 -- grayscale colors
-("COLOR_BZ_WHITE",              "249,249,249,255", "249,249,249,255"), -- #f9f9f9 oklch(0.98 0.000   0.0)
-("COLOR_BZ_GRAY",               "113,113,113,255", "113,113,113,255"), -- #717171 oklch(0.55 0.000   0.0)
-("COLOR_BZ_BLACK",              "0,0,0,255",       "0,0,0,255");       -- #000000 oklch(0.00 0.000   0.0)
+("COLOR_BZ_WHITE",   "249,249,249,255", "249,249,249,255"), -- #f9f9f9 L=0.98
+("COLOR_BZ_GRAY_LT", "174,174,174,255", "174,174,174,255"), -- #aeaeae L=0.75
+("COLOR_BZ_GRAY_MD", "113,113,113,255", "113,113,113,255"), -- #717171 L=0.55
+("COLOR_BZ_GRAY_DK", "58,58,58,255",    "58,58,58,255"),    -- #3a3a3a L=0.35
+("COLOR_BZ_BLACK",   "0,0,0,255",       "0,0,0,255");       -- #000000 L=0.00
 -- standard colors
 -- RED = 21 28 29
 -- ORANGE = 73 53 56
@@ -183,174 +191,147 @@ INSERT OR REPLACE INTO Colors
 -- LT = .901 .875 .822 .820 .818 .716 .695 .691 = .79 mean .82 median
 -- MD = .881 .734 .720 .719 .697 .552 .467 .459 = .65 mean .71 median
 -- DK = .554 .468 .427 .393 .388 .360 .307 .280 = .40 mean .39 median
-INSERT OR REPLACE INTO Colors
-(Type, Color, Color3D) VALUES
-("COLOR_STANDARD_RED_LT",       "229,117,116,255", "229,117,116,255"), -- #e57574 oklch(0.691 0.139  21.9)
-("COLOR_STANDARD_ORANGE_LT",    "255,178,60,255",  "255,178,60,255"),  -- #ffb23c oklch(0.818 0.154  73.2)
-("COLOR_STANDARD_YELLOW_LT",    "234,225,157,255", "234,225,157,255"), -- #eae19d oklch(0.901 0.087 101.6)
-("COLOR_STANDARD_GREEN_LT",     "121,224,119,255", "121,224,119,255"), -- #79e077 oklch(0.820 0.172 143.4)
-("COLOR_STANDARD_AQUA_LT",      "125,236,227,255", "125,236,227,255"), -- #7dece3 oklch(0.875 0.103 188.6)
-("COLOR_STANDARD_BLUE_LT",      "116,163,243,255", "116,163,243,255"), -- #74a3f3 oklch(0.716 0.128 260.6)
-("COLOR_STANDARD_PURPLE_LT",    "183,128,230,255", "183,128,230,255"), -- #b780e6 oklch(0.695 0.154 307.7)
-("COLOR_STANDARD_MAGENTA_LT",   "255,153,255,255", "255,153,255,255"), -- #ff99ff oklch(0.822 0.175 327.0)
-("COLOR_STANDARD_RED_MD",       "212,20,21,255",   "212,20,21,255"),   -- #d41415 oklch(0.552 0.218  28.3)
-("COLOR_STANDARD_ORANGE_MD",    "255,129,18,255",  "255,129,18,255"),  -- #ff8112 oklch(0.734 0.183  52.5)
-("COLOR_STANDARD_YELLOW_MD",    "247,216,1,255",   "247,216,1,255"),   -- #f7d801 oklch(0.881 0.182  98.7)
-("COLOR_STANDARD_GREEN_MD",     "97,191,34,255",   "97,191,34,255"),   -- #61bf22 oklch(0.719 0.203 136.4)
-("COLOR_STANDARD_AQUA_MD",      "0,192,155,255",   "0,192,155,255"),   -- #00c09b oklch(0.720 0.139 172.3)
-("COLOR_STANDARD_BLUE_MD",      "0,79,206,255",    "0,79,206,255"),    -- #004fce oklch(0.476 0.207 261.1)
-("COLOR_STANDARD_PURPLE_MD",    "109,0,205,255",   "109,0,205,255"),   -- #6d00cd oklch(0.459 0.249 296.9)
-("COLOR_STANDARD_MAGENTA_MD",   "253,0,252,255",   "253,0,252,255"),   -- #fd00fc oklch(0.697 0.320 328.6)
-("COLOR_STANDARD_RED_DK",       "120,0,1,255",     "120,0,1,255"),     -- #780001 oklch(0.360 0.147  28.9)
-("COLOR_STANDARD_ORANGE_DK",    "120,61,2,255",    "120,61,2,255"),    -- #783d02 oklch(0.427 0.103  56.2)
-("COLOR_STANDARD_YELLOW_DK",    "134,114,2,255",   "134,114,2,255"),   -- #867202 oklch(0.554 0.114  96.8)
-("COLOR_STANDARD_GREEN_DK",     "21,108,48,255",   "21,108,48,255"),   -- #156c30 oklch(0.468 0.123 148.7)
-("COLOR_STANDARD_AQUA_DK",      "1,79,81,255",     "1,79,81,255"),     -- #014f51 oklch(0.388 0.066 197.8)
-("COLOR_STANDARD_BLUE_DK",      "1,42,108,255",    "1,42,108,255"),    -- #012a6c oklch(0.307 0.123 260.0)
-("COLOR_STANDARD_PURPLE_DK",    "55,0,101,255",    "55,0,101,255"),    -- #370065 oklch(0.280 0.149 300.2)
-("COLOR_STANDARD_MAGENTA_DK",   "117,0,115,255",   "117,0,115,255"),   -- #750073 oklch(0.393 0.180 329.3)
-("COLOR_STANDARD_WHITE_LT",     "249,249,249,255", "249,249,249,255"), -- #f9f9f9 oklch(0.982 0.000   0.0)
-("COLOR_STANDARD_WHITE_MD2",    "174,174,174,255", "174,174,174,255"), -- #aeaeae oklch(0.751 0.000   0.0)
-("COLOR_STANDARD_WHITE_MD",     "113,113,113,255", "113,113,113,255"), -- #717171 oklch(0.549 0.000   0.0)
-("COLOR_STANDARD_WHITE_DK",     "51,51,51,255",    "51,51,51,255"),    -- #333333 oklch(0.321 0.000   0.0)
-("COLOR_STANDARD_BLACK",        "0,0,0,255",       "0,0,0,255");       -- #000000 oklch(0.000 0.000   0.0)
--- spectrum test
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW"           WHERE Type = "LEADER_ADA_LOVELACE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER"            WHERE Type = "LEADER_AMINA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ORANGE"           WHERE Type = "LEADER_AUGUSTUS";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED"              WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE"             WHERE Type = "LEADER_BOLIVAR";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK"             WHERE Type = "LEADER_CATHERINE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_MAGENTA"          WHERE Type = "LEADER_CHARLEMAGNE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PURPLE"           WHERE Type = "LEADER_CONFUCIUS";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_VIOLET"           WHERE Type = "LEADER_HARRIET_TUBMAN";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE"             WHERE Type = "LEADER_HATSHEPSUT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CERULEAN"         WHERE Type = "LEADER_IBN_BATTUTA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AZURE"            WHERE Type = "LEADER_ISABELLA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CYAN"             WHERE Type = "LEADER_JOSE_RIZAL";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL"             WHERE Type = "LEADER_LAFAYETTE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_MINT"             WHERE Type = "LEADER_MACHIAVELLI";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GREEN"            WHERE Type = "LEADER_PACHACUTI";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_APPLE"            WHERE Type = "LEADER_TECUMSEH";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_OLIVE"            WHERE Type = "LEADER_TRUNG_TRAC";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GRAY"             WHERE Type = "LEADER_ASHOKA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW"           WHERE Type = "LEADER_ADA_LOVELACE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_AMBER"            WHERE Type = "LEADER_AMINA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_ORANGE"           WHERE Type = "LEADER_AUGUSTUS";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED"              WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_ROSE"             WHERE Type = "LEADER_BOLIVAR";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_PINK"             WHERE Type = "LEADER_CATHERINE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_MAGENTA"          WHERE Type = "LEADER_CHARLEMAGNE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_PURPLE"           WHERE Type = "LEADER_CONFUCIUS";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_VIOLET"           WHERE Type = "LEADER_HARRIET_TUBMAN";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLUE"             WHERE Type = "LEADER_HATSHEPSUT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_CERULEAN"         WHERE Type = "LEADER_IBN_BATTUTA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_AZURE"            WHERE Type = "LEADER_ISABELLA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_CYAN"             WHERE Type = "LEADER_JOSE_RIZAL";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_TEAL"             WHERE Type = "LEADER_LAFAYETTE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_MINT"             WHERE Type = "LEADER_MACHIAVELLI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_GREEN"            WHERE Type = "LEADER_PACHACUTI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_APPLE"            WHERE Type = "LEADER_TECUMSEH";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_OLIVE"            WHERE Type = "LEADER_TRUNG_TRAC";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_GRAY"             WHERE Type = "LEADER_ASHOKA";
--- city-states
--- UPDATE PlayerColors SET PrimaryColor   = "PLAYERCOLOR_BZ_MINOR_LT"   WHERE Type = "PLAYERCOLOR_LIGHT_YELLOW_MINOR";
--- UPDATE PlayerColors SET SecondaryColor = "COLOR_STANDARD_BLACK"      WHERE Type = "PLAYERCOLOR_LIGHT_YELLOW_MINOR";
--- leaders
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_DK"         WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_HIMIKO";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_HIMIKO";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_DK"       WHERE Type = "LEADER_JOSE_RIZAL";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_JOSE_RIZAL";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_DK"         WHERE Type = "LEADER_CONFUCIUS";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_APPLE_WT"        WHERE Type = "LEADER_CONFUCIUS";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CERULEAN_DK"     WHERE Type = "LEADER_HATSHEPSUT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_HATSHEPSUT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_DK"         WHERE Type = "LEADER_NAPOLEON";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_NAPOLEON";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_MD"         WHERE Type = "LEADER_CHARLEMAGNE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_CHARLEMAGNE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_DK"         WHERE Type = "LEADER_AUGUSTUS";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_AUGUSTUS";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GRAY_DK"         WHERE Type = "LEADER_FRIEDRICH";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_FRIEDRICH";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_MD"         WHERE Type = "LEADER_IBN_BATTUTA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_APPLE_LT"        WHERE Type = "LEADER_IBN_BATTUTA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED_MD"          WHERE Type = "LEADER_ISABELLA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_ISABELLA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ORANGE_MD"       WHERE Type = "LEADER_PACHACUTI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_PINK_DK"         WHERE Type = "LEADER_PACHACUTI";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_MD"        WHERE Type = "LEADER_TRUNG_TRAC";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_TRUNG_TRAC";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_CATHERINE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLACK"           WHERE Type = "LEADER_CATHERINE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GREEN_MD"        WHERE Type = "LEADER_AMINA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_AMINA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_MD"         WHERE Type = "LEADER_XERXES";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_XERXES";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AZURE_MD"        WHERE Type = "LEADER_TECUMSEH";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_MD"       WHERE Type = "LEADER_TECUMSEH";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CERULEAN_MD"     WHERE Type = "LEADER_NAPOLEON_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_NAPOLEON_ALT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_MD"         WHERE Type = "LEADER_ASHOKA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_ASHOKA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_LT"         WHERE Type = "LEADER_LAFAYETTE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_LAFAYETTE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ORANGE_LT"       WHERE Type = "LEADER_LAKSHMIBAI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_MINT_DK"         WHERE Type = "LEADER_LAKSHMIBAI";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_LT"       WHERE Type = "LEADER_BOLIVAR";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLUE_DK"         WHERE Type = "LEADER_BOLIVAR";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AZURE_LT"        WHERE Type = "LEADER_MACHIAVELLI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLACK"           WHERE Type = "LEADER_MACHIAVELLI";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CERULEAN_LT"     WHERE Type = "LEADER_HARRIET_TUBMAN";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_HARRIET_TUBMAN";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_VIOLET_LT"       WHERE Type = "LEADER_ADA_LOVELACE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_WT"       WHERE Type = "LEADER_ADA_LOVELACE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_LT"         WHERE Type = "LEADER_XERXES_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_WHITE"           WHERE Type = "LEADER_XERXES_ALT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_WT"        WHERE Type = "LEADER_FRIEDRICH_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLACK"           WHERE Type = "LEADER_FRIEDRICH_ALT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_WT"         WHERE Type = "LEADER_HIMIKO_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_DK"          WHERE Type = "LEADER_HIMIKO_ALT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_WT"         WHERE Type = "LEADER_ASHOKA_ALT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_AMBER_DK"        WHERE Type = "LEADER_ASHOKA_ALT";
--- spectrum test
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_YELLOW_LT"        WHERE Type = "LEADER_ADA_LOVELACE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AMBER_LT"         WHERE Type = "LEADER_AMINA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ORANGE_LT"        WHERE Type = "LEADER_AUGUSTUS";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_RED_LT"           WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_ROSE_LT"          WHERE Type = "LEADER_BOLIVAR";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PINK_LT"          WHERE Type = "LEADER_CATHERINE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_MAGENTA_LT"       WHERE Type = "LEADER_CHARLEMAGNE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_PURPLE_LT"        WHERE Type = "LEADER_CONFUCIUS";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_VIOLET_LT"        WHERE Type = "LEADER_HARRIET_TUBMAN";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_BLUE_LT"          WHERE Type = "LEADER_HATSHEPSUT";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CERULEAN_LT"      WHERE Type = "LEADER_IBN_BATTUTA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_AZURE_LT"         WHERE Type = "LEADER_ISABELLA";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_CYAN_LT"          WHERE Type = "LEADER_JOSE_RIZAL";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_TEAL_LT"          WHERE Type = "LEADER_LAFAYETTE";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_MINT_LT"          WHERE Type = "LEADER_MACHIAVELLI";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GREEN_LT"         WHERE Type = "LEADER_PACHACUTI";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_APPLE_LT"         WHERE Type = "LEADER_TECUMSEH";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_OLIVE_LT"         WHERE Type = "LEADER_TRUNG_TRAC";
-UPDATE PlayerColors SET PrimaryColor   = "COLOR_BZ_GRAY_LT"          WHERE Type = "LEADER_ASHOKA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_YELLOW_BK"        WHERE Type = "LEADER_ADA_LOVELACE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_AMBER_BK"         WHERE Type = "LEADER_AMINA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_ORANGE_BK"        WHERE Type = "LEADER_AUGUSTUS";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_RED_BK"           WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_ROSE_BK"          WHERE Type = "LEADER_BOLIVAR";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_PINK_BK"          WHERE Type = "LEADER_CATHERINE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_MAGENTA_BK"       WHERE Type = "LEADER_CHARLEMAGNE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_PURPLE_BK"        WHERE Type = "LEADER_CONFUCIUS";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_VIOLET_BK"        WHERE Type = "LEADER_HARRIET_TUBMAN";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_BLUE_BK"          WHERE Type = "LEADER_HATSHEPSUT";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_CERULEAN_BK"      WHERE Type = "LEADER_IBN_BATTUTA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_AZURE_BK"         WHERE Type = "LEADER_ISABELLA";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_CYAN_BK"          WHERE Type = "LEADER_JOSE_RIZAL";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_TEAL_BK"          WHERE Type = "LEADER_LAFAYETTE";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_MINT_BK"          WHERE Type = "LEADER_MACHIAVELLI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_GREEN_BK"         WHERE Type = "LEADER_PACHACUTI";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_APPLE_BK"         WHERE Type = "LEADER_TECUMSEH";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_OLIVE_BK"         WHERE Type = "LEADER_TRUNG_TRAC";
-UPDATE PlayerColors SET SecondaryColor = "COLOR_BZ_GRAY_BK"          WHERE Type = "LEADER_ASHOKA";
+-- RED_LT      229,117,116  #e57574  oklch(0.691 0.139  21.9)
+-- ORANGE_LT   255,178,60   #ffb23c  oklch(0.818 0.154  73.2)
+-- YELLOW_LT   234,225,157  #eae19d  oklch(0.901 0.087 101.6)
+-- GREEN_LT    121,224,119  #79e077  oklch(0.820 0.172 143.4)
+-- AQUA_LT     125,236,227  #7dece3  oklch(0.875 0.103 188.6)
+-- BLUE_LT     116,163,243  #74a3f3  oklch(0.716 0.128 260.6)
+-- PURPLE_LT   183,128,230  #b780e6  oklch(0.695 0.154 307.7)
+-- MAGENTA_LT  255,153,255  #ff99ff  oklch(0.822 0.175 327.0)
+-- RED_MD      212,20,21    #d41415  oklch(0.552 0.218  28.3)
+-- ORANGE_MD   255,129,18   #ff8112  oklch(0.734 0.183  52.5)
+-- YELLOW_MD   247,216,1    #f7d801  oklch(0.881 0.182  98.7)
+-- GREEN_MD    97,191,34    #61bf22  oklch(0.719 0.203 136.4)
+-- AQUA_MD     0,192,155    #00c09b  oklch(0.720 0.139 172.3)
+-- BLUE_MD     0,79,206     #004fce  oklch(0.476 0.207 261.1)
+-- PURPLE_MD   109,0,205    #6d00cd  oklch(0.459 0.249 296.9)
+-- MAGENTA_MD  253,0,252    #fd00fc  oklch(0.697 0.320 328.6)
+-- RED_DK      120,0,1      #780001  oklch(0.360 0.147  28.9)
+-- ORANGE_DK   120,61,2     #783d02  oklch(0.427 0.103  56.2)
+-- YELLOW_DK   134,114,2    #867202  oklch(0.554 0.114  96.8)
+-- GREEN_DK    21,108,48    #156c30  oklch(0.468 0.123 148.7)
+-- AQUA_DK     1,79,81      #014f51  oklch(0.388 0.066 197.8)
+-- BLUE_DK     1,42,108     #012a6c  oklch(0.307 0.123 260.0)
+-- PURPLE_DK   55,0,101     #370065  oklch(0.280 0.149 300.2)
+-- MAGENTA_DK  117,0,115    #750073  oklch(0.393 0.180 329.3)
+-- WHITE_LT    249,249,249  #f9f9f9  oklch(0.982 0.000   0.0)
+-- WHITE_MD2   174,174,174  #aeaeae  oklch(0.751 0.000   0.0)
+-- WHITE_MD    113,113,113  #717171  oklch(0.549 0.000   0.0)
+-- WHITE_DK    51,51,51     #333333  oklch(0.321 0.000   0.0)
+-- BLACK       0,0,0        #000000  oklch(0.000 0.000   0.0)
+
+-- ADA_LOVELACE  . .  VIOLET_LT    YELLOW_WT
+-- AMINA . . . . . .  GREEN_DK     WHITE
+-- ASHOKA  . . . . .  PINK_MD      YELLOW_LT
+-- ASHOKA_ALT  . . .  PINK_WT      AMBER_DK
+-- AUGUSTUS  . . . .  PINK_DK      YELLOW_MD
+-- BENJAMIN_FRANKLIN  ROSE_DK      WHITE
+-- BOLIVAR . . . . .  YELLOW_LT    BLUE_DK
+-- CATHERINE   . . .  YELLOW_MD    BLACK
+-- CHARLEMAGNE . . .  BLUE_MD      YELLOW_LT
+-- CONFUCIUS . . . .  TEAL_DK      APPLE_WT
+-- FRIEDRICH . . . .  GRAY_DK      YELLOW_MD
+-- FRIEDRICH_ALT . .  AMBER_WT     BLACK
+-- HARRIET_TUBMAN  .  CERULEAN_LT  WHITE
+-- HATSHEPSUT  . . .  CERULEAN_DK  YELLOW_LT
+-- HIMIKO  . . . . .  RED_DK       YELLOW_LT
+-- HIMIKO_ALT  . . .  BLUE_WT      RED_DK
+-- IBN_BATTUTA . . .  ROSE_BK      APPLE_MD
+-- ISABELLA  . . . .  RED_MD       YELLOW_MD
+-- JOSE_RIZAL  . . .  YELLOW_DK    WHITE
+-- LAFAYETTE . . . .  ROSE_LT      YELLOW_LT
+-- LAKSHMIBAI  . . .  ORANGE_LT    MINT_DK
+-- MACHIAVELLI . . .  AZURE_LT     BLACK
+-- NAPOLEON  . . . .  BLUE_DK      WHITE
+-- NAPOLEON_ALT  . .  CERULEAN_MD  WHITE
+-- PACHACUTI . . . .  ORANGE_MD    ROSE_BK
+-- TECUMSEH  . . . .  AZURE_MD     YELLOW_MD
+-- TRUNG_TRAC  . . .  AMBER_MD     RED_DK
+-- XERXES  . . . . .  TEAL_MD      WHITE
+-- XERXES_ALT  . . .  PINK_LT      WHITE
+
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_ADA_LOVELACE", SecondaryColor = "BZ2_ADA_LOVELACE"
+    WHERE Type = "LEADER_ADA_LOVELACE";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_AMINA", SecondaryColor = "BZ2_AMINA"
+    WHERE Type = "LEADER_AMINA";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_ASHOKA", SecondaryColor = "BZ2_ASHOKA"
+    WHERE Type = "LEADER_ASHOKA";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_ASHOKA_ALT", SecondaryColor = "BZ2_ASHOKA_ALT"
+    WHERE Type = "LEADER_ASHOKA_ALT";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_AUGUSTUS", SecondaryColor = "BZ2_AUGUSTUS"
+    WHERE Type = "LEADER_AUGUSTUS";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_BENJAMIN_FRANKLIN", SecondaryColor = "BZ2_BENJAMIN_FRANKLIN"
+    WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_BOLIVAR", SecondaryColor = "BZ2_BOLIVAR"
+    WHERE Type = "LEADER_BOLIVAR";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_CATHERINE", SecondaryColor = "BZ2_CATHERINE"
+    WHERE Type = "LEADER_CATHERINE";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_CHARLEMAGNE", SecondaryColor = "BZ2_CHARLEMAGNE"
+    WHERE Type = "LEADER_CHARLEMAGNE";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_CONFUCIUS", SecondaryColor = "BZ2_CONFUCIUS"
+    WHERE Type = "LEADER_CONFUCIUS";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_FRIEDRICH", SecondaryColor = "BZ2_FRIEDRICH"
+    WHERE Type = "LEADER_FRIEDRICH";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_FRIEDRICH_ALT", SecondaryColor = "BZ2_FRIEDRICH_ALT"
+    WHERE Type = "LEADER_FRIEDRICH_ALT";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_HARRIET_TUBMAN", SecondaryColor = "BZ2_HARRIET_TUBMAN"
+    WHERE Type = "LEADER_HARRIET_TUBMAN";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_HATSHEPSUT", SecondaryColor = "BZ2_HATSHEPSUT"
+    WHERE Type = "LEADER_HATSHEPSUT";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_HIMIKO", SecondaryColor = "BZ2_HIMIKO"
+    WHERE Type = "LEADER_HIMIKO";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_HIMIKO_ALT", SecondaryColor = "BZ2_HIMIKO_ALT"
+    WHERE Type = "LEADER_HIMIKO_ALT";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_IBN_BATTUTA", SecondaryColor = "BZ2_IBN_BATTUTA"
+    WHERE Type = "LEADER_IBN_BATTUTA";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_ISABELLA", SecondaryColor = "BZ2_ISABELLA"
+    WHERE Type = "LEADER_ISABELLA";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_JOSE_RIZAL", SecondaryColor = "BZ2_JOSE_RIZAL"
+    WHERE Type = "LEADER_JOSE_RIZAL";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_LAFAYETTE", SecondaryColor = "BZ2_LAFAYETTE"
+    WHERE Type = "LEADER_LAFAYETTE";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_MACHIAVELLI", SecondaryColor = "BZ2_MACHIAVELLI"
+    WHERE Type = "LEADER_MACHIAVELLI";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_NAPOLEON", SecondaryColor = "BZ2_NAPOLEON"
+    WHERE Type = "LEADER_NAPOLEON";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_NAPOLEON_ALT", SecondaryColor = "BZ2_NAPOLEON_ALT"
+    WHERE Type = "LEADER_NAPOLEON_ALT";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_PACHACUTI", SecondaryColor = "BZ2_PACHACUTI"
+    WHERE Type = "LEADER_PACHACUTI";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_TECUMSEH", SecondaryColor = "BZ2_TECUMSEH"
+    WHERE Type = "LEADER_TECUMSEH";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_TRUNG_TRAC", SecondaryColor = "BZ2_TRUNG_TRAC"
+    WHERE Type = "LEADER_TRUNG_TRAC";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_XERXES", SecondaryColor = "BZ2_XERXES"
+    WHERE Type = "LEADER_XERXES";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_XERXES_ALT", SecondaryColor = "BZ2_XERXES_ALT"
+    WHERE Type = "LEADER_XERXES_ALT";
