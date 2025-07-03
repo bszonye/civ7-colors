@@ -6,23 +6,29 @@ INSERT OR REPLACE INTO Colors
 -- #ada4a0 oklch(0.725 0.012  45.7)
 ("PLAYERCOLOR_BZ_MINOR_MD",     "173,164,160,255", "173,164,160,255"),
 
--- 90 Simón Bolívar
--- 85 Catherine
+-- 95 José Rizal
+-- 89 Catherine
+-- 86 Simón Bolívar
+-- 75 Pachacuti
+-- 69 Lafayette
+-- 67 Machiavelli
+-- 63 Tecumseh
 -- 60 Ada Lovelace
 -- 57 Charlemagne
 -- 55 Amina
 -- 48 Confucius
 -- 47 Isabella
 -- 45 Benjamin Franklin
--- 40 Ibn Battuta
+-- 42 Ibn Battuta
 -- 39 Hatshepsut
 -- 37 Augustus
 -- 35 Harriet Tubman
 
--- ADA_LOVELACE: bluebells, flag of Great Britain
--- white on lavender or rose pink
+-- ADA LOVELACE: bluebells, flag of Great Britain
+-- white on lavender or cool pink
 -- #e71960  oklch(0.6 0.23 10)  rgb(231, 25, 96)
-("BZ1_ADA_LOVELACE", "231,25,96,255", "231,25,96,255"),
+-- 3D: #9c113f  oklch(0.45 0.17 10)  rgb(156, 17, 63)
+("BZ1_ADA_LOVELACE", "231,25,96,255", "156,17,63,255"),
 ("BZ2_ADA_LOVELACE", "249,249,249,255", "249,249,249,255"),
 
 -- AMINA: Hausa emblem, flag of Nigeria
@@ -57,18 +63,18 @@ INSERT OR REPLACE INTO Colors
 --   #333463  oklch(0.35 0.08 280)  rgb(51, 52, 99)
 ("BZ1_HARRIET_TUBMAN", "51,52,99,255", "51,52,99,255"),
 
--- BOLIVAR: flag of Gran Colombia
--- yellow: L90 90-100°
--- #fadf27  oklch(0.9 0.18 100)  rgb(250, 223, 39)
-("BZ1_BOLIVAR", "250,223,39,255", "250,223,39,255"),
--- blue: L35-40 260°
--- #03409c  oklch(0.4 0.16 260)  rgb(3, 64, 156)
-("BZ2_BOLIVAR", "3,64,156,255", "3,64,156,255"),
+-- BOLIVAR: flag of Gran Colombia, flag of Colombia
+-- yellow: PMS 116 C  #ffcd00  oklch(0.8672 0.177256 90.8474)
+-- #fcca21  oklch(0.86 0.17 90)  rgb(252, 202, 33)
+("BZ1_BOLIVAR", "252,202,33,255", "252,202,33,255"),
+-- blue: PMS 287 C  #003087  oklch(0.3466 0.153 261.33)
+-- #023481  oklch(0.35 0.14 260)  rgb(2, 52, 129)
+("BZ2_BOLIVAR", "2,52,129,255", "2,52,129,255"),
 
 -- CATHERINE: standard of the Empress of Russia
--- yellow: 90°
--- rgb(252, 223, 0)  oklch(0.85 0.17 90)  rgb(249, 199, 24)
-("BZ1_CATHERINE", "249,199,24,255", "249,199,24,255"),
+-- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
+-- #f7dc1f  oklch(0.89 0.18 100)  rgb(247, 220, 31)
+("BZ1_CATHERINE", "250,223,39,255", "247,220,31,255"),
 ("BZ2_CATHERINE", "0,0,0,255", "0,0,0,255"),
 
 -- CHARLEMAGNE: coat of arms of France
@@ -81,8 +87,8 @@ INSERT OR REPLACE INTO Colors
 ("BZ2_CHARLEMAGNE", "253,220,91,255", "253,220,91,255"),
 
 -- CONFUCIUS: jade
--- #176c5f  oklch(0.48 0.08 180)  rgb(23, 108, 95)
-("BZ1_CONFUCIUS", "23,108,95,255", "23,108,95,255"),
+-- #0c6c68  oklch(0.48 0.08 190)  rgb(12, 108, 104)
+("BZ1_CONFUCIUS", "12,108,104,255", "12,108,104,255"),
 -- #f0f2cc  oklch(0.95 0.05 110)  rgb(240, 242, 204)
 ("BZ2_CONFUCIUS", "240,242,204,255", "240,242,204,255"),
 
@@ -95,11 +101,11 @@ INSERT OR REPLACE INTO Colors
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
--- Egyptian blue: #1034a6
+-- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
 -- #1133a8  oklch(0.39 0.19 265)  rgb(17, 51, 168)
 ("BZ1_HATSHEPSUT", "17,51,168,255", "17,51,168,255"),
--- #f0c12a  oklch(0.83 0.16 90)  rgb(240, 193, 42)
-("BZ2_HATSHEPSUT", "240,193,42,255", "240,193,42,255"),
+-- #1034a6  oklch(0.83 0.16 95)  rgb(232, 197, 44)
+("BZ2_HATSHEPSUT", "232,197,44,255", "232,197,44,255"),
 
 -- HIMIKO: imperial standard of the empress of Japan
 -- #dedede oklch(0.900 0.000   0.0)
@@ -115,39 +121,50 @@ INSERT OR REPLACE INTO Colors
 -- #900d30  oklch(0.42 0.16 15)  rgb(144, 13, 48)
 ("BZ1_IBN_BATTUTA", "144,13,48,255", "144,13,48,255"),
 -- green: PMS 363C  #4c8c2b  oklch(0.5764 0.1459 136.84)
--- #8fd718  oklch(0.8 0.21 130)  rgb(143, 215, 24)
-("BZ2_IBN_BATTUTA", "143,215,24,255", "143,215,24,255"),
+-- #93de04  oklch(0.82 0.22 130)  rgb(147, 222, 4)
+("BZ2_IBN_BATTUTA", "147,222,4,255", "147,222,4,255"),
 
 -- ISABELLA: flag of Spain
--- Flag Red = lch(37 70 35)  #aa141a  oklch(0.4722 0.1813 26.56)
--- #ac011a  oklch(0.47 0.19 25)  rgb(172, 1, 26)
-("BZ1_ISABELLA", "172,1,26,255", "172,1,26,255"),
--- Flag Reseda Yellow = lch(80 95 85)  #f1bf00  oklch(0.8258 0.1687 89.56)
+-- Flag Red: lch(37 70 35)  #aa141a  oklch(0.4722 0.1813 26.56)
+-- #a9170a  oklch(0.47 0.18 30)  rgb(169, 23, 10)
+("BZ1_ISABELLA", "169,23,10,255", "169,23,10,255"),
+-- Flag Reseda Yellow: lch(80 95 85)  #f1bf00  oklch(0.8258 0.1687 89.56)
 -- #f2c100  oklch(0.83 0.17 90)  rgb(242, 193, 0)
 ("BZ2_ISABELLA", "242,193,0,255", "242,193,0,255"),
 
--- JOSE_RIZAL  . . .  YELLOW_DK    WHITE
+-- JOSE RIZAL: flag of the Philippines
+-- no.80001 white
+-- #e7effc  oklch(0.95 0.02 260)  rgb(231, 239, 252)
+("BZ1_JOSE_RIZAL", "231,239,252,255", "231,239,252,255"),
+-- no.80068 golden yellow: #fcd116  oklch(0.8724 0.1757 93.47)
+-- #977e0d  oklch(0.6 0.12 95)  rgb(151, 126, 13)
+("BZ2_JOSE_RIZAL", "151,126,13,255", "151,126,13,255"),
+-- no.80108 crimson red: #ce1126  oklch(0.5412 0.2127 24.79)
+-- no.80173 blue: #0038a8  oklch(0.3957 0.1864 262.24)
 
 -- LAFAYETTE: family coat of arms
 -- gules, a bend or, with a bordure vair
--- red
--- yellow
+-- #fc587f  oklch(0.69 0.2 10)  rgb(252, 88, 127)
+-- 3D: #b4144a  oklch(0.5 0.19 10)  rgb(180, 20, 74)
+("BZ1_LAFAYETTE", "252,88,127,255", "180,20,74,255"),
+-- #fef1a1  oklch(0.95 0.1 100)  rgb(254, 241, 161)
+("BZ2_LAFAYETTE", "254,241,161,255", "254,241,161,255"),
 
 -- LAKSHMIBAI: flag of India
 -- India Saffron: xyY(.538 .360 .215) or PMS 165 C
 -- #ff671f oklch(0.698 0.200  41.5) .29
-("COLOR_BZ_PMS_165C",           "255,103,31,255",  "255,103,31,255"),
+("BZ1_LAKSHMIBAI", "255,103,31,255", "255,103,31,255"),
 -- India Green: xyY(.288 .395 .089) or PMS 349 C
 -- #046a38 oklch(0.461 0.116 153.6) .25
-("COLOR_BZ_PMS_349C",           "4,106,56,255",    "4,106,56,255"),
+("BZ2_LAKSHMIBAI", "4,106,56,255", "4,106,56,255"),
 -- navy blue: PMS 2738 C
 -- #06038d oklch(0.295 0.199 265.5) .67
-("COLOR_BZ_PMS_2738C",          "4,106,56,255",    "4,106,56,255"),
 
 -- MACHIAVELLI: family coat of arms
 -- argent, a cross azure, pierced by four nails
--- white
--- blue
+-- #129fe7  oklch(0.67 0.15 240)  rgb(18, 159, 231)
+("BZ1_MACHIAVELLI", "18,159,231,255", "18,159,231,255"),
+("BZ2_MACHIAVELLI", "249,249,249,255", "249,249,249,255"),
 
 -- NAPOLEON: flag of the French Republic
 -- blue: L30-40 265-270°
@@ -156,11 +173,19 @@ INSERT OR REPLACE INTO Colors
 
 -- PACHACUTI: Inca textiles
 -- orange
--- dark red or brown
+-- #f29520  oklch(0.75 0.16 65)  rgb(242, 149, 32)
+("BZ1_PACHACUTI", "242,149,32,255", "242,149,32,255"),
+-- dark red
+-- #690601  oklch(0.33 0.13 30)  rgb(105, 6, 1)
+("BZ2_PACHACUTI", "105,6,1,255", "105,6,1,255"),
 
 -- TECUMSEH: seal of Shawnee tribe
--- sky blue
--- yellow
+-- sky blue: #4093ab  oklch(0.622 0.0872 219.86)
+-- #1898b7  oklch(0.63 0.11 220)  rgb(24, 152, 183)
+("BZ1_TECUMSEH", "24,152,183,255", "24,152,183,255"),
+-- yellow: #efb935  oklch(0.8137 0.1517 84.8)
+-- #fcdf25  oklch(0.9 0.18 99)  rgb(252, 223, 37)
+("BZ2_TECUMSEH", "252,223,37,255", "252,223,37,255"),
 
 -- TRUNG_TRAC: flag of Vietnam
 -- yellow
