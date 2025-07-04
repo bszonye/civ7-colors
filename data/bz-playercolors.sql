@@ -6,29 +6,71 @@ INSERT OR REPLACE INTO Colors
 -- #ada4a0 oklch(0.725 0.012  45.7)
 ("PLAYERCOLOR_BZ_MINOR_MD",     "173,164,160,255", "173,164,160,255"),
 
+-- luminance
+-- 95 Friedrich (Baroque)
 -- 95 José Rizal
+-- 91 Ashoka (Conqueror)
+-- 90 Himiko (Shaman)
 -- 89 Catherine
 -- 86 Simón Bolívar
+-- 83 Trung Trac
 -- 75 Pachacuti
+-- 72 Xerxes (Achaemenid)
 -- 69 Lafayette
 -- 67 Machiavelli
+-- 65 Xerxes (King)
 -- 63 Tecumseh
--- 60 Ada Lovelace
+-- 60 Napoleon (Revolutionary)
+-- 59 Ada Lovelace
 -- 57 Charlemagne
 -- 55 Amina
+-- 53 Himiko (Queen)
+-- 50 Ashoka (Renouncer)
 -- 48 Confucius
 -- 47 Isabella
 -- 45 Benjamin Franklin
 -- 42 Ibn Battuta
+-- 40 Augustus
 -- 39 Hatshepsut
--- 37 Augustus
 -- 35 Harriet Tubman
+-- 33 Friedrich (Oblique)
+-- 30 Napoleon (Emperor)
+
+-- hue
+-- 010 Ada Lovelace
+-- 010 Lafayette
+-- 015 Ibn Battuta
+-- 020 Benjamin Franklin
+-- 025 Himiko (Queen)
+-- 025 Himiko (Shaman)
+-- 030 Isabella
+-- 065 Pachacuti
+-- 075 Friedrich (Baroque)
+-- 080 Trung Trac
+-- 090 Simón Bolívar
+-- 100 Catherine
+-- 150 Amina
+-- 180 Xerxes (King)
+-- 190 Confucius
+-- 220 Tecumseh
+-- 240 Machiavelli
+-- 250 Napoleon (Revolutionary)
+-- 260 José Rizal
+-- 265 Hatshepsut
+-- 270 Charlemagne
+-- 270 Friedrich (Oblique)
+-- 270 Napoleon (Emperor)
+-- 280 Harriet Tubman
+-- 345 Ashoka (Conqueror)
+-- 350 Augustus
+-- 350 Xerxes (Achaemenid)
+-- 355 Ashoka (Renouncer)
 
 -- ADA LOVELACE: bluebells, flag of Great Britain
 -- white on lavender or cool pink
--- #e71960  oklch(0.6 0.23 10)  rgb(231, 25, 96)
+-- #e3115d  oklch(0.59 0.23 10)  rgb(227, 17, 93)
 -- 3D: #9c113f  oklch(0.45 0.17 10)  rgb(156, 17, 63)
-("BZ1_ADA_LOVELACE", "231,25,96,255", "156,17,63,255"),
+("BZ1_ADA_LOVELACE", "227,17,93,255", "156,17,63,255"),
 ("BZ2_ADA_LOVELACE", "249,249,249,255", "249,249,249,255"),
 
 -- AMINA: Hausa emblem, flag of Nigeria
@@ -37,13 +79,20 @@ INSERT OR REPLACE INTO Colors
 ("BZ1_AMINA", "5,137,62,255", "5,137,62,255"),
 ("BZ2_AMINA", "249,249,249,255", "249,249,249,255"),
 
--- ASHOKA  . . . . .  PINK_MD      YELLOW_LT
--- ASHOKA_ALT  . . .  PINK_WT      AMBER_DK
+-- ASHOKA: lotus flower
+-- #b10b69  oklch(0.5 0.2 355)  rgb(177, 11, 105)
+("BZ1_ASHOKA", "177,11,105,255", "177,11,105,255"),
+-- #f9c718  oklch(0.85 0.17 90)  rgb(249, 199, 24)
+("BZ2_ASHOKA", "249,199,24,255", "249,199,24,255"),
+-- #936823  oklch(0.9 0.06 345)  rgb(252, 207, 231)
+("BZ1_ASHOKA_ALT", "252,207,231,255", "252,207,231,255"),
+-- #976712  oklch(0.55 0.11 75)  rgb(151, 103, 18)
+("BZ2_ASHOKA_ALT", "151,103,18,255", "151,103,18,255"),
 
 -- AUGUSTUS: Tyrian purple
 -- purple: L35-45 350-10°
--- #71104a  oklch(0.37 0.14 350)  rgb(113, 16, 74)
-("BZ1_AUGUSTUS", "113,16,74,255", "113,16,74,255"),
+-- #800953  oklch(0.4 0.16 350)  rgb(128, 9, 83)
+("BZ1_AUGUSTUS", "128,9,83,255", "128,9,83,255"),
 -- yellow
 -- #ffcb00  oklch(0.8633 0.1764 89.91)  rgb(255, 203, 0)
 ("BZ2_AUGUSTUS", "255,203,0,255", "255,203,0,255"),
@@ -92,8 +141,14 @@ INSERT OR REPLACE INTO Colors
 -- #f0f2cc  oklch(0.95 0.05 110)  rgb(240, 242, 204)
 ("BZ2_CONFUCIUS", "240,242,204,255", "240,242,204,255"),
 
--- FRIEDRICH . . . .  GRAY_DK      YELLOW_MD
--- FRIEDRICH_ALT . .  AMBER_WT     BLACK
+-- FRIEDRICH: flag of Prussia
+-- #2f3545  oklch(0.33 0.03 270)  rgb(47, 53, 69)
+("BZ1_FRIEDRICH", "47,53,69,255", "47,53,69,255"),
+-- #f9c718  oklch(0.85 0.17 90)  rgb(249, 199, 24)
+("BZ2_FRIEDRICH", "249,199,24,255", "249,199,24,255"),
+-- #fbecd9  oklch(0.95 0.03 75)  rgb(251, 236, 217)
+("BZ1_FRIEDRICH_ALT", "251,236,217,255", "251,236,217,255"),
+("BZ2_FRIEDRICH_ALT", "0,0,0,255", "0,0,0,255"),
 
 -- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
 -- blue: cmyk(100 60 0 0)  #0066ff
@@ -107,14 +162,18 @@ INSERT OR REPLACE INTO Colors
 -- #1034a6  oklch(0.83 0.16 95)  rgb(232, 197, 44)
 ("BZ2_HATSHEPSUT", "232,197,44,255", "232,197,44,255"),
 
--- HIMIKO: imperial standard of the empress of Japan
--- #dedede oklch(0.900 0.000   0.0)
-("COLOR_BZ_JAPAN_WHITE",        "222,222,222,255", "222,222,222,255"),
--- #ba0426 oklch(0.500 0.200  23.0)
-("COLOR_BZ_JAPAN_RED",          "186,4,38,255",    "186,4,38,255"),
+-- HIMIKO, QUEEN: imperial standard of the empress of Japan
+-- red: L50 20-25°
+-- #c90d23  oklch(0.53 0.21 25)  rgb(201, 13, 35)
+("BZ1_HIMIKO", "201,13,35,255", "201,13,35,255"),
+-- #ffe891  oklch(0.93 0.11 95)  rgb(255, 232, 145)
+("BZ2_HIMIKO", "255,232,145,255", "255,232,145,255"),
 
--- HIMIKO  . . . . .  RED_DK       YELLOW_LT
--- HIMIKO_ALT  . . .  BLUE_WT      RED_DK
+-- HIMIKO, SHAMAN: flag of Japan, sakura
+-- #ebd9d7  oklch(0.9 0.02 25)  rgb(235, 217, 215)
+("BZ1_HIMIKO_ALT", "235,217,215,255", "235,217,215,255"),
+-- #901308  oklch(0.42 0.16 30)  rgb(144, 19, 8)
+("BZ2_HIMIKO_ALT", "144,19,8,255", "144,19,8,255"),
 
 -- IBN BATTUTA: flag of Morocco
 -- red: PMS 193C  #bf0d3e  oklch(0.5148 0.2006 15.96)
@@ -168,7 +227,13 @@ INSERT OR REPLACE INTO Colors
 
 -- NAPOLEON: flag of the French Republic
 -- blue: L30-40 265-270°
+-- #150f85  oklch(0.3 0.18 270)  rgb(21, 15, 133)
+("BZ1_NAPOLEON", "21,15,133,255", "21,15,133,255"),
+-- #1a83db  oklch(0.6 0.16 250)  rgb(26, 131, 219)
+("BZ1_NAPOLEON_ALT", "26,131,219,255", "26,131,219,255"),
 -- white
+("BZ2_NAPOLEON", "249,249,249,255", "249,249,249,255"),
+("BZ2_NAPOLEON_ALT", "249,249,249,255", "249,249,249,255"),
 -- red: L55-65 25-30°
 
 -- PACHACUTI: Inca textiles
@@ -187,13 +252,24 @@ INSERT OR REPLACE INTO Colors
 -- #fcdf25  oklch(0.9 0.18 99)  rgb(252, 223, 37)
 ("BZ2_TECUMSEH", "252,223,37,255", "252,223,37,255"),
 
--- TRUNG_TRAC: flag of Vietnam
+-- TRUNG TRAC: flag of Vietnam
 -- yellow
+-- #fdba2f  oklch(0.83 0.16 80)  rgb(253, 186, 47)
+("BZ1_TRUNG_TRAC", "253,186,47,255", "253,186,47,255"),
 -- red
+-- #901308  oklch(0.42 0.16 30)  rgb(144, 19, 8)
+("BZ2_TRUNG_TRAC", "144,19,8,255", "144,19,8,255"),
 
 -- XERXES: Persian textiles, flag of Persia
 -- Persian green
+-- #24a592  oklch(0.65 0.11 180)  rgb(36, 165, 146)
+("BZ1_XERXES", "36,165,146,255", "36,165,146,255"),
 -- Persian red or pink
+-- #fc65b6  oklch(0.72 0.2 350)  rgb(252, 101, 182)
+("BZ1_XERXES_ALT", "252,101,182,255", "252,101,182,255"),
+-- white
+("BZ2_XERXES", "249,249,249,255", "249,249,249,255"),
+("BZ2_XERXES_ALT", "249,249,249,255", "249,249,249,255"),
 
 -- fully saturated colors
 -- ROSE      255,0,104,255  #ff0068  oklch(0.64 0.26  10)  .41
