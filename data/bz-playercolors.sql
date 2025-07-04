@@ -25,7 +25,7 @@ INSERT OR REPLACE INTO Colors
 -- 57 Charlemagne
 -- 55 Amina
 -- 53 Himiko (Queen)
--- 50 Ashoka (Renouncer)
+-- 52 Ashoka (Renouncer)
 -- 48 Confucius
 -- 47 Isabella
 -- 45 Benjamin Franklin
@@ -80,10 +80,10 @@ INSERT OR REPLACE INTO Colors
 ("BZ2_AMINA", "249,249,249,255", "249,249,249,255"),
 
 -- ASHOKA: lotus flower
--- #b10b69  oklch(0.5 0.2 355)  rgb(177, 11, 105)
-("BZ1_ASHOKA", "177,11,105,255", "177,11,105,255"),
--- #f9c718  oklch(0.85 0.17 90)  rgb(249, 199, 24)
-("BZ2_ASHOKA", "249,199,24,255", "249,199,24,255"),
+-- #bb086f  oklch(0.52 0.21 355)  rgb(187, 8, 111)
+("BZ1_ASHOKA", "187,8,111,255", "187,8,111,255"),
+-- #fddc5b  oklch(0.9 0.15 95)  rgb(253, 220, 91)
+("BZ2_ASHOKA", "253,220,91,255", "253,220,91,255"),
 -- #936823  oklch(0.9 0.06 345)  rgb(252, 207, 231)
 ("BZ1_ASHOKA_ALT", "252,207,231,255", "252,207,231,255"),
 -- #976712  oklch(0.55 0.11 75)  rgb(151, 103, 18)
