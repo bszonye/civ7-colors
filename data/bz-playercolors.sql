@@ -24,14 +24,14 @@ INSERT OR REPLACE INTO Colors
 -- 59 Ada Lovelace
 -- 57 Charlemagne
 -- 55 Amina
--- 53 Himiko (Queen)
+-- 55 Himiko (Queen)
 -- 52 Ashoka (Renouncer)
 -- 48 Confucius
--- 47 Isabella
+-- 48 Isabella
 -- 45 Benjamin Franklin
 -- 42 Ibn Battuta
--- 40 Augustus
 -- 39 Hatshepsut
+-- 36 Augustus
 -- 35 Harriet Tubman
 -- 33 Friedrich (Oblique)
 -- 30 Napoleon (Emperor)
@@ -57,9 +57,9 @@ INSERT OR REPLACE INTO Colors
 -- 255 Napoleon (Revolutionary)
 -- 260 José Rizal
 -- 265 Hatshepsut
+-- 265 Napoleon (Emperor)
 -- 270 Charlemagne
 -- 270 Friedrich (Oblique)
--- 270 Napoleon (Emperor)
 -- 280 Harriet Tubman
 -- 345 Ashoka (Conqueror)
 -- 350 Augustus
@@ -89,13 +89,13 @@ INSERT OR REPLACE INTO Colors
 -- #976712  oklch(0.55 0.11 75)  rgb(151, 103, 18)
 ("BZ2_ASHOKA_ALT", "151,103,18,255", "151,103,18,255"),
 
--- AUGUSTUS: Tyrian purple
+-- AUGUSTUS: Tyrian purple and gold
 -- purple: L35-45 350-10°
--- #800953  oklch(0.4 0.16 350)  rgb(128, 9, 83)
-("BZ1_AUGUSTUS", "128,9,83,255", "128,9,83,255"),
--- yellow
--- #ffcb00  oklch(0.8633 0.1764 89.91)  rgb(255, 203, 0)
-("BZ2_AUGUSTUS", "255,203,0,255", "255,203,0,255"),
+-- #700048  oklch(0.36 0.15 350)  rgb(112, 0, 72)
+("BZ1_AUGUSTUS", "112,0,72,255", "112,0,72,255"),
+-- gold: 85°
+-- #fdc010  oklch(0.84 0.17 85)  rgb(253, 192, 16)
+("BZ2_AUGUSTUS", "253,192,16,255", "253,192,16,255"),
 
 -- BENJAMIN FRANKLIN, HARRIET TUBMAN: flag of USA
 -- n.70001 White: lab(88.7 -0.2 5.4)
@@ -144,8 +144,8 @@ INSERT OR REPLACE INTO Colors
 -- FRIEDRICH: flag of Prussia
 -- #2f3545  oklch(0.33 0.03 270)  rgb(47, 53, 69)
 ("BZ1_FRIEDRICH", "47,53,69,255", "47,53,69,255"),
--- #f9c718  oklch(0.85 0.17 90)  rgb(249, 199, 24)
-("BZ2_FRIEDRICH", "249,199,24,255", "249,199,24,255"),
+-- #fdd506  oklch(0.88 0.18 95)  rgb(253, 213, 6)
+("BZ2_FRIEDRICH", "253,213,6,255", "253,213,6,255"),
 -- #fbecd9  oklch(0.95 0.03 75)  rgb(251, 236, 217)
 ("BZ1_FRIEDRICH_ALT", "251,236,217,255", "251,236,217,255"),
 ("BZ2_FRIEDRICH_ALT", "0,0,0,255", "0,0,0,255"),
@@ -164,8 +164,8 @@ INSERT OR REPLACE INTO Colors
 
 -- HIMIKO, QUEEN: imperial standard of the empress of Japan
 -- red: L50 20-25°
--- #c90d23  oklch(0.53 0.21 25)  rgb(201, 13, 35)
-("BZ1_HIMIKO", "201,13,35,255", "201,13,35,255"),
+-- #d40924  oklch(0.55 0.22 25)  rgb(212, 9, 36)
+("BZ1_HIMIKO", "212,9,36,255", "212,9,36,255"),
 -- #ffe891  oklch(0.93 0.11 95)  rgb(255, 232, 145)
 ("BZ2_HIMIKO", "255,232,145,255", "255,232,145,255"),
 
@@ -185,8 +185,8 @@ INSERT OR REPLACE INTO Colors
 
 -- ISABELLA: flag of Spain
 -- Flag Red: lch(37 70 35)  #aa141a  oklch(0.4722 0.1813 26.56)
--- #a9170a  oklch(0.47 0.18 30)  rgb(169, 23, 10)
-("BZ1_ISABELLA", "169,23,10,255", "169,23,10,255"),
+-- #b01003  oklch(0.48 0.19 30)  rgb(176, 16, 3)
+("BZ1_ISABELLA", "176,16,3,255", "176,16,3,255"),
 -- Flag Reseda Yellow: lch(80 95 85)  #f1bf00  oklch(0.8258 0.1687 89.56)
 -- #f2c100  oklch(0.83 0.17 90)  rgb(242, 193, 0)
 ("BZ2_ISABELLA", "242,193,0,255", "242,193,0,255"),
@@ -227,8 +227,8 @@ INSERT OR REPLACE INTO Colors
 
 -- NAPOLEON: flag of the French Republic
 -- blue: L30-40 265-270°
--- #150f85  oklch(0.3 0.18 270)  rgb(21, 15, 133)
-("BZ1_NAPOLEON", "21,15,133,255", "21,15,133,255"),
+-- #041586  oklch(0.3 0.18 265)  rgb(4, 21, 134)
+("BZ1_NAPOLEON", "4,21,134,255", "4,21,134,255"),
 -- #127eee  oklch(0.6 0.19 255)  rgb(18, 126, 238)
 ("BZ1_NAPOLEON_ALT", "18,126,238,255", "18,126,238,255"),
 -- white
@@ -337,36 +337,6 @@ INSERT OR REPLACE INTO Colors
 -- WHITE_MD    113,113,113  #717171  oklch(0.549 0.000   0.0)
 -- WHITE_DK    51,51,51     #333333  oklch(0.321 0.000   0.0)
 -- BLACK       0,0,0        #000000  oklch(0.000 0.000   0.0)
-
--- ADA_LOVELACE  . .  VIOLET_LT    YELLOW_WT
--- AMINA . . . . . .  GREEN_DK     WHITE
--- ASHOKA  . . . . .  PINK_MD      YELLOW_LT
--- ASHOKA_ALT  . . .  PINK_WT      AMBER_DK
--- AUGUSTUS  . . . .  PINK_DK      YELLOW_MD
--- BENJAMIN_FRANKLIN  ROSE_DK      WHITE
--- BOLIVAR . . . . .  YELLOW_LT    BLUE_DK
--- CATHERINE   . . .  YELLOW_MD    BLACK
--- CHARLEMAGNE . . .  BLUE_MD      YELLOW_LT
--- CONFUCIUS . . . .  TEAL_DK      APPLE_WT
--- FRIEDRICH . . . .  GRAY_DK      YELLOW_MD
--- FRIEDRICH_ALT . .  AMBER_WT     BLACK
--- HARRIET_TUBMAN  .  CERULEAN_LT  WHITE
--- HATSHEPSUT  . . .  CERULEAN_DK  YELLOW_LT
--- HIMIKO  . . . . .  RED_DK       YELLOW_LT
--- HIMIKO_ALT  . . .  BLUE_WT      RED_DK
--- IBN_BATTUTA . . .  ROSE_BK      APPLE_MD
--- ISABELLA  . . . .  RED_MD       YELLOW_MD
--- JOSE_RIZAL  . . .  YELLOW_DK    WHITE
--- LAFAYETTE . . . .  ROSE_LT      YELLOW_LT
--- LAKSHMIBAI  . . .  ORANGE_LT    MINT_DK
--- MACHIAVELLI . . .  AZURE_LT     BLACK
--- NAPOLEON  . . . .  BLUE_DK      WHITE
--- NAPOLEON_ALT  . .  CERULEAN_MD  WHITE
--- PACHACUTI . . . .  ORANGE_MD    ROSE_BK
--- TECUMSEH  . . . .  AZURE_MD     YELLOW_MD
--- TRUNG_TRAC  . . .  AMBER_MD     RED_DK
--- XERXES  . . . . .  TEAL_MD      WHITE
--- XERXES_ALT  . . .  PINK_LT      WHITE
 
 UPDATE PlayerColors SET
     PrimaryColor = "BZ1_ADA_LOVELACE", SecondaryColor = "BZ2_ADA_LOVELACE"
