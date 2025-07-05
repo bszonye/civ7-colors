@@ -54,7 +54,7 @@ INSERT OR REPLACE INTO Colors
 -- 190 Confucius
 -- 220 Tecumseh
 -- 240 Machiavelli
--- 250 Napoleon (Revolutionary)
+-- 255 Napoleon (Revolutionary)
 -- 260 José Rizal
 -- 265 Hatshepsut
 -- 270 Charlemagne
@@ -172,8 +172,8 @@ INSERT OR REPLACE INTO Colors
 -- HIMIKO, SHAMAN: flag of Japan, sakura
 -- #ebd9d7  oklch(0.9 0.02 25)  rgb(235, 217, 215)
 ("BZ1_HIMIKO_ALT", "235,217,215,255", "235,217,215,255"),
--- #901308  oklch(0.42 0.16 30)  rgb(144, 19, 8)
-("BZ2_HIMIKO_ALT", "144,19,8,255", "144,19,8,255"),
+-- #b01003  oklch(0.48 0.19 30)  rgb(176, 16, 3)
+("BZ2_HIMIKO_ALT", "176,16,3,255", "176,16,3,255"),
 
 -- IBN BATTUTA: flag of Morocco
 -- red: PMS 193C  #bf0d3e  oklch(0.5148 0.2006 15.96)
@@ -229,8 +229,8 @@ INSERT OR REPLACE INTO Colors
 -- blue: L30-40 265-270°
 -- #150f85  oklch(0.3 0.18 270)  rgb(21, 15, 133)
 ("BZ1_NAPOLEON", "21,15,133,255", "21,15,133,255"),
--- #1a83db  oklch(0.6 0.16 250)  rgb(26, 131, 219)
-("BZ1_NAPOLEON_ALT", "26,131,219,255", "26,131,219,255"),
+-- #127eee  oklch(0.6 0.19 255)  rgb(18, 126, 238)
+("BZ1_NAPOLEON_ALT", "18,126,238,255", "18,126,238,255"),
 -- white
 ("BZ2_NAPOLEON", "249,249,249,255", "249,249,249,255"),
 ("BZ2_NAPOLEON_ALT", "249,249,249,255", "249,249,249,255"),
