@@ -37,34 +37,34 @@ INSERT OR REPLACE INTO Colors
 -- 30 Napoleon (Emperor)
 
 -- hue
--- 010 Ada Lovelace
--- 010 Lafayette
--- 015 Ibn Battuta
--- 020 Benjamin Franklin
+-- 100 Catherine
+-- 090 Simón Bolívar
+-- 080 Trung Trac
+-- 075 Friedrich (Baroque)
+-- 065 Pachacuti
+-- 030 Isabella
 -- 025 Himiko (Queen)
 -- 025 Himiko (Shaman)
--- 030 Isabella
--- 065 Pachacuti
--- 075 Friedrich (Baroque)
--- 080 Trung Trac
--- 090 Simón Bolívar
--- 100 Catherine
--- 150 Amina
--- 180 Xerxes (King)
--- 190 Confucius
--- 220 Tecumseh
--- 240 Machiavelli
--- 255 Napoleon (Revolutionary)
--- 260 José Rizal
+-- 020 Benjamin Franklin
+-- 015 Ibn Battuta
+-- 010 Lafayette
+-- 010 Ada Lovelace
+-- 355 Ashoka (Renouncer)
+-- 350 Xerxes (Achaemenid)
+-- 350 Augustus
+-- 345 Ashoka (Conqueror)
+-- 280 Harriet Tubman
+-- 270 Friedrich (Oblique)
+-- 270 Charlemagne
 -- 265 Hatshepsut
 -- 265 Napoleon (Emperor)
--- 270 Charlemagne
--- 270 Friedrich (Oblique)
--- 280 Harriet Tubman
--- 345 Ashoka (Conqueror)
--- 350 Augustus
--- 350 Xerxes (Achaemenid)
--- 355 Ashoka (Renouncer)
+-- 260 José Rizal
+-- 255 Napoleon (Revolutionary)
+-- 240 Machiavelli
+-- 220 Tecumseh
+-- 190 Confucius
+-- 180 Xerxes (King)
+-- 150 Amina
 
 -- ADA LOVELACE: bluebells, flag of Great Britain
 -- white on lavender or cool pink
