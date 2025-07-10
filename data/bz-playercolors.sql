@@ -17,9 +17,9 @@ INSERT OR REPLACE INTO Colors
 -- 75 Pachacuti
 -- 72 Xerxes (Achaemenid)
 -- 69 Lafayette
--- 67 Machiavelli
+-- 68 Machiavelli
 -- 65 Xerxes (King)
--- 63 Tecumseh
+-- 61 Tecumseh
 -- 60 Napoleon (Revolutionary)
 -- 59 Ada Lovelace
 -- 57 Charlemagne
@@ -221,8 +221,8 @@ INSERT OR REPLACE INTO Colors
 
 -- MACHIAVELLI: family coat of arms
 -- argent, a cross azure, pierced by four nails
--- #129fe7  oklch(0.67 0.15 240)  rgb(18, 159, 231)
-("BZ1_MACHIAVELLI", "18,159,231,255", "18,159,231,255"),
+-- #1aa2eb  oklch(0.68 0.15 240)  rgb(26, 162, 235)
+("BZ1_MACHIAVELLI", "26,162,235,255", "26,162,235,255"),
 ("BZ2_MACHIAVELLI", "249,249,249,255", "249,249,249,255"),
 
 -- NAPOLEON: flag of the French Republic
@@ -246,8 +246,8 @@ INSERT OR REPLACE INTO Colors
 
 -- TECUMSEH: seal of Shawnee tribe
 -- sky blue: #4093ab  oklch(0.622 0.0872 219.86)
--- #1898b7  oklch(0.63 0.11 220)  rgb(24, 152, 183)
-("BZ1_TECUMSEH", "24,152,183,255", "24,152,183,255"),
+-- #0792b1  oklch(0.61 0.11 220)  rgb(7, 146, 177)
+("BZ1_TECUMSEH", "7,146,177,255", "7,146,177,255"),
 -- yellow: #efb935  oklch(0.8137 0.1517 84.8)
 -- #fcdf25  oklch(0.9 0.18 99)  rgb(252, 223, 37)
 ("BZ2_TECUMSEH", "252,223,37,255", "252,223,37,255"),
