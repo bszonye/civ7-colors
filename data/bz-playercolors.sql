@@ -60,7 +60,7 @@ INSERT OR REPLACE INTO Colors
 -- 260 José Rizal
 -- 270 Friedrich (Oblique)
 
--- ADA LOVELACE: bluebells, flag of Great Britain
+-- ADA LOVELACE: flag of Great Britain
 -- white on lavender or cool pink
 -- #e3115d  oklch(0.59 0.23 10)  rgb(227, 17, 93)
 -- 3D: #9c113f  oklch(0.45 0.17 10)  rgb(156, 17, 63)
