@@ -1,11 +1,5 @@
 INSERT OR REPLACE INTO Colors
 (Type, Color, Color3D) VALUES
--- CITY-STATES: warm gray sampled from suzerain notification
--- #c8c0bd oklch(0.813 0.010  40.0)
-("PLAYERCOLOR_BZ_MINOR_LT",     "200,192,189,255", "200,192,189,255"),
--- #ada4a0 oklch(0.725 0.012  45.7)
-("PLAYERCOLOR_BZ_MINOR_MD",     "173,164,160,255", "173,164,160,255"),
-
 -- luminance
 -- 95 Friedrich (Baroque)
 -- 95 José Rizal
@@ -269,74 +263,7 @@ INSERT OR REPLACE INTO Colors
 ("BZ1_XERXES_ALT", "252,101,182,255", "252,101,182,255"),
 -- white
 ("BZ2_XERXES", "249,249,249,255", "249,249,249,255"),
-("BZ2_XERXES_ALT", "249,249,249,255", "249,249,249,255"),
-
--- fully saturated colors
--- ROSE      255,0,104,255  #ff0068  oklch(0.64 0.26  10)  .41
--- RED       255,21,0,255   #ff1500  oklch(0.63 0.25  30)  .40
--- ORANGE    255,121,0,255  #ff7900  oklch(0.72 0.19  50)  .26
--- AMBER     255,164,0,255  #ffa400  oklch(0.79 0.17  70)  .22
--- YELLOW    255,203,0,255  #ffcb00  oklch(0.86 0.18  90)  .21
--- OLIVE     254,255,0,255  #feff00  oklch(0.97 0.21 110)  .22
--- APPLE     169,255,0,255  #a9ff00  oklch(0.91 0.24 130)  .26
--- GREEN     0,255,120,255  #00ff78  oklch(0.87 0.24 150)  .28
--- MINT      0,255,201,255  #00ffc9  oklch(0.89 0.18 170)  .20
--- TEAL      0,255,246,255  #00fff6  oklch(0.90 0.16 190)  .18
--- CYAN      0,228,255,255  #00e4ff  oklch(0.84 0.15 210)  .18
--- AZURE     0,194,255,255  #00c2ff  oklch(0.72 0.16 230)  .22
--- CERULEAN  0,150,255,255  #0096ff  oklch(0.66 0.19 250)  .29
--- BLUE      48,0,255,255   #3000ff  oklch(0.46 0.30 270)  .65
--- VIOLET    116,0,255,255  #7400ff  oklch(0.52 0.29 290)  .56
--- PURPLE    180,0,255,255  #b400ff  oklch(0.59 0.30 310)  .51
--- MAGENTA   255,0,247,255  #ff00f7  oklch(0.70 0.32 330)  .46
--- PINK      255,0,169,255  #ff00a9  oklch(0.66 0.28 350)  .42
--- grayscale colors
-("COLOR_BZ_WHITE",   "249,249,249,255", "249,249,249,255"), -- #f9f9f9 L=0.98
-("COLOR_BZ_GRAY_LT", "174,174,174,255", "174,174,174,255"), -- #aeaeae L=0.75
-("COLOR_BZ_GRAY_MD", "113,113,113,255", "113,113,113,255"), -- #717171 L=0.55
-("COLOR_BZ_GRAY_DK", "58,58,58,255",    "58,58,58,255"),    -- #3a3a3a L=0.35
-("COLOR_BZ_BLACK",   "0,0,0,255",       "0,0,0,255");       -- #000000 L=0.00
--- standard colors
--- RED = 21 28 29
--- ORANGE = 73 53 56
--- YELLOW = 102 99 97
--- GREEN = 143 136 149
--- AQUA = 189 172 198
--- BLUE = 261 261 260
--- PURPLE = 308 297 300
--- MAGENTA = 327 329 329
--- LT = .901 .875 .822 .820 .818 .716 .695 .691 = .79 mean .82 median
--- MD = .881 .734 .720 .719 .697 .552 .467 .459 = .65 mean .71 median
--- DK = .554 .468 .427 .393 .388 .360 .307 .280 = .40 mean .39 median
--- RED_LT      229,117,116  #e57574  oklch(0.691 0.139  21.9)
--- ORANGE_LT   255,178,60   #ffb23c  oklch(0.818 0.154  73.2)
--- YELLOW_LT   234,225,157  #eae19d  oklch(0.901 0.087 101.6)
--- GREEN_LT    121,224,119  #79e077  oklch(0.820 0.172 143.4)
--- AQUA_LT     125,236,227  #7dece3  oklch(0.875 0.103 188.6)
--- BLUE_LT     116,163,243  #74a3f3  oklch(0.716 0.128 260.6)
--- PURPLE_LT   183,128,230  #b780e6  oklch(0.695 0.154 307.7)
--- MAGENTA_LT  255,153,255  #ff99ff  oklch(0.822 0.175 327.0)
--- RED_MD      212,20,21    #d41415  oklch(0.552 0.218  28.3)
--- ORANGE_MD   255,129,18   #ff8112  oklch(0.734 0.183  52.5)
--- YELLOW_MD   247,216,1    #f7d801  oklch(0.881 0.182  98.7)
--- GREEN_MD    97,191,34    #61bf22  oklch(0.719 0.203 136.4)
--- AQUA_MD     0,192,155    #00c09b  oklch(0.720 0.139 172.3)
--- BLUE_MD     0,79,206     #004fce  oklch(0.476 0.207 261.1)
--- PURPLE_MD   109,0,205    #6d00cd  oklch(0.459 0.249 296.9)
--- MAGENTA_MD  253,0,252    #fd00fc  oklch(0.697 0.320 328.6)
--- RED_DK      120,0,1      #780001  oklch(0.360 0.147  28.9)
--- ORANGE_DK   120,61,2     #783d02  oklch(0.427 0.103  56.2)
--- YELLOW_DK   134,114,2    #867202  oklch(0.554 0.114  96.8)
--- GREEN_DK    21,108,48    #156c30  oklch(0.468 0.123 148.7)
--- AQUA_DK     1,79,81      #014f51  oklch(0.388 0.066 197.8)
--- BLUE_DK     1,42,108     #012a6c  oklch(0.307 0.123 260.0)
--- PURPLE_DK   55,0,101     #370065  oklch(0.280 0.149 300.2)
--- MAGENTA_DK  117,0,115    #750073  oklch(0.393 0.180 329.3)
--- WHITE_LT    249,249,249  #f9f9f9  oklch(0.982 0.000   0.0)
--- WHITE_MD2   174,174,174  #aeaeae  oklch(0.751 0.000   0.0)
--- WHITE_MD    113,113,113  #717171  oklch(0.549 0.000   0.0)
--- WHITE_DK    51,51,51     #333333  oklch(0.321 0.000   0.0)
--- BLACK       0,0,0        #000000  oklch(0.000 0.000   0.0)
+("BZ2_XERXES_ALT", "249,249,249,255", "249,249,249,255");
 
 UPDATE PlayerColors SET
     PrimaryColor = "BZ1_ADA_LOVELACE", SecondaryColor = "BZ2_ADA_LOVELACE"
