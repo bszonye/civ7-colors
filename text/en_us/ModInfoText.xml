@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_MOD_BZ_COLORS_NAME">
+            <Text>Color Guard</Text>
+        </Row>
+        <Row Tag="LOC_MOD_BZ_COLORS_DESCRIPTION">
+            <Text>better leader colors</Text>
+        </Row>
+    </EnglishText>
+</Database>
