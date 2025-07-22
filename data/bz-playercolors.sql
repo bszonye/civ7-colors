@@ -11,7 +11,9 @@ INSERT OR REPLACE INTO Colors
 -- 75 Pachacuti
 -- 72 Xerxes (Achaemenid)
 -- 69 Lafayette
+-- 68 Lakshmibai
 -- 68 Machiavelli
+-- 67 Genghis Khan
 -- 65 Xerxes (King)
 -- 61 Tecumseh
 -- 60 Napoleon (Revolutionary)
@@ -35,6 +37,7 @@ INSERT OR REPLACE INTO Colors
 -- 090 Simón Bolívar
 -- 080 Trung Trac
 -- 065 Pachacuti
+-- 040 Lakshmibai
 -- 030 Isabella
 -- 025 Himiko (Queen)
 -- 020 Benjamin Franklin
@@ -48,6 +51,7 @@ INSERT OR REPLACE INTO Colors
 -- 270 Charlemagne
 -- 265 Hatshepsut
 -- 265 Napoleon (Emperor)
+-- 260 Genghis Khan
 -- 255 Napoleon (Revolutionary)
 -- 240 Machiavelli
 -- 220 Tecumseh
@@ -146,7 +150,11 @@ INSERT OR REPLACE INTO Colors
 
 -- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
 -- blue: cmyk(100 60 0 0)  #0066ff
+-- #5392fc  oklch(0.67 0.17 260)  rgb(83, 146, 252)
+("BZ1_GENGHIS_KHAN", "83,146,252,255", "83,146,252,255"),
 -- yellow: cmyk(0 15 100 0)  #ffd900
+-- #fbe48d  oklch(0.92 0.11 95)  rgb(251, 228, 141)
+("BZ2_GENGHIS_KHAN", "248,225,138,255", "248,225,138,255"),
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
@@ -204,14 +212,12 @@ INSERT OR REPLACE INTO Colors
 ("BZ2_LAFAYETTE", "254,241,161,255", "254,241,161,255"),
 
 -- LAKSHMIBAI: flag of India
--- India Saffron: xyY(.538 .360 .215) or PMS 165 C
--- #ff671f oklch(0.698 0.200  41.5) .29
-("BZ1_LAKSHMIBAI", "255,103,31,255", "255,103,31,255"),
--- India Green: xyY(.288 .395 .089) or PMS 349 C
--- #046a38 oklch(0.461 0.116 153.6) .25
-("BZ2_LAKSHMIBAI", "4,106,56,255", "4,106,56,255"),
--- navy blue: PMS 2738 C
--- #06038d oklch(0.295 0.199 265.5) .67
+-- India Saffron: xyY(.538 .360 .215) or PMS 165 C (#ff671f)
+-- India Green: xyY(.288 .395 .089) or PMS 349 C (#046a38)
+-- navy blue: PMS 2738 C (#06038d)
+-- #f5642b  oklch(0.68 0.19 40)  rgb(245, 100, 43)
+("BZ1_LAKSHMIBAI", "245,100,43,255", "245,100,43,255"),
+("BZ2_LAKSHMIBAI", "249,249,249,255", "249,249,249,255"),
 
 -- MACHIAVELLI: family coat of arms
 -- argent, a cross azure, pierced by four nails
@@ -302,6 +308,9 @@ UPDATE PlayerColors SET
     PrimaryColor = "BZ1_FRIEDRICH_ALT", SecondaryColor = "BZ2_FRIEDRICH_ALT"
     WHERE Type = "LEADER_FRIEDRICH_ALT";
 UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_GENGHIS_KHAN", SecondaryColor = "BZ2_GENGHIS_KHAN"
+    WHERE Type = "LEADER_GENGHIS_KHAN";
+UPDATE PlayerColors SET
     PrimaryColor = "BZ1_HARRIET_TUBMAN", SecondaryColor = "BZ2_HARRIET_TUBMAN"
     WHERE Type = "LEADER_HARRIET_TUBMAN";
 UPDATE PlayerColors SET
@@ -325,6 +334,9 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
     PrimaryColor = "BZ1_LAFAYETTE", SecondaryColor = "BZ2_LAFAYETTE"
     WHERE Type = "LEADER_LAFAYETTE";
+UPDATE PlayerColors SET
+    PrimaryColor = "BZ1_LAKSHMIBAI", SecondaryColor = "BZ2_LAKSHMIBAI"
+    WHERE Type = "LEADER_LAKSHMIBAI";
 UPDATE PlayerColors SET
     PrimaryColor = "BZ1_MACHIAVELLI", SecondaryColor = "BZ2_MACHIAVELLI"
     WHERE Type = "LEADER_MACHIAVELLI";
