@@ -154,7 +154,7 @@ INSERT OR REPLACE INTO Colors
 ("BZ1_GENGHIS_KHAN", "83,146,252,255", "83,146,252,255"),
 -- yellow: cmyk(0 15 100 0)  #ffd900
 -- #fbe48d  oklch(0.92 0.11 95)  rgb(251, 228, 141)
-("BZ2_GENGHIS_KHAN", "248,225,138,255", "248,225,138,255"),
+("BZ2_GENGHIS_KHAN", "251,228,141,255", "251,228,141,255"),
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
