@@ -1,4 +1,4 @@
-# Color Guard 1.0.0
+# Color Guard 1.1.0
 better leader colors
 
 - Ada Lovelace: flag of Great Britain
@@ -11,6 +11,7 @@ better leader colors
 - Charlemagne: coat of arms of France
 - Confucius: jade
 - Friedrich: family coat of arms, flag of Prussia
+- Genghis Khan: emblem of Mongolia
 - Harriet Tubman: flag of the USA (Old Glory Blue)
 - Hatshepsut: Egyptian blue
 - Himiko: standard of the Empress of Japan, flag of Japan, sakura
@@ -23,4 +24,4 @@ better leader colors
 - Pachacuti: Inca textiles
 - Tecumseh: seal of the Shawnee tribe
 - Trung Trac: traditional depictions, flag of Vietnam
-- Xerxes: Persian textiles, flag of Persia
+- Xerxes: Persian textiles
