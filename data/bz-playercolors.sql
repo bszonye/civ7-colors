@@ -255,10 +255,11 @@ INSERT OR REPLACE INTO Colors
 -- TRUNG TRAC: flag of Vietnam
 -- yellow
 -- #fdba2f  oklch(0.83 0.16 80)  rgb(253, 186, 47)
-("BZ1_TRUNG_TRAC", "253,186,47,255", "253,186,47,255"),
+("BZ1_TRUNG_TRAC", "253,186,47,255", "212,17,1,255"),
 -- red
--- #901308  oklch(0.42 0.16 30)  rgb(144, 19, 8)
-("BZ2_TRUNG_TRAC", "144,19,8,255", "144,19,8,255"),
+-- 2D  #901308  oklch(0.42 0.16 30)  rgb(144, 19, 8)
+-- 3D  #d41101  oklch(0.55 0.22 30)  rgb(212, 17, 1)
+("BZ2_TRUNG_TRAC", "144,19,8,255", "253,186,47,255"),
 
 -- XERXES: Persian textiles, flag of Persia
 -- Persian green
