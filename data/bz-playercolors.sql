@@ -255,7 +255,7 @@ INSERT OR REPLACE INTO Colors
 -- TRUNG TRAC: flag of Vietnam
 -- yellow
 -- #fdc010  oklch(0.84 0.17 85)  rgb(253, 192, 16)
-("BZ1_TRUNG_TRAC", "253,192,16,255", "162,10,1,255"),
+("BZ1_TRUNG_TRAC", "253,192,16,255", "212,17,1,255"),
 -- red
 -- 2D  #a20a01  oklch(0.45 0.18 30)  rgb(162, 10, 1)
 -- 3D  #d41101  oklch(0.55 0.22 30)  rgb(212, 17, 1)
