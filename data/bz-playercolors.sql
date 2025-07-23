@@ -6,7 +6,7 @@ INSERT OR REPLACE INTO Colors
 -- 91 Ashoka (Conqueror)
 -- 91 Catherine
 -- 90 Himiko (Shaman)
--- 86 Simón Bolívar
+-- 87 Simón Bolívar
 -- 84 Trung Trac
 -- 75 Pachacuti
 -- 72 Xerxes (Achaemenid)
@@ -112,8 +112,8 @@ INSERT OR REPLACE INTO Colors
 
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia
 -- yellow: PMS 116 C  #ffcd00  oklch(0.8672 0.177256 90.8474)
--- #fcca21  oklch(0.86 0.17 90)  rgb(252, 202, 33)
-("BZ1_BOLIVAR", "252,202,33,255", "252,202,33,255"),
+-- #fdce3e  oklch(0.87 0.16 90)  rgb(253, 206, 62)
+("BZ1_BOLIVAR", "253,206,62,255", "253,206,62,255"),
 -- blue: PMS 287 C  #003087  oklch(0.3466 0.153 261.33)
 -- #023481  oklch(0.35 0.14 260)  rgb(2, 52, 129)
 ("BZ2_BOLIVAR", "2,52,129,255", "2,52,129,255"),
