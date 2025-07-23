@@ -4,10 +4,10 @@ INSERT OR REPLACE INTO Colors
 -- 95 Friedrich (Baroque)
 -- 95 José Rizal
 -- 91 Ashoka (Conqueror)
+-- 91 Catherine
 -- 90 Himiko (Shaman)
--- 89 Catherine
--- 86 Simón Bolívar
--- 83 Trung Trac
+-- 87 Simón Bolívar
+-- 84 Trung Trac
 -- 75 Pachacuti
 -- 72 Xerxes (Achaemenid)
 -- 69 Lafayette
@@ -35,7 +35,7 @@ INSERT OR REPLACE INTO Colors
 -- hue
 -- 100 Catherine
 -- 090 Simón Bolívar
--- 080 Trung Trac
+-- 085 Trung Trac
 -- 065 Pachacuti
 -- 040 Lakshmibai
 -- 030 Isabella
@@ -112,16 +112,16 @@ INSERT OR REPLACE INTO Colors
 
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia
 -- yellow: PMS 116 C  #ffcd00  oklch(0.8672 0.177256 90.8474)
--- #fcca21  oklch(0.86 0.17 90)  rgb(252, 202, 33)
-("BZ1_BOLIVAR", "252,202,33,255", "252,202,33,255"),
+-- #fdce3e  oklch(0.87 0.16 90)  rgb(253, 206, 62)
+("BZ1_BOLIVAR", "253,206,62,255", "253,206,62,255"),
 -- blue: PMS 287 C  #003087  oklch(0.3466 0.153 261.33)
 -- #023481  oklch(0.35 0.14 260)  rgb(2, 52, 129)
 ("BZ2_BOLIVAR", "2,52,129,255", "2,52,129,255"),
 
 -- CATHERINE: standard of the Empress of Russia
 -- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
--- #f7dc1f  oklch(0.89 0.18 100)  rgb(247, 220, 31)
-("BZ1_CATHERINE", "250,223,39,255", "247,220,31,255"),
+-- #fee32d  oklch(0.91 0.18 100)  rgb(254, 227, 45)
+("BZ1_CATHERINE", "254,227,45,255", "254,227,45,255"),
 ("BZ2_CATHERINE", "0,0,0,255", "0,0,0,255"),
 
 -- CHARLEMAGNE: coat of arms of France
@@ -254,11 +254,12 @@ INSERT OR REPLACE INTO Colors
 
 -- TRUNG TRAC: flag of Vietnam
 -- yellow
--- #fdba2f  oklch(0.83 0.16 80)  rgb(253, 186, 47)
-("BZ1_TRUNG_TRAC", "253,186,47,255", "253,186,47,255"),
+-- #fdc010  oklch(0.84 0.17 85)  rgb(253, 192, 16)
+("BZ1_TRUNG_TRAC", "253,192,16,255", "212,17,1,255"),
 -- red
--- #901308  oklch(0.42 0.16 30)  rgb(144, 19, 8)
-("BZ2_TRUNG_TRAC", "144,19,8,255", "144,19,8,255"),
+-- 2D  #a20a01  oklch(0.45 0.18 30)  rgb(162, 10, 1)
+-- 3D  #d41101  oklch(0.55 0.22 30)  rgb(212, 17, 1)
+("BZ2_TRUNG_TRAC", "162,10,1,255", "253,192,16,255"),
 
 -- XERXES: Persian textiles, flag of Persia
 -- Persian green
