@@ -1,3 +1,22 @@
+CREATE TABLE IF NOT EXISTS 'Colors'(
+    'Type' TEXT NOT NULL,
+    'Color' TEXT NOT NULL,
+    'Color3D' TEXT,
+    PRIMARY KEY('Type')
+);
+CREATE TABLE IF NOT EXISTS 'PlayerColors'(
+    'Type' TEXT NOT NULL,
+    'Usage' TEXT NOT NULL,
+    'PrimaryColor' TEXT NOT NULL,
+    'SecondaryColor' TEXT NOT NULL,
+    'Alt1PrimaryColor' TEXT,
+    'Alt1SecondaryColor' TEXT,
+    'Alt2PrimaryColor' TEXT,
+    'Alt2SecondaryColor' TEXT,
+    'Alt3PrimaryColor' TEXT,
+    'Alt3SecondaryColor' TEXT,
+    PRIMARY KEY ('Type')
+);
 INSERT OR REPLACE INTO Colors
 (Type, Color, Color3D) VALUES
 -- luminance

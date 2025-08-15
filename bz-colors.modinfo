@@ -28,6 +28,9 @@
                 <UpdateColors>
                     <Item>data/bz-playercolors.sql</Item>
                 </UpdateColors>
+                <UpdateDatabase>
+                    <Item>data/bz-playercolors.sql</Item>
+                </UpdateDatabase>
             </Actions>
         </ActionGroup>
     </ActionGroups>
