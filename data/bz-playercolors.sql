@@ -20,18 +20,18 @@ CREATE TABLE IF NOT EXISTS 'PlayerColors'(
 INSERT OR REPLACE INTO Colors
 (Type, Color, Color3D) VALUES
 -- luminance
--- 95 Friedrich (Baroque)
 -- 95 José Rizal
--- 91 Ashoka (Conqueror)
--- 91 Catherine
--- 90 Himiko (Shaman)
--- 87 Simón Bolívar
--- 84 Trung Trac
+-- 93 Friedrich (Baroque)
+-- 93 Himiko (Shaman)
+-- 91 Trung Trac
+-- 87 Ashoka (Conqueror)
+-- 87 Catherine
+-- 83 Simón Bolívar
 -- 75 Pachacuti
+-- 72 Machiavelli
 -- 72 Xerxes (Achaemenid)
--- 69 Lafayette
 -- 68 Lakshmibai
--- 68 Machiavelli
+-- 67 Lafayette
 -- 67 Genghis Khan
 -- 65 Xerxes (King)
 -- 61 Tecumseh
@@ -52,17 +52,17 @@ INSERT OR REPLACE INTO Colors
 -- 30 Napoleon (Emperor)
 
 -- hue
--- 100 Catherine
--- 090 Simón Bolívar
--- 085 Trung Trac
+-- 100 Trung Trac
+-- 090 Catherine
+-- 080 Simón Bolívar
 -- 065 Pachacuti
 -- 040 Lakshmibai
 -- 030 Isabella
 -- 025 Himiko (Queen)
 -- 020 Benjamin Franklin
 -- 015 Ibn Battuta
--- 010 Lafayette
 -- 010 Ada Lovelace
+-- 005 Lafayette
 -- 355 Ashoka (Renouncer)
 -- 350 Xerxes (Achaemenid)
 -- 350 Augustus
@@ -77,7 +77,7 @@ INSERT OR REPLACE INTO Colors
 -- 190 Confucius
 -- 180 Xerxes (King)
 -- 150 Amina
--- 075 Friedrich (Baroque)
+-- 085 Friedrich (Baroque)
 -- 025 Himiko (Shaman)
 -- 345 Ashoka (Conqueror)
 -- 260 José Rizal
@@ -101,10 +101,10 @@ INSERT OR REPLACE INTO Colors
 ("BZ1_ASHOKA", "187,8,111,255", "187,8,111,255"),
 -- #fddc5b  oklch(0.9 0.15 95)  rgb(253, 220, 91)
 ("BZ2_ASHOKA", "253,220,91,255", "253,220,91,255"),
--- #936823  oklch(0.9 0.06 345)  rgb(252, 207, 231)
-("BZ1_ASHOKA_ALT", "252,207,231,255", "252,207,231,255"),
--- #976712  oklch(0.55 0.11 75)  rgb(151, 103, 18)
-("BZ2_ASHOKA_ALT", "151,103,18,255", "151,103,18,255"),
+-- #f2c5dd  oklch(0.87 0.06 345)  rgb(242, 197, 221)
+("BZ1_ASHOKA_ALT", "242,197,221,255", "242,197,221,255"),
+-- #845a0f  oklch(0.5 0.1 75)  rgb(132, 90, 15)
+("BZ2_ASHOKA_ALT", "132,90,15,255", "132,90,15,255"),
 
 -- AUGUSTUS: Tyrian purple and gold
 -- purple: L35-45 350-10°
@@ -131,16 +131,16 @@ INSERT OR REPLACE INTO Colors
 
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia
 -- yellow: PMS 116 C  #ffcd00  oklch(0.8672 0.177256 90.8474)
--- #fdce3e  oklch(0.87 0.16 90)  rgb(253, 206, 62)
-("BZ1_BOLIVAR", "253,206,62,255", "253,206,62,255"),
+-- #ffb801  oklch(0.83 0.1719 80)  rgb(255, 184, 1)
+("BZ1_BOLIVAR", "255,184,1,255", "255,184,1,255"),
 -- blue: PMS 287 C  #003087  oklch(0.3466 0.153 261.33)
--- #023481  oklch(0.35 0.14 260)  rgb(2, 52, 129)
-("BZ2_BOLIVAR", "2,52,129,255", "2,52,129,255"),
+-- #01388d  oklch(0.37 0.15 260)  rgb(1, 56, 141)
+("BZ2_BOLIVAR", "1,56,141,255", "1,56,141,255"),
 
 -- CATHERINE: standard of the Empress of Russia
--- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
--- #fee32d  oklch(0.91 0.18 100)  rgb(254, 227, 45)
-("BZ1_CATHERINE", "254,227,45,255", "254,227,45,255"),
+-- yellow
+-- #fdce3e  oklch(0.87 0.16 90)  rgb(253, 206, 62)
+("BZ1_CATHERINE", "253,206,62,255", "253,206,62,255"),
 ("BZ2_CATHERINE", "0,0,0,255", "0,0,0,255"),
 
 -- CHARLEMAGNE: coat of arms of France
@@ -163,8 +163,8 @@ INSERT OR REPLACE INTO Colors
 ("BZ1_FRIEDRICH", "47,53,69,255", "47,53,69,255"),
 -- #fdd506  oklch(0.88 0.18 95)  rgb(253, 213, 6)
 ("BZ2_FRIEDRICH", "253,213,6,255", "253,213,6,255"),
--- #fbecd9  oklch(0.95 0.03 75)  rgb(251, 236, 217)
-("BZ1_FRIEDRICH_ALT", "251,236,217,255", "251,236,217,255"),
+-- #f1e7d2  oklch(0.93 0.03 85)  rgb(241, 231, 210)
+("BZ1_FRIEDRICH_ALT", "241,231,210,255", "241,231,210,255"),
 ("BZ2_FRIEDRICH_ALT", "0,0,0,255", "0,0,0,255"),
 
 -- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
@@ -191,8 +191,8 @@ INSERT OR REPLACE INTO Colors
 ("BZ2_HIMIKO", "255,232,145,255", "255,232,145,255"),
 
 -- HIMIKO, SHAMAN: flag of Japan, sakura
--- #ebd9d7  oklch(0.9 0.02 25)  rgb(235, 217, 215)
-("BZ1_HIMIKO_ALT", "235,217,215,255", "235,217,215,255"),
+-- #f5e3e1  oklch(0.93 0.02 25)  rgb(245, 227, 225)
+("BZ1_HIMIKO_ALT", "245,227,225,255", "245,227,225,255"),
 -- #b01003  oklch(0.48 0.19 30)  rgb(176, 16, 3)
 ("BZ2_HIMIKO_ALT", "176,16,3,255", "176,16,3,255"),
 
@@ -224,11 +224,11 @@ INSERT OR REPLACE INTO Colors
 
 -- LAFAYETTE: family coat of arms
 -- gules, a bend or, with a bordure vair
--- #fc587f  oklch(0.69 0.2 10)  rgb(252, 88, 127)
--- 3D: #b4144a  oklch(0.5 0.19 10)  rgb(180, 20, 74)
-("BZ1_LAFAYETTE", "252,88,127,255", "180,20,74,255"),
--- #fef1a1  oklch(0.95 0.1 100)  rgb(254, 241, 161)
-("BZ2_LAFAYETTE", "254,241,161,255", "254,241,161,255"),
+-- #ff3e82  oklch(0.67 0.23 5)  rgb(255, 62, 130)
+-- 3D: #b60254  oklch(0.5 0.2 5)  rgb(182, 2, 84)
+("BZ1_LAFAYETTE", "255,62,130,255", "182,2,84,255"),
+-- #feea74  oklch(0.93 0.14 100)  rgb(254, 234, 116)
+("BZ2_LAFAYETTE", "254,234,116,255", "254,234,116,255"),
 
 -- LAKSHMIBAI: flag of India
 -- India Saffron: xyY(.538 .360 .215) or PMS 165 C (#ff671f)
@@ -240,8 +240,8 @@ INSERT OR REPLACE INTO Colors
 
 -- MACHIAVELLI: family coat of arms
 -- argent, a cross azure, pierced by four nails
--- #1aa2eb  oklch(0.68 0.15 240)  rgb(26, 162, 235)
-("BZ1_MACHIAVELLI", "26,162,235,255", "26,162,235,255"),
+-- #19affe  oklch(0.72 0.16 240)  rgb(25, 175, 254)
+("BZ1_MACHIAVELLI", "25,175,254,255", "25,175,254,255"),
 ("BZ2_MACHIAVELLI", "249,249,249,255", "249,249,249,255"),
 
 -- NAPOLEON: flag of the French Republic
@@ -272,13 +272,12 @@ INSERT OR REPLACE INTO Colors
 ("BZ2_TECUMSEH", "252,223,37,255", "252,223,37,255"),
 
 -- TRUNG TRAC: flag of Vietnam
--- yellow
--- #fdc010  oklch(0.84 0.17 85)  rgb(253, 192, 16)
-("BZ1_TRUNG_TRAC", "253,192,16,255", "212,17,1,255"),
--- red
--- 2D  #a20a01  oklch(0.45 0.18 30)  rgb(162, 10, 1)
--- 3D  #d41101  oklch(0.55 0.22 30)  rgb(212, 17, 1)
-("BZ2_TRUNG_TRAC", "162,10,1,255", "253,192,16,255"),
+-- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
+-- #fee32d  oklch(0.91 0.18 100)  rgb(254, 227, 45)
+("BZ1_TRUNG_TRAC", "254,227,45,255", "187,6,30,255"),
+-- red: PMS 1788 C  #ee2737  oklch(0.6119 0.2287 24.19)
+-- #bb061e  oklch(0.5 0.2 25)  rgb(187, 6, 30)
+("BZ2_TRUNG_TRAC", "187,6,30,255", "254,227,45,255"),
 
 -- XERXES: Persian textiles, flag of Persia
 -- Persian green
