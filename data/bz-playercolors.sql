@@ -172,8 +172,8 @@ INSERT OR REPLACE INTO Colors
 -- #5392fc  oklch(0.67 0.17 260)  rgb(83, 146, 252)
 ("BZ1_GENGHIS_KHAN", "83,146,252,255", "83,146,252,255"),
 -- yellow: cmyk(0 15 100 0)  #ffd900
--- #fbe48d  oklch(0.92 0.11 95)  rgb(251, 228, 141)
-("BZ2_GENGHIS_KHAN", "251,228,141,255", "251,228,141,255"),
+-- #feea74  oklch(0.93 0.14 100)  rgb(254, 234, 116)
+("BZ2_GENGHIS_KHAN", "254,234,116,255", "254,234,116,255"),
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
