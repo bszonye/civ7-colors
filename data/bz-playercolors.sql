@@ -187,8 +187,8 @@ INSERT OR REPLACE INTO Colors
 -- red: L50 20-25°
 -- #d40924  oklch(0.55 0.22 25)  rgb(212, 9, 36)
 ("BZ1_HIMIKO", "212,9,36,255", "212,9,36,255"),
--- #ffe891  oklch(0.93 0.11 95)  rgb(255, 232, 145)
-("BZ2_HIMIKO", "255,232,145,255", "255,232,145,255"),
+-- #feea74  oklch(0.93 0.14 100)  rgb(254, 234, 116)
+("BZ2_HIMIKO", "254,234,116,255", "254,234,116,255"),
 
 -- HIMIKO, SHAMAN: flag of Japan, sakura
 -- #f5e3e1  oklch(0.93 0.02 25)  rgb(245, 227, 225)
