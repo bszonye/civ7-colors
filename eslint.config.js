@@ -16,10 +16,12 @@ export default [
         languageOptions: {
             globals: {
                 Cities: "readonly",
+                Color: "readonly",
                 CombatTypes: "readonly",
                 Configuration: "readonly",
                 Constructibles: "readonly",
                 Controls: "readonly",
+                Database: "readonly",
                 DistrictTypes: "readonly",
                 Districts: "readonly",
                 Game: "readonly",
