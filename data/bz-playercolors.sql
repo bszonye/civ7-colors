@@ -32,15 +32,15 @@ INSERT OR REPLACE INTO Colors
 -- 72 Xerxes (Achaemenid)
 -- 68 Lakshmibai
 -- 67 Lafayette
--- 67 Genghis Khan
+-- 65 Napoleon (Revolutionary)
 -- 65 Xerxes (King)
 -- 61 Tecumseh
--- 60 Napoleon (Revolutionary)
 -- 59 Ada Lovelace
--- 57 Charlemagne
+-- 57 Genghis Khan
 -- 55 Amina
 -- 55 Himiko (Queen)
 -- 52 Ashoka (Renouncer)
+-- 52 Charlemagne
 -- 48 Confucius
 -- 48 Isabella
 -- 45 Benjamin Franklin
@@ -67,7 +67,7 @@ INSERT OR REPLACE INTO Colors
 -- 350 Xerxes (Achaemenid)
 -- 350 Augustus
 -- 280 Harriet Tubman
--- 270 Charlemagne
+-- 275 Charlemagne
 -- 265 Hatshepsut
 -- 265 Napoleon (Emperor)
 -- 260 Genghis Khan
@@ -126,8 +126,8 @@ INSERT OR REPLACE INTO Colors
 ("BZ1_BENJAMIN_FRANKLIN", "161,1,40,255", "161,1,40,255"),
 -- n.70075 Old Glory Blue: lab(23.2 13.1 -26.4)
 --   #33335f  oklch(0.344 0.0758 281.66)  rgb(51, 51, 95)
---   #333463  oklch(0.35 0.08 280)  rgb(51, 52, 99)
-("BZ1_HARRIET_TUBMAN", "51,52,99,255", "51,52,99,255"),
+--   #312c7b  oklch(0.35 0.13 280)  rgb(49, 44, 123)
+("BZ1_HARRIET_TUBMAN", "49,44,123,255", "49,44,123,255"),
 
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia
 -- yellow: PMS 116 C  #ffcd00  oklch(0.8672 0.177256 90.8474)
@@ -146,11 +146,11 @@ INSERT OR REPLACE INTO Colors
 -- CHARLEMAGNE: coat of arms of France
 -- azure, semé-de-lys or
 -- blue: L55-60 270°
--- #4761fc  oklch(0.57 0.23 270)  rgb(71, 97, 252)
-("BZ1_CHARLEMAGNE", "71,97,252,255", "71,97,252,255"),
+-- #3c50ea  oklch(0.52 0.23 270)  rgb(60, 80, 234)
+("BZ1_CHARLEMAGNE", "60,80,234,255", "60,80,234,255"),
 -- yellow
--- #fddc5b  oklch(0.9 0.15 95)  rgb(253, 220, 91)
-("BZ2_CHARLEMAGNE", "253,220,91,255", "253,220,91,255"),
+-- #ffe300  oklch(0.91 0.19 100)  rgb(255, 227, 0)
+("BZ2_CHARLEMAGNE", "255,227,0,255", "255,227,0,255"),
 
 -- CONFUCIUS: jade
 -- #0c6c68  oklch(0.48 0.08 190)  rgb(12, 108, 104)
@@ -169,11 +169,11 @@ INSERT OR REPLACE INTO Colors
 
 -- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
 -- blue: cmyk(100 60 0 0)  #0066ff
--- #5392fc  oklch(0.67 0.17 260)  rgb(83, 146, 252)
-("BZ1_GENGHIS_KHAN", "83,146,252,255", "83,146,252,255"),
+-- #046bfb  oklch(0.57 0.23 260)  rgb(4, 107, 251)
+("BZ1_GENGHIS_KHAN", "4,107,251,255", "4,107,251,255"),
 -- yellow: cmyk(0 15 100 0)  #ffd900
--- #feea74  oklch(0.93 0.14 100)  rgb(254, 234, 116)
-("BZ2_GENGHIS_KHAN", "254,234,116,255", "254,234,116,255"),
+-- #fdd506  oklch(0.89 0.17 95)  rgb(254, 216, 53)
+("BZ2_GENGHIS_KHAN", "254,216,53,255", "254,216,53,255"),
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
@@ -248,8 +248,8 @@ INSERT OR REPLACE INTO Colors
 -- blue: L30-40 265-270°
 -- #041586  oklch(0.3 0.18 265)  rgb(4, 21, 134)
 ("BZ1_NAPOLEON", "4,21,134,255", "4,21,134,255"),
--- #127eee  oklch(0.6 0.19 255)  rgb(18, 126, 238)
-("BZ1_NAPOLEON_ALT", "18,126,238,255", "18,126,238,255"),
+-- #2a8eff  oklch(0.65 0.19 255)  rgb(42, 142, 255)
+("BZ1_NAPOLEON_ALT", "42,142,255,255", "42,142,255,255"),
 -- white
 ("BZ2_NAPOLEON", "249,249,249,255", "249,249,249,255"),
 ("BZ2_NAPOLEON_ALT", "249,249,249,255", "249,249,249,255"),
