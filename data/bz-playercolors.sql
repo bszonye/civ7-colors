@@ -41,10 +41,10 @@ INSERT OR REPLACE INTO Colors
 -- 55 Himiko (Queen)
 -- 52 Ashoka (Renouncer)
 -- 50 Charlemagne
+-- 50 Isabella
 -- 48 Confucius
--- 48 Isabella
 -- 45 Benjamin Franklin
--- 42 Ibn Battuta
+-- 45 Ibn Battuta
 -- 40 Hatshepsut
 -- 36 Augustus
 -- 35 Harriet Tubman
@@ -58,8 +58,8 @@ INSERT OR REPLACE INTO Colors
 -- 065 Pachacuti
 -- 040 Lakshmibai
 -- 030 Isabella
--- 025 Himiko (Queen)
 -- 020 Benjamin Franklin
+-- 020 Himiko (Queen)
 -- 015 Ibn Battuta
 -- 010 Ada Lovelace
 -- 005 Lafayette
@@ -185,10 +185,10 @@ INSERT OR REPLACE INTO Colors
 
 -- HIMIKO, QUEEN: imperial standard of the empress of Japan
 -- red: L50 20-25°
--- #d40924  oklch(0.55 0.22 25)  rgb(212, 9, 36)
-("BZ1_HIMIKO", "212,9,36,255", "212,9,36,255"),
--- #feea74  oklch(0.93 0.14 100)  rgb(254, 234, 116)
-("BZ2_HIMIKO", "254,234,116,255", "254,234,116,255"),
+-- #d40237  oklch(0.55 0.22 20)  rgb(212, 2, 55)
+("BZ1_HIMIKO", "212,2,55,255", "212,2,55,255"),
+-- #fef1a1  oklch(0.95 0.1 100)  rgb(254, 241, 161)
+("BZ2_HIMIKO", "254,241,161,255", "254,241,161,255"),
 
 -- HIMIKO, SHAMAN: flag of Japan, sakura
 -- #f5e3e1  oklch(0.93 0.02 25)  rgb(245, 227, 225)
@@ -198,19 +198,19 @@ INSERT OR REPLACE INTO Colors
 
 -- IBN BATTUTA: flag of Morocco
 -- red: PMS 193C  #bf0d3e  oklch(0.5148 0.2006 15.96)
--- #900d30  oklch(0.42 0.16 15)  rgb(144, 13, 48)
-("BZ1_IBN_BATTUTA", "144,13,48,255", "144,13,48,255"),
+-- #850e2c  oklch(0.4 0.15 15)  rgb(133, 14, 44)
+("BZ1_IBN_BATTUTA", "133,14,44,255", "133,14,44,255"),
 -- green: PMS 363C  #4c8c2b  oklch(0.5764 0.1459 136.84)
--- #93de04  oklch(0.82 0.22 130)  rgb(147, 222, 4)
-("BZ2_IBN_BATTUTA", "147,222,4,255", "147,222,4,255"),
+-- #92da20  oklch(0.81 0.21 130)  rgb(146, 218, 32)
+("BZ2_IBN_BATTUTA", "146,218,32,255", "146,218,32,255"),
 
 -- ISABELLA: flag of Spain
 -- Flag Red: lch(37 70 35)  #aa141a  oklch(0.4722 0.1813 26.56)
--- #b01003  oklch(0.48 0.19 30)  rgb(176, 16, 3)
-("BZ1_ISABELLA", "176,16,3,255", "176,16,3,255"),
+-- #ba0d01  oklch(0.5 0.2 30)  rgb(186, 13, 1)
+("BZ1_ISABELLA", "186,13,1,255", "186,13,1,255"),
 -- Flag Reseda Yellow: lch(80 95 85)  #f1bf00  oklch(0.8258 0.1687 89.56)
--- #f2c100  oklch(0.83 0.17 90)  rgb(242, 193, 0)
-("BZ2_ISABELLA", "242,193,0,255", "242,193,0,255"),
+-- #f9c718  oklch(0.85 0.17 90)  rgb(249, 199, 24)
+("BZ2_ISABELLA", "249,199,24,255", "249,199,24,255"),
 
 -- JOSE RIZAL: flag of the Philippines
 -- no.80001 white
