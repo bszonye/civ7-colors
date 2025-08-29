@@ -66,8 +66,8 @@ INSERT OR REPLACE INTO Colors
 -- 355 Ashoka (Renouncer)
 -- 350 Xerxes (Achaemenid)
 -- 350 Augustus
+-- 285 Charlemagne
 -- 280 Harriet Tubman
--- 275 Charlemagne
 -- 265 Hatshepsut
 -- 265 Napoleon (Emperor)
 -- 260 Genghis Khan
@@ -145,12 +145,13 @@ INSERT OR REPLACE INTO Colors
 
 -- CHARLEMAGNE: coat of arms of France
 -- azure, semé-de-lys or
--- blue: L55-60 270°
--- #3543ee  oklch(0.5 0.25 270)  rgb(53, 67, 238)
-("BZ1_CHARLEMAGNE", "53,67,238,255", "53,67,238,255"),
+-- blue: L55-60 270° (nope, clashes with Hatshepsut)
+-- purple: L50 285°
+-- #6036e2  oklch(0.5 0.24 285)  rgb(96, 54, 226)
+("BZ1_CHARLEMAGNE", "96,54,226,255", "96,54,226,255"),
 -- yellow
--- #fdd506  oklch(0.88 0.18 95)  rgb(253, 213, 6)
-("BZ2_CHARLEMAGNE", "253,213,6,255", "253,213,6,255"),
+-- #fddc5b  oklch(0.9 0.15 95)  rgb(253, 220, 91)
+("BZ2_CHARLEMAGNE", "253,220,91,255", "253,220,91,255"),
 
 -- CONFUCIUS: jade
 -- #0c6c68  oklch(0.48 0.08 190)  rgb(12, 108, 104)
