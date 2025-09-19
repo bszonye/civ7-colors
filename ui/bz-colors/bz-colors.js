@@ -36,11 +36,17 @@ document.body.classList.add("bz-colors");
 
 const colors = Database.query('gameplay', 'SELECT * FROM Colors');
 if (colors) {
+    function toHex(r, g, b) {
+        return '#' + ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0');
+    }
+    function toPackedRGB(r, g, b) {
+        return (b << 16) | (g << 8) | r;
+    }
     function parseRGB(rgbText) {
         const [r, g, b, ..._] = rgbText.split(',');
         const rgb = [r, g, b];
-        const color = (b << 16) | (g << 8) | r;
-        const hex = '#' + ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0');
+        const color = toPackedRGB(r, g, b);
+        const hex = toHex(r, g, b);
         return { rgb, color, hex };
     }
     function mapColors(colors, prefix) {
