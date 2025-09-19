@@ -178,8 +178,8 @@ INSERT OR REPLACE INTO Colors
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
--- #e4b750  oklch(0.8 0.13 85)  rgb(228, 183, 80)
-("BZ1_HATSHEPSUT", "228,183,80,255", "228,183,80,255"),
+-- #eab532  oklch(0.8 0.15 85)  rgb(234, 181, 50)
+("BZ1_HATSHEPSUT", "234,181,50,255", "234,181,50,255"),
 -- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
 -- #1034b1  oklch(0.4 0.2 265)  rgb(16, 52, 177)
 ("BZ2_HATSHEPSUT", "16,52,177,255", "16,52,177,255"),
