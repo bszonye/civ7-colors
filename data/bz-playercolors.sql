@@ -27,25 +27,25 @@ INSERT OR REPLACE INTO Colors
 -- 87 Ashoka (Conqueror)
 -- 87 Catherine
 -- 83 Simón Bolívar
+-- 80 Hatshepsut
 -- 75 Pachacuti
 -- 72 Machiavelli
 -- 72 Xerxes (Achaemenid)
 -- 68 Lakshmibai
 -- 67 Lafayette
--- 65 Napoleon (Revolutionary)
 -- 65 Xerxes (King)
 -- 61 Tecumseh
 -- 60 Genghis Khan
 -- 59 Ada Lovelace
 -- 55 Amina
 -- 55 Himiko (Queen)
+-- 55 Napoleon (Revolutionary)
 -- 52 Ashoka (Renouncer)
 -- 50 Charlemagne
 -- 50 Isabella
 -- 48 Confucius
 -- 45 Benjamin Franklin
 -- 45 Ibn Battuta
--- 40 Hatshepsut
 -- 36 Augustus
 -- 35 Harriet Tubman
 -- 33 Friedrich (Oblique)
@@ -58,8 +58,8 @@ INSERT OR REPLACE INTO Colors
 -- 065 Pachacuti
 -- 040 Lakshmibai
 -- 030 Isabella
+-- 025 Himiko (Queen)
 -- 020 Benjamin Franklin
--- 020 Himiko (Queen)
 -- 015 Ibn Battuta
 -- 010 Ada Lovelace
 -- 005 Lafayette
@@ -68,18 +68,18 @@ INSERT OR REPLACE INTO Colors
 -- 350 Augustus
 -- 285 Charlemagne
 -- 280 Harriet Tubman
--- 265 Hatshepsut
+-- 270 Napoleon (Revolutionary)
 -- 265 Napoleon (Emperor)
 -- 260 Genghis Khan
--- 255 Napoleon (Revolutionary)
 -- 240 Machiavelli
 -- 220 Tecumseh
 -- 190 Confucius
 -- 180 Xerxes (King)
 -- 150 Amina
--- 085 Friedrich (Baroque)
--- 025 Himiko (Shaman)
+-- 085 Hatshepsut
 -- 345 Ashoka (Conqueror)
+-- 025 Himiko (Shaman)
+-- 085 Friedrich (Baroque)
 -- 260 José Rizal
 -- 270 Friedrich (Oblique)
 
@@ -178,18 +178,18 @@ INSERT OR REPLACE INTO Colors
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
+-- #e4b750  oklch(0.8 0.13 85)  rgb(228, 183, 80)
+("BZ1_HATSHEPSUT", "228,183,80,255", "228,183,80,255"),
 -- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
 -- #1034b1  oklch(0.4 0.2 265)  rgb(16, 52, 177)
-("BZ1_HATSHEPSUT", "16,52,177,255", "16,52,177,255"),
--- #eac503  oklch(0.83 0.17 95)  rgb(234, 197, 3)
-("BZ2_HATSHEPSUT", "234,197,3,255", "234,197,3,255"),
+("BZ2_HATSHEPSUT", "16,52,177,255", "16,52,177,255"),
 
 -- HIMIKO, QUEEN: imperial standard of the empress of Japan
 -- red: L50 20-25°
--- #d40237  oklch(0.55 0.22 20)  rgb(212, 2, 55)
-("BZ1_HIMIKO", "212,2,55,255", "212,2,55,255"),
--- #fef1a1  oklch(0.95 0.1 100)  rgb(254, 241, 161)
-("BZ2_HIMIKO", "254,241,161,255", "254,241,161,255"),
+-- #cc272e  oklch(0.55 0.2 25)  rgb(204, 39, 46)
+("BZ1_HIMIKO", "204,39,46,255", "204,39,46,255"),
+-- #d5cfaa  oklch(0.85 0.05 100)  rgb(213, 207, 170)
+("BZ2_HIMIKO", "213,207,170,255", "213,207,170,255"),
 
 -- HIMIKO, SHAMAN: flag of Japan, sakura
 -- #f5e3e1  oklch(0.93 0.02 25)  rgb(245, 227, 225)
@@ -247,14 +247,15 @@ INSERT OR REPLACE INTO Colors
 
 -- NAPOLEON: flag of the French Republic
 -- blue: L30-40 265-270°
+-- red: L55-65 25-30°
 -- #04068f  oklch(0.3 0.2 265)  rgb(4, 6, 143)
 ("BZ1_NAPOLEON", "4,6,143,255", "4,6,143,255"),
--- #2a8eff  oklch(0.65 0.19 255)  rgb(42, 142, 255)
-("BZ1_NAPOLEON_ALT", "42,142,255,255", "42,142,255,255"),
--- white
-("BZ2_NAPOLEON", "249,249,249,255", "249,249,249,255"),
+-- gold semé-de-lys
+-- #fddc5b  oklch(0.9 0.15 95)  rgb(253, 220, 91)
+("BZ2_NAPOLEON", "253,220,91,255", "253,220,91,255"),
+-- #3646e8  oklch(0.5 0.24 270)  rgb(54, 70, 232)
+("BZ1_NAPOLEON_ALT", "54,70,232,255", "54,70,232,255"),
 ("BZ2_NAPOLEON_ALT", "249,249,249,255", "249,249,249,255"),
--- red: L55-65 25-30°
 
 -- PACHACUTI: Inca textiles
 -- orange
