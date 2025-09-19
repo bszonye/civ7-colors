@@ -156,8 +156,8 @@ INSERT OR REPLACE INTO Colors
 -- CONFUCIUS: jade
 -- #0c6c68  oklch(0.48 0.08 190)  rgb(12, 108, 104)
 ("BZ1_CONFUCIUS", "12,108,104,255", "12,108,104,255"),
--- #f0f2cc  oklch(0.95 0.05 110)  rgb(240, 242, 204)
-("BZ2_CONFUCIUS", "240,242,204,255", "240,242,204,255"),
+-- #f4f7c0  oklch(0.96 0.07 110)  rgb(244, 247, 192)
+("BZ2_CONFUCIUS", "244,247,192,255", "244,247,192,255"),
 
 -- FRIEDRICH: flag of Prussia
 -- #2f3545  oklch(0.33 0.03 270)  rgb(47, 53, 69)
@@ -197,13 +197,13 @@ INSERT OR REPLACE INTO Colors
 -- #b01003  oklch(0.48 0.19 30)  rgb(176, 16, 3)
 ("BZ2_HIMIKO_ALT", "176,16,3,255", "176,16,3,255"),
 
--- IBN BATTUTA: flag of Morocco
+-- IBN BATTUTA: flag of Morocco, Marinid dynasty
 -- red: PMS 193C  #bf0d3e  oklch(0.5148 0.2006 15.96)
 -- #850e2c  oklch(0.4 0.15 15)  rgb(133, 14, 44)
 ("BZ1_IBN_BATTUTA", "133,14,44,255", "133,14,44,255"),
 -- green: PMS 363C  #4c8c2b  oklch(0.5764 0.1459 136.84)
--- #92da20  oklch(0.81 0.21 130)  rgb(146, 218, 32)
-("BZ2_IBN_BATTUTA", "146,218,32,255", "146,218,32,255"),
+-- #9ad74c  oklch(0.81 0.18 130)  rgb(154, 215, 76)
+("BZ2_IBN_BATTUTA", "154,215,76,255", "154,215,76,255"),
 
 -- ISABELLA: flag of Spain
 -- Flag Red: lch(37 70 35)  #aa141a  oklch(0.4722 0.1813 26.56)
