@@ -248,8 +248,8 @@ INSERT OR REPLACE INTO Colors
 -- NAPOLEON: flag of the French Republic
 -- blue: L30-40 265-270°
 -- red: L55-65 25-30°
--- #04068f  oklch(0.3 0.2 265)  rgb(4, 6, 143)
-("BZ1_NAPOLEON", "4,6,143,255", "4,6,143,255"),
+-- #0f069b  oklch(0.32 0.21 267)  rgb(15, 6, 155)
+("BZ1_NAPOLEON", "15,6,155,255", "15,6,155,255"),
 -- gold semé-de-lys
 -- #fddc5b  oklch(0.9 0.15 95)  rgb(253, 220, 91)
 ("BZ2_NAPOLEON", "253,220,91,255", "253,220,91,255"),
