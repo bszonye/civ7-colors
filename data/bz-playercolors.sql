@@ -36,7 +36,7 @@ INSERT OR REPLACE INTO Colors
 -- 65 Xerxes (King)
 -- 61 Tecumseh
 -- 60 Genghis Khan
--- 59 Ada Lovelace
+-- 60 Ada Lovelace
 -- 55 Amina
 -- 55 Himiko (Queen)
 -- 55 Napoleon (Revolutionary)
@@ -58,7 +58,7 @@ INSERT OR REPLACE INTO Colors
 -- 065 Pachacuti
 -- 040 Lakshmibai
 -- 030 Isabella
--- 025 Himiko (Queen)
+-- 020 Himiko (Queen)
 -- 020 Benjamin Franklin
 -- 015 Ibn Battuta
 -- 010 Ada Lovelace
@@ -85,9 +85,9 @@ INSERT OR REPLACE INTO Colors
 
 -- ADA LOVELACE: flag of Great Britain
 -- white on lavender or cool pink
--- #e3115d  oklch(0.59 0.23 10)  rgb(227, 17, 93)
+-- #e71960  oklch(0.6 0.23 10)  rgb(231, 25, 96)
 -- 3D: #9c113f  oklch(0.45 0.17 10)  rgb(156, 17, 63)
-("BZ1_ADA_LOVELACE", "227,17,93,255", "156,17,63,255"),
+("BZ1_ADA_LOVELACE", "231,25,96,255", "156,17,63,255"),
 ("BZ2_ADA_LOVELACE", "249,249,249,255", "249,249,249,255"),
 
 -- AMINA: Hausa emblem, flag of Nigeria
@@ -186,8 +186,8 @@ INSERT OR REPLACE INTO Colors
 
 -- HIMIKO, QUEEN: imperial standard of the empress of Japan
 -- red: L50 20-25°
--- #cc272e  oklch(0.55 0.2 25)  rgb(204, 39, 46)
-("BZ1_HIMIKO", "204,39,46,255", "204,39,46,255"),
+-- #d40237  oklch(0.55 0.22 20)  rgb(212, 2, 55)
+("BZ1_HIMIKO", "212,2,55,255", "212,2,55,255"),
 -- #d5cfaa  oklch(0.85 0.05 100)  rgb(213, 207, 170)
 ("BZ2_HIMIKO", "213,207,170,255", "213,207,170,255"),
 
