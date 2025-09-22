@@ -27,7 +27,7 @@ INSERT OR REPLACE INTO Colors
 -- 87 Ashoka (Conqueror)
 -- 87 Catherine
 -- 83 Simón Bolívar
--- 80 Hatshepsut
+-- 79 Hatshepsut
 -- 75 Pachacuti
 -- 72 Machiavelli
 -- 72 Xerxes (Achaemenid)
@@ -178,8 +178,8 @@ INSERT OR REPLACE INTO Colors
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
--- #eab532  oklch(0.8 0.15 85)  rgb(234, 181, 50)
-("BZ1_HATSHEPSUT", "234,181,50,255", "234,181,50,255"),
+-- #e6b22d  oklch(0.79 0.15 85)  rgb(230, 178, 45)
+("BZ1_HATSHEPSUT", "230,178,45,255", "230,178,45,255"),
 -- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
 -- #1034b1  oklch(0.4 0.2 265)  rgb(16, 52, 177)
 ("BZ2_HATSHEPSUT", "16,52,177,255", "16,52,177,255"),
