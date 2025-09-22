@@ -34,9 +34,9 @@ INSERT OR REPLACE INTO Colors
 -- 68 Lakshmibai
 -- 67 Lafayette
 -- 65 Xerxes (King)
+-- 61 Ada Lovelace
 -- 61 Tecumseh
 -- 60 Genghis Khan
--- 60 Ada Lovelace
 -- 55 Amina
 -- 55 Himiko (Queen)
 -- 55 Napoleon (Revolutionary)
@@ -85,9 +85,9 @@ INSERT OR REPLACE INTO Colors
 
 -- ADA LOVELACE: flag of Great Britain
 -- white on lavender or cool pink
--- #e71960  oklch(0.6 0.23 10)  rgb(231, 25, 96)
+-- #eb2063  oklch(0.61 0.23 10)  rgb(235, 32, 99)
 -- 3D: #9c113f  oklch(0.45 0.17 10)  rgb(156, 17, 63)
-("BZ1_ADA_LOVELACE", "231,25,96,255", "156,17,63,255"),
+("BZ1_ADA_LOVELACE", "235,32,99,255", "156,17,63,255"),
 ("BZ2_ADA_LOVELACE", "249,249,249,255", "249,249,249,255"),
 
 -- AMINA: Hausa emblem, flag of Nigeria
