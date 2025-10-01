@@ -1,4 +1,4 @@
-# Color Guard 1.1.1
+# Color Guard 1.2.0
 better leader colors
 
 - Ada Lovelace: flag of Great Britain
