@@ -27,7 +27,7 @@ INSERT OR REPLACE INTO Colors
 -- 87 Ashoka (Conqueror)
 -- 87 Catherine
 -- 83 Simón Bolívar
--- 79 Hatshepsut
+-- 81 Hatshepsut
 -- 75 Pachacuti
 -- 72 Machiavelli
 -- 72 Xerxes (Achaemenid)
@@ -54,6 +54,7 @@ INSERT OR REPLACE INTO Colors
 -- hue
 -- 100 Trung Trac
 -- 090 Catherine
+-- 085 Hatshepsut
 -- 080 Simón Bolívar
 -- 065 Pachacuti
 -- 040 Lakshmibai
@@ -76,7 +77,6 @@ INSERT OR REPLACE INTO Colors
 -- 190 Confucius
 -- 180 Xerxes (King)
 -- 150 Amina
--- 085 Hatshepsut
 -- 345 Ashoka (Conqueror)
 -- 025 Himiko (Shaman)
 -- 085 Friedrich (Baroque)
@@ -131,11 +131,11 @@ INSERT OR REPLACE INTO Colors
 
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia
 -- yellow: PMS 116 C  #ffcd00  oklch(0.8672 0.177256 90.8474)
--- #ffb801  oklch(0.83 0.1719 80)  rgb(255, 184, 1)
-("BZ1_BOLIVAR", "255,184,1,255", "255,184,1,255"),
+-- #ffb90f  oklch(0.83 0.17 80)  rgb(255, 185, 15)
+("BZ1_BOLIVAR", "255,185,15,255", "255,185,15,255"),
 -- blue: PMS 287 C  #003087  oklch(0.3466 0.153 261.33)
--- #01388d  oklch(0.37 0.15 260)  rgb(1, 56, 141)
-("BZ2_BOLIVAR", "1,56,141,255", "1,56,141,255"),
+-- #1f2d87  oklch(0.35 0.15 270)  rgb(31, 45, 135)
+("BZ2_BOLIVAR", "31,45,135,255", "31,45,135,255"),
 
 -- CATHERINE: standard of the Empress of Russia
 -- yellow
@@ -178,11 +178,11 @@ INSERT OR REPLACE INTO Colors
 -- red: cmyk(10 100 90 0)  #e60019
 
 -- HATSHEPSUT: Egyptian blue and gold
--- #e6b22d  oklch(0.79 0.15 85)  rgb(230, 178, 45)
-("BZ1_HATSHEPSUT", "230,178,45,255", "230,178,45,255"),
+-- #f0b71f  oklch(0.81 0.16 85)  rgb(240, 183, 31)
+("BZ1_HATSHEPSUT", "240,183,31,255", "240,183,31,255"),
 -- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
--- #1034b1  oklch(0.4 0.2 265)  rgb(16, 52, 177)
-("BZ2_HATSHEPSUT", "16,52,177,255", "16,52,177,255"),
+-- #0251c2  oklch(0.47 0.19 260)  rgb(2, 81, 194)
+("BZ2_HATSHEPSUT", "2,81,194,255", "2,81,194,255"),
 
 -- HIMIKO, QUEEN: imperial standard of the empress of Japan
 -- red: L50 20-25°
