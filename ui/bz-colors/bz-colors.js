@@ -36,26 +36,26 @@ document.body.classList.add("bz-colors");
 
 const colors = Database.query('gameplay', 'SELECT * FROM Colors');
 if (colors) {
-    function toHex(r, g, b) {
-        return '#' + ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0');
-    }
-    function toPackedRGB(r, g, b) {
-        return (b << 16) | (g << 8) | r;
+    function convertToHex(rgba) {
+        const { r, g, b, a } = rgba;
+        const ax = a != null && a != 255 ? a.toString(16) : "";
+        return '#' + ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0') + ax;
     }
     function parseRGB(rgbText) {
-        const [r, g, b, ..._] = rgbText.split(',');
-        const rgb = [r, g, b];
-        const color = toPackedRGB(r, g, b);
-        const hex = toHex(r, g, b);
-        return { rgb, color, hex };
+        const [r, g, b, a] = rgbText.split(',');
+        const rgba = { r: Number(r), g: Number(g), b: Number(b), a: Number(a ?? 255) };
+        const color = Color.convertToPackedSRGB(rgba);
+        const hex = convertToHex(rgba);
+        return { rgba, color, hex };
     }
     function mapColors(colors, regex) {
         const c = new Map();
         for (const row of colors.filter(c => c.Type.match(regex))) {
             const key = row.Type.replace(regex, "");
             const { rgba, color, hex } = parseRGB(row.Color);
-            const color3D = parseRGB(row.Color3D);
+            const color3D = row.Color3D && parseRGB(row.Color3D);
             c.set(key, { rgba, color, hex, color3D });
+            console.warn(`TRIX ${key} Color=${hex} Color3D=${color3D?.hex}`);
         }
         return c;
     }
