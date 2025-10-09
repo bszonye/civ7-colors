@@ -1,4 +1,4 @@
-# Color Guard 1.2.0
+# Color Guard 2.0.0
 better leader colors
 
 - Ada Lovelace: flag of Great Britain
@@ -19,6 +19,7 @@ better leader colors
 - Isabella: flag of Spain
 - Jose Rizal: emblem of the Philippine Republic
 - Lafayette: family coat of arms
+- Lakshmibai: flag of India
 - Machiavelli: family coat of arms
 - Napoleon: flag of the French Republic
 - Pachacuti: Inca textiles
