@@ -536,10 +536,10 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_SKY_MD",     "10,138,174,255",  NULL),  -- 225  oklch(0.59 0.11 225)
 -- ("COLOR_BZ_SKY_DK",     "255,255,255,255", NULL),  -- 225  
    ("COLOR_BZ_AQUA_LT",    "34,237,209,255",  NULL),  -- 180  oklch(0.85 0.15 180)
-   ("COLOR_BZ_AQUA_MD",    "12,173,152,255",  NULL),  -- 180  oklch(0.67 0.12 180)
+   ("COLOR_BZ_AQUA_MD",    "36,165,146,255",  NULL),  -- 180  oklch(0.65 0.11 180)
    ("COLOR_BZ_AQUA_DK",    "3,116,101,255",   NULL),  -- 180  oklch(0.50 0.09 180)
    ("COLOR_BZ_GREEN_LT",   "121,255,156,255", NULL),  -- 150  oklch(0.90 0.18 150)
-   ("COLOR_BZ_GREEN_MD",   "25,193,92,255",   NULL),  -- 150  oklch(0.71 0.19 150)
+   ("COLOR_BZ_GREEN_MD",   "0,186,86,255",    NULL),  -- 150  oklch(0.69 0.19 150)
    ("COLOR_BZ_GREEN_DK",   "5,137,62,255",    NULL),  -- 150  oklch(0.55 0.15 150)
    ("COLOR_BZ_OLIVE_LT",   "224,255,113,255", NULL),  -- 120  oklch(0.95 0.17 120)
    ("COLOR_BZ_OLIVE_MD",   "149,175,31,255",  NULL),  -- 120  oklch(0.71 0.16 120)
