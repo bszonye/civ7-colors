@@ -98,6 +98,6 @@ if (colors) {
     const mdcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_MD/, /^COLOR_BZ_/);
     showClosest(mdcolors);
     console.warn(`TRIX CLOSEST DK`);
-    const dkcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_(DK|BK)/, /^COLOR_BZ_/);
+    const dkcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_DK/, /^COLOR_BZ_/);
     showClosest(dkcolors);
 }
