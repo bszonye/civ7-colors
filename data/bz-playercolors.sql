@@ -446,7 +446,7 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_RED_DK_ALT", SecondaryColor = "COLOR_BZ_WHITE",
     Alt1PrimaryColor = "COLOR_BZ_RED_DK_ALT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
-    WHERE Type = "LEADER_HIMIKO";
+    WHERE Type = "LEADER_HIMIKO_ALT";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_ROSE_DK", SecondaryColor = "COLOR_BZ_WHITE",
     Alt1PrimaryColor = "COLOR_BZ_ROSE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
@@ -460,8 +460,8 @@ UPDATE PlayerColors SET
     Alt1PrimaryColor = "COLOR_BZ_PURPLE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_ISABELLA";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_BLUE_LOT", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_BLUE_LOT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_BLUE_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_BLUE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_JOSE_RIZAL";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_SKY_DK", SecondaryColor = "COLOR_BZ_WHITE",
@@ -496,12 +496,12 @@ UPDATE PlayerColors SET
     Alt1PrimaryColor = "COLOR_BZ_GREEN_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_TRUNG_TRAC";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_OLIVE_LT", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_OLIVE_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_RED_BK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_RED_BK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_XERXES_ALT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_WHITE", SecondaryColor = "COLOR_BZ_GRAY_MD",
-    Alt1PrimaryColor = "COLOR_BZ_WHITE", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_BLUE_BK", SecondaryColor = "COLOR_BZ_GRAY_LT",
+    Alt1PrimaryColor = "COLOR_BZ_BLUE_BK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_XERXES";
 
 INSERT OR REPLACE INTO Colors
