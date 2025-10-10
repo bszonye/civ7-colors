@@ -55,7 +55,7 @@ if (colors) {
             const { rgba, color, hex } = parseRGB(row.Color);
             const color3D = row.Color3D && parseRGB(row.Color3D);
             c.set(key, { rgba, color, hex, color3D });
-            console.warn(`TRIX ${key} Color=${hex} Color3D=${color3D?.hex}`);
+            // console.warn(`TRIX ${key} Color=${hex} Color3D=${color3D?.hex}`);
         }
         return c;
     }
@@ -83,10 +83,10 @@ if (colors) {
             }
         }
     }
-    const primary = mapColors(colors, /^BZ1_/);
-    const secondary = mapColors(colors, /^BZ2_/);
     console.warn(`TRIX CLOSEST`);
-    showClosest(primary, secondary);
+    // const primary = mapColors(colors, /^BZ1_/);
+    // const secondary = mapColors(colors, /^BZ2_/);
+    // showClosest(primary, secondary);
     const standard = mapColors(colors, /^COLOR_[A-Z]+_/);
     showClosest(standard);
 }
