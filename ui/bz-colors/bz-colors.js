@@ -88,16 +88,16 @@ if (colors) {
     // showClosest(primary, secondary);
     // const standard = mapColors(colors, /^COLOR_STANDARD_/);
     // showClosest(standard);
-    const bzcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_(DK|MD|LT)/, /^COLOR_BZ_/);
-    const ltcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_LT/, /^COLOR_BZ_/);
-    const mdcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_MD/, /^COLOR_BZ_/);
-    const dkcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_DK/, /^COLOR_BZ_/);
     console.warn(`TRIX CLOSEST`);
+    const bzcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_[A-Z][A-Z]/, /^COLOR_BZ_/);
     showClosest(bzcolors);
     console.warn(`TRIX CLOSEST LT`);
+    const ltcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_(LT|WT)/, /^COLOR_BZ_/);
     showClosest(ltcolors);
     console.warn(`TRIX CLOSEST MD`);
+    const mdcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_MD/, /^COLOR_BZ_/);
     showClosest(mdcolors);
     console.warn(`TRIX CLOSEST DK`);
+    const dkcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_(DK|BK)/, /^COLOR_BZ_/);
     showClosest(dkcolors);
 }
