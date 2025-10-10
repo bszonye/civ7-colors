@@ -384,94 +384,124 @@ UPDATE PlayerColors SET
     WHERE Type = "LEADER_XERXES_ALT";
 
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_YELLOW_DK", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_YELLOW_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_YELLOW_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_ADA_LOVELACE";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_AMBER_MD", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_AMBER_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_AMBER_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_AMINA";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_ORANGE_MD", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_ORANGE_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_ORANGE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_ASHOKA_ALT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_RED_DK", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_RED_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_RED_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_ASHOKA";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_ROSE_DK", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_ROSE_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_ROSE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_AUGUSTUS";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_MAGENTA_DK", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_MAGENTA_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_MAGENTA_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_BENJAMIN_FRANKLIN";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_PURPLE_DK", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_PURPLE_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_PURPLE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_BOLIVAR";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_BLUE_DK", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_BLUE_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_BLUE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_CATHERINE";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_SKY_DK", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_SKY_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_SKY_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_CHARLEMAGNE";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_AQUA_DK", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_AQUA_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_AQUA_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_CONFUCIUS";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GREEN_DK", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_GREEN_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_GREEN_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_FRIEDRICH_ALT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_OLIVE_DK", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_OLIVE_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_OLIVE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_FRIEDRICH";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_YELLOW_LT", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_YELLOW_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_YELLOW_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_GENGHIS_KHAN";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_AMBER_LT", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_AMBER_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_AMBER_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_HARRIET_TUBMAN";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_ORANGE_LT", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_ORANGE_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_ORANGE_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_HATSHEPSUT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_RED_LT_ALT", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_RED_LT_ALT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_RED_LT_ALT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_HIMIKO";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_ROSE_LT", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_ROSE_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_ROSE_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_HIMIKO";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_MAGENTA_LT", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_MAGENTA_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_MAGENTA_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_IBN_BATTUTA";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_PURPLE_LT", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_PURPLE_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_PURPLE_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_ISABELLA";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_BLUE_LOT", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_BLUE_LOT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_BLUE_LOT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_JOSE_RIZAL";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_SKY_LT", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_SKY_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_SKY_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_LAFAYETTE";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_AQUA_LT", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_AQUA_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_AQUA_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_LAKSHMIBAI";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GREEN_LT", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_GREEN_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_GREEN_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_MACHIAVELLI";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_OLIVE_LT", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_OLIVE_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_OLIVE_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_NAPOLEON_ALT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_YELLOW_DK", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_YELLOW_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_YELLOW_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_NAPOLEON";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_BLACK", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_BLACK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_BLACK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_PACHACUTI";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GRAY_DK", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_GRAY_DK", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_GRAY_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_TECUMSEH";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GRAY_MD", SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_GRAY_MD", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_GRAY_MD", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_TRUNG_TRAC";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GRAY_LT", SecondaryColor = "COLOR_BZ_WHITE"
+    PrimaryColor = "COLOR_BZ_GRAY_LT", SecondaryColor = "COLOR_BZ_WHITE",
+    Alt1PrimaryColor = "COLOR_BZ_GRAY_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_XERXES_ALT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_WHITE", SecondaryColor = "COLOR_BZ_GRAY_MD"
+    PrimaryColor = "COLOR_BZ_WHITE", SecondaryColor = "COLOR_BZ_GRAY_MD",
+    Alt1PrimaryColor = "COLOR_BZ_WHITE", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_XERXES";
 
 INSERT OR REPLACE INTO Colors
@@ -536,10 +566,10 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_AQUA_MD",    "36,165,146,255",  NULL),  -- 180  oklch(0.65 0.11 180)
    ("COLOR_BZ_GREEN_MD",   "0,186,86,255",    NULL),  -- 150  oklch(0.69 0.19 150)
    ("COLOR_BZ_OLIVE_MD",   "149,175,31,255",  NULL),  -- 120  oklch(0.71 0.16 120)
-   ("COLOR_BZ_YELLOW_DK",  "150,127,14,255",  NULL),  --  96  oklch(0.60 0.12  96)
+   ("COLOR_BZ_YELLOW_DK",  "133,112,11,255",  NULL),  --  96  oklch(0.55 0.11  96)
    ("COLOR_BZ_AMBER_DK",   "143,93,4,255",    NULL),  --  72  oklch(0.52 0.11  72)
-   ("COLOR_BZ_ORANGE_DK",  "167,74,4,255",    NULL),  --  48  oklch(0.52 0.14  48)
-   ("COLOR_BZ_RED_DK",     "162,4,28,255",    NULL),  --  24  oklch(0.45 0.18  24)
+   ("COLOR_BZ_ORANGE_DK",  "150,65,1,255",    NULL),  --  48  oklch(0.48 0.13  48)
+   ("COLOR_BZ_RED_DK",     "162,5,28,255",    NULL),  --  24  oklch(0.45 0.18  24)
    ("COLOR_BZ_ROSE_DK",    "142,0,73,255",    NULL),  -- 360  oklch(0.42 0.17 360)
    ("COLOR_BZ_MAGENTA_DK", "111,4,108,255",   NULL),  -- 330  oklch(0.38 0.17 330)
    ("COLOR_BZ_PURPLE_DK",  "83,9,146,255",    NULL),  -- 300  oklch(0.37 0.19 300)
