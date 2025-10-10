@@ -520,8 +520,8 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_AQUA_LT",    "34,237,209,255",  NULL),  -- 180  oklch(0.85 0.15 180)
    ("COLOR_BZ_GREEN_LT",   "121,255,156,255", NULL),  -- 150  oklch(0.90 0.18 150)
    ("COLOR_BZ_OLIVE_LT",   "224,255,113,255", NULL),  -- 120  oklch(0.95 0.17 120)
-   ("COLOR_BZ_YELLOW_MD",  "254,217,23,255",  NULL),  --  96  oklch(0.71 0.19 48)
-   ("COLOR_BZ_AMBER_MD",   "252,170,43,255",  NULL),  --  72  oklch(0.71 0.19 48)
+   ("COLOR_BZ_YELLOW_MD",  "254,217,23,255",  NULL),  --  96  oklch(0.89 0.18 96)
+   ("COLOR_BZ_AMBER_MD",   "252,170,43,255",  NULL),  --  72  oklch(0.80 0.16 72)
    ("COLOR_BZ_ORANGE_MD",  "252,116,14,255",  NULL),  --  48  oklch(0.71 0.19 48)
    ("COLOR_BZ_RED_MD",     "249,3,48,255",   NULL),   --  24  oklch(0.62 0.25 24)
    ("COLOR_BZ_ROSE_MD",    "255,13,137,255",  NULL),  -- 360  oklch(0.65 0.26 360)
@@ -535,20 +535,20 @@ INSERT OR REPLACE INTO Colors
 -- ("COLOR_BZ_YELLOW_DK",  "255,255,255,255", NULL),  --  96  
 -- ("COLOR_BZ_AMBER_DK",   "255,255,255,255", NULL),  --  72  
 -- ("COLOR_BZ_ORANGE_DK",  "255,255,255,255", NULL),  --  48  
--- ("COLOR_BZ_RED_DK",     "255,255,255,255", NULL),  --  24  
--- ("COLOR_BZ_ROSE_DK",    "255,255,255,255", NULL),  -- 360  
+   ("COLOR_BZ_RED_DK",     "172,0,30,255",    NULL),  --  24  oklch(0.47 0.19  24)
+   ("COLOR_BZ_ROSE_DK",    "120,0,60,255",    NULL),  -- 360  oklch(0.37 0.15 360)
 -- ("COLOR_BZ_MAGENTA_DK", "255,255,255,255", NULL),  -- 330  
 -- ("COLOR_BZ_PURPLE_DK",  "255,255,255,255", NULL),  -- 300  
--- ("COLOR_BZ_BLUE_DK",    "255,255,255,255", NULL),  -- 270  
--- ("COLOR_BZ_SKY_DK",     "255,255,255,255", NULL),  -- 225  
+   ("COLOR_BZ_BLUE_DK",    "31,40,153,255",   NULL),  -- 270  oklch(0.36 0.18 270)
+   ("COLOR_BZ_SKY_DK",     "4,88,113,255",    NULL),  -- 225  oklch(0.43 0.08 225)
    ("COLOR_BZ_AQUA_DK",    "3,116,101,255",   NULL),  -- 180  oklch(0.50 0.09 180)
    ("COLOR_BZ_GREEN_DK",   "5,137,62,255",    NULL),  -- 150  oklch(0.55 0.15 150)
--- ("COLOR_BZ_OLIVE_DK",   "255,255,255,255", NULL),  -- 120  
+   ("COLOR_BZ_OLIVE_DK",   "115,136,0,255",   NULL),  -- 120  oklch(0.59 0.14 120)
 
 ("COLOR_BZ_WHITE",      "249,249,249,255", NULL),  -- oklch(0.9821 0.0000   0.00)
-("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- oklch(0.7508 0.0000   0.00)
-("COLOR_BZ_GRAY_MD",    "113,113,113,255", NULL),  -- oklch(0.5486 0.0000   0.00)
-("COLOR_BZ_GRAY_DK",    "51,51,51,255",    NULL),  -- oklch(0.3211 0.0000   0.00)
+-- ("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- oklch(0.7508 0.0000   0.00)
+-- ("COLOR_BZ_GRAY_MD",    "113,113,113,255", NULL),  -- oklch(0.5486 0.0000   0.00)
+-- ("COLOR_BZ_GRAY_DK",    "51,51,51,255",    NULL),  -- oklch(0.3211 0.0000   0.00)
 ("COLOR_BZ_BLACK",      "0,0,0,255",       NULL);  -- oklch(0.3211 0.0000   0.00)
 
 -- UPDATE Colors SET Color3D = Color where Color3D IS NULL;
