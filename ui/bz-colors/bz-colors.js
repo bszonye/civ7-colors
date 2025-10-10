@@ -87,6 +87,8 @@ if (colors) {
     // const primary = mapColors(colors, /^BZ1_/);
     // const secondary = mapColors(colors, /^BZ2_/);
     // showClosest(primary, secondary);
-    const standard = mapColors(colors, /^COLOR_[A-Z]+_/);
-    showClosest(standard);
+    // const standard = mapColors(colors, /^COLOR_STANDARD_/);
+    // showClosest(standard);
+    const bzcolors = mapColors(colors, /^COLOR_BZ_/);
+    showClosest(bzcolors);
 }
