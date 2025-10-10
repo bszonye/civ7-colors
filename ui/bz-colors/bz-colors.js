@@ -48,10 +48,10 @@ if (colors) {
         const hex = convertToHex(rgba);
         return { rgba, color, hex };
     }
-    function mapColors(colors, regex) {
+    function mapColors(colors, match, trim) {
         const c = new Map();
-        for (const row of colors.filter(c => c.Type.match(regex))) {
-            const key = row.Type.replace(regex, "");
+        for (const row of colors.filter(c => c.Type.match(match))) {
+            const key = row.Type.replace(trim, "");
             const { rgba, color, hex } = parseRGB(row.Color);
             const color3D = row.Color3D && parseRGB(row.Color3D);
             c.set(key, { rgba, color, hex, color3D });
@@ -83,12 +83,21 @@ if (colors) {
             }
         }
     }
-    console.warn(`TRIX CLOSEST`);
     // const primary = mapColors(colors, /^BZ1_/);
     // const secondary = mapColors(colors, /^BZ2_/);
     // showClosest(primary, secondary);
     // const standard = mapColors(colors, /^COLOR_STANDARD_/);
     // showClosest(standard);
-    const bzcolors = mapColors(colors, /^COLOR_BZ_/);
+    const bzcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_(DK|MD|LT)/, /^COLOR_BZ_/);
+    const ltcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_LT/, /^COLOR_BZ_/);
+    const mdcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_MD/, /^COLOR_BZ_/);
+    const dkcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_DK/, /^COLOR_BZ_/);
+    console.warn(`TRIX CLOSEST`);
     showClosest(bzcolors);
+    console.warn(`TRIX CLOSEST LT`);
+    showClosest(ltcolors);
+    console.warn(`TRIX CLOSEST MD`);
+    showClosest(mdcolors);
+    console.warn(`TRIX CLOSEST DK`);
+    showClosest(dkcolors);
 }
