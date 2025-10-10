@@ -580,7 +580,7 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_SKY_DK",     "16,94,119,255",   NULL),  -- oklch(0.45 0.08 225)
    ("COLOR_BZ_AQUA_DK",    "3,116,101,255",   NULL),  -- oklch(0.50 0.09 180)
    ("COLOR_BZ_GREEN_DK",   "5,137,62,255",    NULL),  -- oklch(0.55 0.15 150)
-   ("COLOR_BZ_OLIVE_DK",   "115,136,0,255",   NULL),  -- oklch(0.59 0.14 120)
+   ("COLOR_BZ_OLIVE_DK",   "102,120,21,255",  NULL),  -- oklch(0.54 0.12 120)
 -- neutrals
    ("COLOR_BZ_WHITE",      "249,249,249,255", NULL),  -- oklch(0.9821 0.0000   0.00)
    ("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- oklch(0.7508 0.0000   0.00)
