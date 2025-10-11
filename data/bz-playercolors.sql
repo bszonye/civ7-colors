@@ -600,7 +600,7 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_BLUE_LT",    "131,159,252,255", NULL),  -- #839ffc  oklch(0.72 0.14 270)
    ("COLOR_BZ_SKY_LT",     "73,207,252,255",  NULL),  -- #49cffc  oklch(0.80 0.13 225)
    ("COLOR_BZ_AQUA_LT",    "29,197,174,255",  NULL),  -- #1dc5ae  oklch(0.74 0.13 180)
-   ("COLOR_BZ_GREEN_LT",   "64,239,124,255",  NULL),  -- #40ef7c  oklch(0.84 0.21 150)
+   ("COLOR_BZ_GREEN_LT",   "103,238,140,255", NULL),  -- #67ee8c  oklch(0.85 0.18 150)
    ("COLOR_BZ_OLIVE_LT",   "178,209,15,255",  NULL),  -- #b2d10f  oklch(0.81 0.19 120)
 -- medium colors
    ("COLOR_BZ_YELLOW_MD",  "254,217,23,255",  NULL),  -- #fed917  oklch(0.89 0.18 96)
