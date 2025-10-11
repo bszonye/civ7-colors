@@ -480,28 +480,28 @@ UPDATE PlayerColors SET
     Alt1PrimaryColor = "COLOR_BZ_OLIVE_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_NAPOLEON_ALT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_AQUA_LT", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_AQUA_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_AMBER_WT", SecondaryColor = "COLOR_BZ_BLACK",
+    Alt1PrimaryColor = "COLOR_BZ_AMBER_WT", Alt1SecondaryColor = "COLOR_BZ_AMBER_DK"
     WHERE Type = "LEADER_NAPOLEON";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GREEN_LT", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_GREEN_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_RED_WT", SecondaryColor = "COLOR_BZ_RED_DK",
+    Alt1PrimaryColor = "COLOR_BZ_RED_WT", Alt1SecondaryColor = "COLOR_BZ_RED_MD"
     WHERE Type = "LEADER_PACHACUTI";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_OLIVE_LT", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_OLIVE_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_MAGENTA_WT", SecondaryColor = "COLOR_BZ_MAGENTA_DK",
+    Alt1PrimaryColor = "COLOR_BZ_MAGENTA_WT", Alt1SecondaryColor = "COLOR_BZ_MAGENTA_MD"
     WHERE Type = "LEADER_TECUMSEH";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GRAY_MD", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_GRAY_DK", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_BLUE_WT", SecondaryColor = "COLOR_BZ_BLUE_DK",
+    Alt1PrimaryColor = "COLOR_BZ_BLUE_WT", Alt1SecondaryColor = "COLOR_BZ_BLUE_MD"
     WHERE Type = "LEADER_TRUNG_TRAC";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GRAY_MD", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_GRAY_MD", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_AQUA_WT", SecondaryColor = "COLOR_BZ_AQUA_DK",
+    Alt1PrimaryColor = "COLOR_BZ_AQUA_WT", Alt1SecondaryColor = "COLOR_BZ_AQUA_MD"
     WHERE Type = "LEADER_XERXES_ALT";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_GRAY_LT", SecondaryColor = "COLOR_BZ_WHITE",
-    Alt1PrimaryColor = "COLOR_BZ_GRAY_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
+    PrimaryColor = "COLOR_BZ_OLIVE_WT", SecondaryColor = "COLOR_BZ_OLIVE_DK",
+    Alt1PrimaryColor = "COLOR_BZ_OLIVE_WT", Alt1SecondaryColor = "COLOR_BZ_OLIVE_MD"
     WHERE Type = "LEADER_XERXES";
 
 INSERT OR REPLACE INTO Colors
@@ -539,10 +539,12 @@ INSERT OR REPLACE INTO Colors
 INSERT OR REPLACE INTO Colors
 (Type, Color, Color3D) VALUES
 -- light colors
--- ("COLOR_BZ_YELLOW_WT",  "255,255,255,255", NULL),  --  90
--- ("COLOR_BZ_RED_WT",     "255,255,255,255", NULL),  -- 360
--- ("COLOR_BZ_BLUE_WT",    "255,255,255,255", NULL),  -- 270
--- ("COLOR_BZ_GREEN_WT",   "255,255,255,255", NULL),  -- 180
+   ("COLOR_BZ_AMBER_WT",   "252,236,217,255", NULL),  -- oklch(0.95 0.03 72)
+   ("COLOR_BZ_RED_WT",     "255,228,225,255", NULL),  -- oklch(0.94 0.03 24)
+   ("COLOR_BZ_MAGENTA_WT", "252,231,246,255", NULL),  -- oklch(0.95 0.03 336)
+   ("COLOR_BZ_BLUE_WT",    "233,238,252,255", NULL),  -- oklch(0.95 0.02 270)
+   ("COLOR_BZ_AQUA_WT",    "225,243,239,255", NULL),  -- oklch(0.95 0.02 180)
+   ("COLOR_BZ_OLIVE_WT",   "236,242,220,255", NULL),  -- oklch(0.95 0.03 120)
 -- ("COLOR_BZ_YELLOW_LT",  "255,255,255,255", NULL),  --  96
 -- ("COLOR_BZ_AMBER_LT",   "255,255,255,255", NULL),  --  72
 -- ("COLOR_BZ_ORANGE_LT",  "255,255,255,255", NULL),  --  48
@@ -569,12 +571,12 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_GREEN_MD",   "15,189,89,255",   NULL),  -- oklch(0.70 0.19 150)
    ("COLOR_BZ_OLIVE_MD",   "143,169,17,255",  NULL),  -- oklch(0.69 0.16 120)
 -- dark colors
-   ("COLOR_BZ_YELLOW_DK",  "147,124,5,255",   NULL),  -- oklch(0.59 0.12  96)
-   ("COLOR_BZ_AMBER_DK",   "110,70,4,255",    NULL),  -- oklch(0.43 0.09  72)
-   ("COLOR_BZ_ORANGE_DK",  "153,68,7,255",    NULL),  -- oklch(0.49 0.13  48)
-   ("COLOR_BZ_RED_DK",     "162,5,28,255",    NULL),  -- oklch(0.45 0.18  24)
+   ("COLOR_BZ_YELLOW_DK",  "147,124,5,255",   NULL),  -- oklch(0.59 0.12 96)
+   ("COLOR_BZ_AMBER_DK",   "110,70,4,255",    NULL),  -- oklch(0.43 0.09 72)
+   ("COLOR_BZ_ORANGE_DK",  "153,68,7,255",    NULL),  -- oklch(0.49 0.13 48)
+   ("COLOR_BZ_RED_DK",     "162,5,28,255",    NULL),  -- oklch(0.45 0.18 24)
    ("COLOR_BZ_ROSE_DK",    "180,6,95,255",    NULL),  -- oklch(0.50 0.20 360)
-   ("COLOR_BZ_MAGENTA_DK", "103,4,99,255",    NULL),  -- oklch(0.36 0.16 330)
+   ("COLOR_BZ_MAGENTA_DK", "110,4,95,255",    NULL),  -- oklch(0.37 0.16 336)
    ("COLOR_BZ_PURPLE_DK",  "111,0,194,255",   NULL),  -- oklch(0.45 0.24 300)
    ("COLOR_BZ_BLUE_DK",    "31,40,153,255",   NULL),  -- oklch(0.35 0.18 270)
    ("COLOR_BZ_SKY_DK",     "17,109,138,255",  NULL),  -- oklch(0.50 0.09 225)
@@ -582,11 +584,11 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_GREEN_DK",   "5,137,62,255",    NULL),  -- oklch(0.55 0.15 150)
    ("COLOR_BZ_OLIVE_DK",   "102,120,21,255",  NULL),  -- oklch(0.54 0.12 120)
 -- neutrals
-   ("COLOR_BZ_WHITE",      "249,249,249,255", NULL),  -- oklch(0.9821 0.0000   0.00)
-   ("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- oklch(0.7508 0.0000   0.00)
-   ("COLOR_BZ_GRAY_MD",    "113,113,113,255", NULL),  -- oklch(0.5486 0.0000   0.00)
-   ("COLOR_BZ_GRAY_DK",    "51,51,51,255",    NULL),  -- oklch(0.3211 0.0000   0.00)
-   ("COLOR_BZ_BLACK",      "0,0,0,255",       NULL);  -- oklch(0.3211 0.0000   0.00)
+   ("COLOR_BZ_WHITE",      "249,249,249,255", NULL),  -- oklch(0.9821 0 0)
+   ("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- oklch(0.7508 0 0)
+   ("COLOR_BZ_GRAY_MD",    "113,113,113,255", NULL),  -- oklch(0.5486 0 0)
+   ("COLOR_BZ_GRAY_DK",    "51,51,51,255",    NULL),  -- oklch(0.3211 0 0)
+   ("COLOR_BZ_BLACK",      "0,0,0,255",       NULL);  -- oklch(0.3211 0 0)
 
 -- TODO: replace standard colors (as aliases of the modded colors)
 -- TODO: decide whether to explicitly set Color3D
