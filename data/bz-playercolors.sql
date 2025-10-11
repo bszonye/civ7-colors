@@ -483,51 +483,51 @@ UPDATE PlayerColors SET
 -- light colors
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_YELLOW_LT", SecondaryColor = "COLOR_BZ_YELLOW_DK",
-    Alt1PrimaryColor = "COLOR_BZ_YELLOW_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_YELLOW_LT", Alt1SecondaryColor = "COLOR_BZ_YELLOW_MD"
     WHERE Type = "LEADER_GENGHIS_KHAN";
 UPDATE PlayerColors SET
-    PrimaryColor = "COLOR_BZ_AMBER_LT", SecondaryColor = "COLOR_BZ_AMBER_DK",
-    Alt1PrimaryColor = "COLOR_BZ_AMBER_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    PrimaryColor = "COLOR_BZ_AMBER_LT", SecondaryColor = "COLOR_BZ_GRAY_DK",
+    Alt1PrimaryColor = "COLOR_BZ_AMBER_LT", Alt1SecondaryColor = "COLOR_BZ_AMBER_DK"
     WHERE Type = "LEADER_HARRIET_TUBMAN";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_ORANGE_LT", SecondaryColor = "COLOR_BZ_ORANGE_DK",
-    Alt1PrimaryColor = "COLOR_BZ_ORANGE_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_ORANGE_LT", Alt1SecondaryColor = "COLOR_BZ_ORANGE_MD"
     WHERE Type = "LEADER_HATSHEPSUT";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_RED_LT", SecondaryColor = "COLOR_BZ_RED_DK",
-    Alt1PrimaryColor = "COLOR_BZ_RED_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_RED_LT", Alt1SecondaryColor = "COLOR_BZ_RED_MD"
     WHERE Type = "LEADER_HIMIKO_ALT";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_ROSE_LT", SecondaryColor = "COLOR_BZ_ROSE_DK",
-    Alt1PrimaryColor = "COLOR_BZ_ROSE_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_ROSE_LT", Alt1SecondaryColor = "COLOR_BZ_ROSE_MD"
     WHERE Type = "LEADER_HIMIKO";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_MAGENTA_LT", SecondaryColor = "COLOR_BZ_MAGENTA_DK",
-    Alt1PrimaryColor = "COLOR_BZ_MAGENTA_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_MAGENTA_LT", Alt1SecondaryColor = "COLOR_BZ_MAGENTA_MD"
     WHERE Type = "LEADER_IBN_BATTUTA";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_PURPLE_LT", SecondaryColor = "COLOR_BZ_PURPLE_DK",
-    Alt1PrimaryColor = "COLOR_BZ_PURPLE_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_PURPLE_LT", Alt1SecondaryColor = "COLOR_BZ_PURPLE_MD"
     WHERE Type = "LEADER_ISABELLA";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_BLUE_LT", SecondaryColor = "COLOR_BZ_BLUE_DK",
-    Alt1PrimaryColor = "COLOR_BZ_BLUE_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_BLUE_LT", Alt1SecondaryColor = "COLOR_BZ_BLUE_MD"
     WHERE Type = "LEADER_JOSE_RIZAL";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_SKY_LT", SecondaryColor = "COLOR_BZ_SKY_DK",
-    Alt1PrimaryColor = "COLOR_BZ_SKY_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_SKY_LT", Alt1SecondaryColor = "COLOR_BZ_SKY_MD"
     WHERE Type = "LEADER_LAFAYETTE";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_AQUA_LT", SecondaryColor = "COLOR_BZ_AQUA_DK",
-    Alt1PrimaryColor = "COLOR_BZ_AQUA_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_AQUA_LT", Alt1SecondaryColor = "COLOR_BZ_AQUA_MD"
     WHERE Type = "LEADER_LAKSHMIBAI";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_GREEN_LT", SecondaryColor = "COLOR_BZ_GREEN_DK",
-    Alt1PrimaryColor = "COLOR_BZ_GREEN_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_GREEN_LT", Alt1SecondaryColor = "COLOR_BZ_GREEN_MD"
     WHERE Type = "LEADER_MACHIAVELLI";
 UPDATE PlayerColors SET
     PrimaryColor = "COLOR_BZ_OLIVE_LT", SecondaryColor = "COLOR_BZ_OLIVE_DK",
-    Alt1PrimaryColor = "COLOR_BZ_OLIVE_LT", Alt1SecondaryColor = "COLOR_BZ_BLACK"
+    Alt1PrimaryColor = "COLOR_BZ_OLIVE_LT", Alt1SecondaryColor = "COLOR_BZ_OLIVE_MD"
     WHERE Type = "LEADER_NAPOLEON_ALT";
 -- neutrals
 UPDATE PlayerColors SET
