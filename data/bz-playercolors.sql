@@ -629,12 +629,12 @@ INSERT OR REPLACE INTO Colors
    ("COLOR_BZ_GREEN_DK",   "5,137,62,255",    NULL),  -- #05893e  oklch(0.55 0.15 150)
    ("COLOR_BZ_OLIVE_DK",   "102,120,21,255",  NULL),  -- #667815  oklch(0.54 0.12 120)
 -- neutrals
-   ("COLOR_BZ_OFFWHITE",   "228,221,207,255", NULL),  -- oklch(0.9 0.02 84)
-   ("COLOR_BZ_WHITE",      "249,249,249,255", NULL),  -- oklch(0.9821 0 0)
-   ("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- oklch(0.7508 0 0)
-   ("COLOR_BZ_GRAY_MD",    "113,113,113,255", NULL),  -- oklch(0.5486 0 0)
-   ("COLOR_BZ_GRAY_DK",    "51,51,51,255",    NULL),  -- oklch(0.3211 0 0)
-   ("COLOR_BZ_BLACK",      "0,0,0,255",       NULL);  -- oklch(0.3211 0 0)
+   ("COLOR_BZ_OFFWHITE",   "228,221,207,255", NULL),  -- #e4ddcf  oklch(0.9 0.02 84)
+   ("COLOR_BZ_WHITE",      "249,249,249,255", NULL),  -- #f9f9f9  oklch(0.9821 0 0)
+   ("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- #aeaeae  oklch(0.7508 0 0)
+   ("COLOR_BZ_GRAY_MD",    "113,113,113,255", NULL),  -- #717171  oklch(0.5486 0 0)
+   ("COLOR_BZ_GRAY_DK",    "51,51,51,255",    NULL),  -- #333333  oklch(0.3211 0 0)
+   ("COLOR_BZ_BLACK",      "0,0,0,255",       NULL);  -- #000000  oklch(0.0000 0 0)
 
 -- TODO: decide whether to explicitly set Color3D
 -- UPDATE Colors SET Color3D = Color where Color3D IS NULL;
