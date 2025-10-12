@@ -302,9 +302,10 @@ UPDATE PlayerColors SET
     PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_OLIVE_LT"
     WHERE Type="LEADER_IBN_BATTUTA";
 
--- ISABELLA: flag of Spain
+-- ISABELLA: flag of Spain, coat of arms of Castile and Léon
 -- Flag Red: lch(37 70 35)  oklch(0.4727 0.1815 26.45)
 -- Flag Reseda Yellow: lch(80 95 85)  oklch(0.8241 0.1846 91.38)
+-- red and gold, silver and purple
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
     Alt2PrimaryColor="COLOR_BZ_YELLOW_MD", Alt2SecondaryColor="COLOR_BZ_RED_DK",
