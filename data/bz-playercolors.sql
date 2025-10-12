@@ -307,8 +307,8 @@ UPDATE PlayerColors SET
 -- Flag Reseda Yellow: lch(80 95 85)  oklch(0.8241 0.1846 91.38)
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
-    Alt1PrimaryColor="COLOR_BZ_YELLOW_MD", Alt1SecondaryColor="COLOR_BZ_RED_DK",
+    Alt2PrimaryColor="COLOR_BZ_YELLOW_MD", Alt2SecondaryColor="COLOR_BZ_RED_DK",
+    Alt1PrimaryColor="COLOR_BZ_OFFWHITE", Alt1SecondaryColor="COLOR_BZ_MAGENTA_DK",
     PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
     WHERE Type="LEADER_ISABELLA";
 
