@@ -303,8 +303,8 @@ UPDATE PlayerColors SET
     WHERE Type="LEADER_IBN_BATTUTA";
 
 -- ISABELLA: flag of Spain
--- Flag Red: lch(37 70 35)  oklch(0.4722 0.1813 26.56)
--- Flag Reseda Yellow: lch(80 95 85)  oklch(0.8258 0.1687 89.56)
+-- Flag Red: lch(37 70 35)  oklch(0.4727 0.1815 26.45)
+-- Flag Reseda Yellow: lch(80 95 85)  oklch(0.8241 0.1846 91.38)
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
