@@ -54,7 +54,7 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 ("COLOR_BZ_YELLOW_LT",  "254,239,177,255", NULL),  -- AL #feefb1  oklch(0.95 0.08 96)
 ("COLOR_BZ_AMBER_LT",   "252,211,160,255", NULL),  -- XX #fcd3a0  oklch(0.89 0.08 72)
 ("COLOR_BZ_ORANGE_LT",  "250,191,161,255", NULL),  -- XX #fabfa1  oklch(0.85 0.08 48)
-("COLOR_BZ_RED_LT",     "252,145,139,255", NULL),  -- AM #fc918b  oklch(0.77 0.13 24)
+("COLOR_BZ_RED_LT",     "253,115,111,255", NULL),  -- XM #fd736f  oklch(0.72 0.17 24)
 ("COLOR_BZ_ROSE_LT",    "252,163,190,255", NULL),  -- AM #fca3be  oklch(0.81 0.11 360)
 ("COLOR_BZ_MAGENTA_LT", "242,110,215,255", NULL),  --    #f26ed7  oklch(0.73 0.20 336)
 ("COLOR_BZ_PURPLE_LT",  "196,164,254,255", NULL),  -- XL #c4a4fe  oklch(0.78 0.13 300)
@@ -66,7 +66,7 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 -- medium colors
 ("COLOR_BZ_YELLOW_MD",  "254,217,23,255",  NULL),  -- XL #fed917  oklch(0.89 0.18 96)
 ("COLOR_BZ_AMBER_MD",   "252,170,43,255",  NULL),  -- XL #fcaa2b  oklch(0.80 0.16 72)
-("COLOR_BZ_ORANGE_MD",  "248,113,3,255",   NULL),  --    #f87103  oklch(0.70 0.19 48)
+("COLOR_BZ_ORANGE_MD",  "248,113,3,255",   NULL),  -- RL #f87103  oklch(0.70 0.19 48)
 ("COLOR_BZ_RED_MD",     "238,9,47,255",    NULL),  --    #ee092f  oklch(0.60 0.24 24)
 ("COLOR_BZ_ROSE_MD",    "255,13,137,255",  NULL),  --    #ff0d89  oklch(0.65 0.26 360)
 ("COLOR_BZ_MAGENTA_MD", "186,2,180,255",   NULL),  --    #ba02b4  oklch(0.55 0.25 330)
@@ -341,7 +341,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
+    PrimaryColor="COLOR_BZ_RED_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
     WHERE Type="LEADER_LAFAYETTE";
 
 -- LAKSHMIBAI: flag of India
@@ -351,7 +351,7 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+    Alt1PrimaryColor="COLOR_BZ_AQUA_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
     PrimaryColor="COLOR_BZ_ORANGE_MD", SecondaryColor="COLOR_BZ_WHITE"
     WHERE Type="LEADER_LAKSHMIBAI";
 
