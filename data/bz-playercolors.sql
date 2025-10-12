@@ -186,7 +186,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_AMBER_MD", SecondaryColor="COLOR_BZ_BLUE_DK"
+    PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
     WHERE Type="LEADER_BOLIVAR";
 
 -- CATHERINE: standard of the Empress of Russia (black on gold)
@@ -237,7 +237,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
+    PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
     WHERE Type="LEADER_GENGHIS_KHAN";
 
 -- HARRIET TUBMAN: flag of USA
@@ -248,25 +248,20 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_OFFWHITE"
+    PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_WHITE"
     WHERE Type="LEADER_HARRIET_TUBMAN";
 
--- TODO
 -- HATSHEPSUT: Egyptian blue and gold
--- #f0b71f  oklch(0.81 0.16 85)  rgb(240, 183, 31)
--- ("BZ1_HATSHEPSUT", "240,183,31,255", NULL),
 -- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
--- #0251c2  oklch(0.47 0.19 260)  rgb(2, 81, 194)
--- ("BZ2_HATSHEPSUT", "2,81,194,255", NULL),
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_ORANGE_LT", SecondaryColor="COLOR_BZ_WHITE"
+    PrimaryColor="COLOR_BZ_AMBER_MD", SecondaryColor="COLOR_BZ_BLUE_DK"
     WHERE Type="LEADER_HATSHEPSUT";
 
 -- TODO
--- HIMIKO_ALT (Shaman): flag of Japan, sakura
+-- Himiko, High Shaman: flag of Japan, sakura
 -- #f5e3e1  oklch(0.93 0.02 25)  rgb(245, 227, 225)
 -- ("BZ1_HIMIKO_ALT", "245,227,225,255", NULL),
 -- #b01003  oklch(0.48 0.19 30)  rgb(176, 16, 3)
@@ -275,11 +270,11 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_RED_LT", SecondaryColor="COLOR_BZ_WHITE"
+    PrimaryColor="COLOR_BZ_OFFWHITE", SecondaryColor="COLOR_BZ_RED_DK"
     WHERE Type="LEADER_HIMIKO_ALT";
 
 -- TODO
--- HIMIKO (Queen): imperial standard of the empress of Japan
+-- Himiko, Queen of Wa: imperial standard of the empress of Japan
 -- red: L50 20-25°
 -- #d40237  oklch(0.55 0.22 20)  rgb(212, 2, 55)
 -- ("BZ1_HIMIKO", "212,2,55,255", NULL),
@@ -289,7 +284,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_ROSE_LT", SecondaryColor="COLOR_BZ_WHITE"
+    PrimaryColor="COLOR_BZ_RED_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
     WHERE Type="LEADER_HIMIKO";
 
 -- TODO
@@ -303,8 +298,8 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_MAGENTA_LT", SecondaryColor="COLOR_BZ_WHITE"
+    Alt1PrimaryColor="COLOR_BZ_ROSE_DK", Alt1SecondaryColor="COLOR_OLIVE_LT",
+    PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_OLIVE_LT"
     WHERE Type="LEADER_IBN_BATTUTA";
 
 -- ISABELLA: flag of Spain
@@ -313,12 +308,12 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+    Alt1PrimaryColor="COLOR_BZ_YELLOW_MD", Alt1SecondaryColor="COLOR_BZ_RED_DK",
     PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
     WHERE Type="LEADER_ISABELLA";
 
 -- TODO
--- JOSE RIZAL: flag of the Philippines
+-- José Rizal: flag of the Philippines
 -- no.80001 white
 -- #e7effc  oklch(0.95 0.02 260)  rgb(231, 239, 252)
 -- ("BZ1_JOSE_RIZAL", "231,239,252,255", NULL),
@@ -330,8 +325,8 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_WHITE"
+    Alt1PrimaryColor="COLOR_BZ_YELLOW_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
+    PrimaryColor="COLOR_BZ_OFFWHITE", SecondaryColor="COLOR_BZ_YELLOW_DK"
     WHERE Type="LEADER_JOSE_RIZAL";
 
 -- TODO
@@ -346,7 +341,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_SKY_LT", SecondaryColor="COLOR_BZ_WHITE"
+    PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
     WHERE Type="LEADER_LAFAYETTE";
 
 -- LAKSHMIBAI: flag of India
@@ -370,7 +365,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_GREEN_LT", SecondaryColor="COLOR_BZ_WHITE"
+    PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_WHITE"
     WHERE Type="LEADER_MACHIAVELLI";
 
 -- TODO
@@ -380,8 +375,8 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_OLIVE_LT", SecondaryColor="COLOR_BZ_WHITE"
+    Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
+    PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_WHITE"
     WHERE Type="LEADER_NAPOLEON_ALT";
 
 -- TODO
@@ -392,7 +387,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_YELLOW_LT", SecondaryColor="COLOR_BZ_YELLOW_DK"
+    PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_WHITE"
     WHERE Type="LEADER_NAPOLEON";
 
 -- TODO
@@ -431,8 +426,9 @@ UPDATE PlayerColors SET
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_GRAY_LT", SecondaryColor="COLOR_BZ_WHITE"
+    Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
+    PrimaryColor="COLOR_BZ_YELLOW_MD", SecondaryColor="COLOR_BZ_RED_MD"
+--  PrimaryColor="COLOR_BZ_YELLOW_TT", SecondaryColor="COLOR_BZ_RED_TT"
     WHERE Type="LEADER_TRUNG_TRAC";
 
 -- TODO
