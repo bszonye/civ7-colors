@@ -89,7 +89,7 @@ if (colors) {
     // const standard = mapColors(colors, /^COLOR_STANDARD_/);
     // showClosest(standard);
     console.warn(`TRIX CLOSEST`);
-    const bzcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_?[A-Z]/, /^COLOR_BZ_/);
+    const bzcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+(_LT|_MD|_DK)?$/, /^COLOR_BZ_/);
     showClosest(bzcolors);
     console.warn(`TRIX CLOSEST LT`);
     const ltcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_LT$/, /^COLOR_BZ_/);
