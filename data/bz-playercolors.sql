@@ -419,17 +419,15 @@ UPDATE PlayerColors SET
 -- TRUNG TRAC: flag of Vietnam
 -- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
 -- red: PMS 1788 C  #ee2737  oklch(0.6119 0.2287 24.19)
-INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES  -- colors with Trung Nhi
-("COLOR_BZ_YELLOW_LT_TT",  "254,239,177,255", "238,9,47,255"),
-("COLOR_BZ_AMBER_LT_TT",   "252,211,160,255", "238,9,47,255"),
-("COLOR_BZ_ORANGE_LT_TT",  "250,191,161,255", "238,9,47,255"),
+INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES  -- colors for Trung Nhi
 ("COLOR_BZ_YELLOW_MD_TT",  "254,217,23,255",  "238,9,47,255"),
+("COLOR_BZ_AMBER_MD_TT",   "252,170,43,255",  "238,9,47,255"),
 ("COLOR_BZ_ORANGE_DK_TT",  "153,68,7,255",    "238,9,47,255");
 UPDATE PlayerColors SET
     Alt3PrimaryColor="COLOR_BZ_ORANGE_DK_TT", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
     Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-    Alt1PrimaryColor="COLOR_BZ_YELLOW_LT_TT", Alt1SecondaryColor="COLOR_BZ_RED_MD",
-    PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_MD"
+    Alt1PrimaryColor="COLOR_BZ_AMBER_MD_TT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
+    PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_DK"
     WHERE Type="LEADER_TRUNG_TRAC";
 
 -- TODO
