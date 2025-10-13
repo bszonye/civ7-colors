@@ -432,7 +432,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_ROSE_LT", SecondaryColor="COLOR_BZ_WHITE"
+PrimaryColor="COLOR_BZ_ROSE_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_XERXES_ALT";
 
 -- TODO
