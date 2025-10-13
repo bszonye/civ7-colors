@@ -400,10 +400,10 @@ UPDATE PlayerColors SET
 -- #690601  oklch(0.33 0.13 30)  rgb(105, 6, 1)
 -- ("BZ2_PACHACUTI", "105,6,1,255", NULL),
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_AMBER_LT", SecondaryColor="COLOR_BZ_AMBER_DK"
+    Alt3PrimaryColor="COLOR_BZ_PURPLE_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
+    Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+    Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_AMBER_LT",
+    PrimaryColor="COLOR_BZ_ORANGE_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
     WHERE Type="LEADER_PACHACUTI";
 
 -- TECUMSEH: seal of Shawnee tribe
@@ -419,7 +419,7 @@ UPDATE PlayerColors SET
 -- TRUNG TRAC: flag of Vietnam
 -- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
 -- red: PMS 1788 C  #ee2737  oklch(0.6119 0.2287 24.19)
-INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES  -- colors for Trung Nhi
+INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES  -- colors with Trung Nhi
 ("COLOR_BZ_YELLOW_MD_TT",  "254,217,23,255",  "238,9,47,255"),
 ("COLOR_BZ_AMBER_MD_TT",   "252,170,43,255",  "238,9,47,255"),
 ("COLOR_BZ_ORANGE_DK_TT",  "153,68,7,255",    "238,9,47,255");
