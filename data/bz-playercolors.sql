@@ -416,20 +416,20 @@ UPDATE PlayerColors SET
     PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
     WHERE Type="LEADER_TECUMSEH";
 
--- TODO: make sure Color3D is red on yellow
 -- TRUNG TRAC: flag of Vietnam
 -- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
--- #fee32d  oklch(0.91 0.18 100)  rgb(254, 227, 45)
--- ("BZ1_TRUNG_TRAC", "254,227,45,255", "187,6,30,255"),
 -- red: PMS 1788 C  #ee2737  oklch(0.6119 0.2287 24.19)
--- #bb061e  oklch(0.5 0.2 25)  rgb(187, 6, 30)
--- ("BZ2_TRUNG_TRAC", "187,6,30,255", "254,227,45,255"),
+INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES  -- colors with Trung Nhi
+("COLOR_BZ_YELLOW_LT_TT",  "254,239,177,255", "238,9,47,255"),
+("COLOR_BZ_AMBER_LT_TT",   "252,211,160,255", "238,9,47,255"),
+("COLOR_BZ_ORANGE_LT_TT",  "250,191,161,255", "238,9,47,255"),
+("COLOR_BZ_YELLOW_MD_TT",  "254,217,23,255",  "238,9,47,255"),
+("COLOR_BZ_ORANGE_DK_TT",  "153,68,7,255",    "238,9,47,255");
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
-    Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
-    PrimaryColor="COLOR_BZ_YELLOW_MD", SecondaryColor="COLOR_BZ_RED_MD"
---  PrimaryColor="COLOR_BZ_YELLOW_TT", SecondaryColor="COLOR_BZ_RED_TT"
+    Alt3PrimaryColor="COLOR_BZ_ORANGE_DK_TT", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+    Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+    Alt1PrimaryColor="COLOR_BZ_YELLOW_LT_TT", Alt1SecondaryColor="COLOR_BZ_RED_MD",
+    PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_MD"
     WHERE Type="LEADER_TRUNG_TRAC";
 
 -- TODO
@@ -440,7 +440,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_MAGENTA_LT", SecondaryColor="COLOR_BZ_WHITE"
+    PrimaryColor="COLOR_BZ_ROSE_LT", SecondaryColor="COLOR_BZ_WHITE"
     WHERE Type="LEADER_XERXES_ALT";
 
 -- TODO
@@ -451,5 +451,5 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-    PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_WHITE"
+    PrimaryColor="COLOR_BZ_AQUA_MD", SecondaryColor="COLOR_BZ_WHITE"
     WHERE Type="LEADER_XERXES";
