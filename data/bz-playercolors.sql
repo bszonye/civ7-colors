@@ -83,15 +83,15 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 ("COLOR_BZ_RED_DK",     "162,5,28,255",    NULL),  --    #a2041c  oklch(0.45 0.18 24)
 ("COLOR_BZ_ROSE_DK",    "180,6,95,255",    NULL),  --    #b4065f  oklch(0.50 0.20 360)
 ("COLOR_BZ_MAGENTA_DK", "110,4,95,255",    NULL),  --    #6e045f  oklch(0.37 0.16 336)
-("COLOR_BZ_PURPLE_DK",  "111,0,194,255",   NULL),  --    #6f00c2  oklch(0.45 0.24 300)
-("COLOR_BZ_BLUE_DK",    "28,21,165,255",   NULL),  --    #1c15a5  oklch(0.35 0.21 270)
+("COLOR_BZ_PURPLE_DK",  "107,34,181,255",  NULL),  --    #6b22b5  oklch(0.45 0.21 300)
+("COLOR_BZ_BLUE_DK",    "30,39,145,255",   NULL),  --    #1e2791  oklch(0.35 0.17 270)
 ("COLOR_BZ_SKY_DK",     "17,109,138,255",  NULL),  --    #116d8a  oklch(0.50 0.09 225)
 ("COLOR_BZ_AQUA_DK",    "6,99,87,255",     NULL),  --    #066357  oklch(0.45 0.08 180)
 ("COLOR_BZ_GREEN_DK",   "5,137,62,255",    NULL),  --    #05893e  oklch(0.55 0.15 150)
 ("COLOR_BZ_OLIVE_DK",   "102,120,21,255",  NULL),  -- GM #667815  oklch(0.54 0.12 120)
 -- neutrals
-("COLOR_BZ_OFFWHITE",   "228,221,207,255", NULL),  --    #e4ddcf  oklch(0.9 0.02 84)
 ("COLOR_BZ_WHITE",      "249,249,249,255", NULL),  --    #f9f9f9  oklch(0.9821 0 0)
+("COLOR_BZ_WHITE_BG",   "228,221,207,255", NULL),  --    #e4ddcf  oklch(0.9 0.02 84)
 ("COLOR_BZ_GRAY_LT",    "174,174,174,255", NULL),  -- PL #aeaeae  oklch(0.7508 0 0)
 ("COLOR_BZ_GRAY_MD",    "113,113,113,255", NULL),  -- OD #717171  oklch(0.5486 0 0)
 ("COLOR_BZ_GRAY_DK",    "51,51,51,255",    NULL),  --    #333333  oklch(0.3211 0 0)
@@ -119,8 +119,8 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 ("COLOR_STANDARD_ORANGE_DK",  "153,68,7,255",    NULL),
 ("COLOR_STANDARD_RED_DK",     "162,5,28,255",    NULL),
 ("COLOR_STANDARD_MAGENTA_DK", "110,4,95,255",    NULL),
-("COLOR_STANDARD_PURPLE_DK",  "111,0,194,255",   NULL),
-("COLOR_STANDARD_BLUE_DK",    "28,21,165,255",   NULL),
+("COLOR_STANDARD_PURPLE_DK",  "107,34,181,255",  NULL),
+("COLOR_STANDARD_BLUE_DK",    "30,39,145,255",   NULL),
 ("COLOR_STANDARD_AQUA_DK",    "6,99,87,255",     NULL),
 ("COLOR_STANDARD_GREEN_DK",   "5,137,62,255",    NULL);
 
@@ -178,7 +178,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_OFFWHITE"
+PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_BENJAMIN_FRANKLIN";
 
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia (yellow, red, blue)
@@ -218,7 +218,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_OFFWHITE", SecondaryColor="COLOR_BZ_BLACK"
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_FRIEDRICH_ALT";
 
 -- FRIEDRICH (Oblique): flag of Prussia
@@ -270,7 +270,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_OFFWHITE", SecondaryColor="COLOR_BZ_RED_DK"
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_HIMIKO_ALT";
 
 -- TODO
@@ -308,7 +308,7 @@ WHERE Type="LEADER_IBN_BATTUTA";
 -- red and gold, silver and purple
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_SKY_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt2PrimaryColor="COLOR_BZ_OFFWHITE", Alt2SecondaryColor="COLOR_BZ_MAGENTA_DK",
+Alt2PrimaryColor="COLOR_BZ_WHITE_BG", Alt2SecondaryColor="COLOR_BZ_MAGENTA_DK",
 Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_ISABELLA";
@@ -327,7 +327,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 Alt1PrimaryColor="COLOR_BZ_YELLOW_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_OFFWHITE", SecondaryColor="COLOR_BZ_YELLOW_DK"
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_YELLOW_DK"
 WHERE Type="LEADER_JOSE_RIZAL";
 
 -- TODO
