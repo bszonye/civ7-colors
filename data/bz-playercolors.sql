@@ -209,7 +209,7 @@ WHERE Type="LEADER_CHARLEMAGNE";
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt1PrimaryColor="COLOR_BZ_AQUA_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_CONFUCIUS";
 
@@ -374,9 +374,9 @@ WHERE Type="LEADER_MACHIAVELLI";
 -- blue: L30-40 265-270°
 -- red: L55-65 25-30°
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
-Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+Alt3PrimaryColor="COLOR_BZ_RED_LT", Alt3SecondaryColor="COLOR_BZ_WHITE",
+Alt2PrimaryColor="COLOR_BZ_AQUA_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_NAPOLEON_ALT";
 
@@ -387,8 +387,8 @@ WHERE Type="LEADER_NAPOLEON_ALT";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_WHITE"
+Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_NAPOLEON";
 
 -- TODO
@@ -442,6 +442,6 @@ WHERE Type="LEADER_XERXES_ALT";
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt1PrimaryColor="COLOR_BZ_AQUA_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_AQUA_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_XERXES";
