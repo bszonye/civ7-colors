@@ -57,7 +57,7 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 ("COLOR_BZ_RED_LT",     "253,115,111,255", NULL),  -- XM #fd736f  oklch(0.72 0.17 24)
 ("COLOR_BZ_ROSE_LT",    "252,163,190,255", NULL),  -- AM #fca3be  oklch(0.81 0.11 360)
 ("COLOR_BZ_MAGENTA_LT", "242,110,215,255", NULL),  --    #f26ed7  oklch(0.73 0.20 336)
-("COLOR_BZ_PURPLE_LT",  "196,164,254,255", NULL),  -- XL #c4a4fe  oklch(0.78 0.13 300)
+("COLOR_BZ_PURPLE_LT",  "204,177,254,255", NULL),  -- XL #ccb1fe  oklch(0.81 0.11 300)
 ("COLOR_BZ_BLUE_LT",    "131,159,252,255", NULL),  --    #839ffc  oklch(0.72 0.14 270)
 ("COLOR_BZ_SKY_LT",     "73,207,252,255",  NULL),  -- PL #49cffc  oklch(0.80 0.13 225)
 ("COLOR_BZ_AQUA_LT",    "29,197,174,255",  NULL),  --    #1dc5ae  oklch(0.74 0.13 180)
@@ -68,8 +68,8 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 ("COLOR_BZ_AMBER_MD",   "252,170,43,255",  NULL),  -- XL #fcaa2b  oklch(0.80 0.16 72)
 ("COLOR_BZ_ORANGE_MD",  "248,113,3,255",   NULL),  -- RL #f87103  oklch(0.70 0.19 48)
 ("COLOR_BZ_RED_MD",     "238,9,47,255",    NULL),  --    #ee092f  oklch(0.60 0.24 24)
-("COLOR_BZ_ROSE_MD",    "255,13,137,255",  NULL),  --    #ff0d89  oklch(0.65 0.26 360)
-("COLOR_BZ_MAGENTA_MD", "186,2,180,255",   NULL),  --    #ba02b4  oklch(0.55 0.25 330)
+("COLOR_BZ_ROSE_MD",    "248,45,137,255",  NULL),  --    #f82d89  oklch(0.65 0.24 360)
+("COLOR_BZ_MAGENTA_MD", "183,22,178,255",  NULL),  --    #b716b2  oklch(0.55 0.24 330)
 ("COLOR_BZ_PURPLE_MD",  "155,72,251,255",  NULL),  --    #9b48fb  oklch(0.60 0.25 300)
 ("COLOR_BZ_BLUE_MD",    "62,82,252,255",   NULL),  --    #3e52fc  oklch(0.54 0.25 270)
 ("COLOR_BZ_SKY_MD",     "36,150,187,255",  NULL),  --    #2496bb  oklch(0.63 0.11 225)
@@ -149,7 +149,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_MAGENTA_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
+PrimaryColor="COLOR_BZ_PURPLE_LT", SecondaryColor="COLOR_BZ_AMBER_DK"
 WHERE Type="LEADER_ASHOKA_ALT";
 
 -- ASHOKA (Renouncer): lotus flower
@@ -157,7 +157,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_MAGENTA_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
+PrimaryColor="COLOR_BZ_PURPLE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_ASHOKA";
 
 -- AUGUSTUS: Tyrian purple and gold
@@ -256,8 +256,8 @@ WHERE Type="LEADER_HARRIET_TUBMAN";
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_AMBER_MD", SecondaryColor="COLOR_BZ_BLUE_DK"
+Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
+PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_HATSHEPSUT";
 
 -- TODO
@@ -432,7 +432,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_ROSE_DK", SecondaryColor="COLOR_BZ_WHITE"
+PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_ORANGE_LT"
 WHERE Type="LEADER_XERXES_ALT";
 
 -- TODO
