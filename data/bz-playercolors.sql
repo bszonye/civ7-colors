@@ -146,10 +146,10 @@ WHERE Type="LEADER_AMINA";
 
 -- ASHOKA_ALT (Conqueror): lotus flower
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_PURPLE_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_PURPLE_LT", SecondaryColor="COLOR_BZ_AMBER_DK"
+PrimaryColor="COLOR_BZ_MAGENTA_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_ASHOKA_ALT";
 
 -- ASHOKA (Renouncer): lotus flower
@@ -157,7 +157,7 @@ UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_PURPLE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
+PrimaryColor="COLOR_BZ_MAGENTA_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_ASHOKA";
 
 -- AUGUSTUS: Tyrian purple and gold
@@ -365,8 +365,8 @@ WHERE Type="LEADER_LAKSHMIBAI";
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_WHITE"
+Alt1PrimaryColor="COLOR_BZ_SKY_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLUE_DK"
 WHERE Type="LEADER_MACHIAVELLI";
 
 -- TODO
@@ -376,7 +376,7 @@ WHERE Type="LEADER_MACHIAVELLI";
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
-Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_NAPOLEON_ALT";
 
@@ -385,9 +385,9 @@ WHERE Type="LEADER_NAPOLEON_ALT";
 -- blue: L30-40 265-270°
 -- red: L55-65 25-30°
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_NAPOLEON";
 
