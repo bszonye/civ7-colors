@@ -148,7 +148,7 @@ WHERE Type="LEADER_AMINA";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_PURPLE_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt1PrimaryColor="COLOR_BZ_MAGENTA_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_MAGENTA_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_ASHOKA_ALT";
 
@@ -156,8 +156,8 @@ WHERE Type="LEADER_ASHOKA_ALT";
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
 --  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_MAGENTA_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
+Alt1PrimaryColor="COLOR_BZ_MAGENTA_LT", Alt1SecondaryColor="COLOR_BZ_AMBER_LT",
+PrimaryColor="COLOR_BZ_MAGENTA_DK", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_ASHOKA";
 
 -- AUGUSTUS: Tyrian purple and gold
