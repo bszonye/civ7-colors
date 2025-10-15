@@ -430,7 +430,7 @@ WHERE Type="LEADER_TRUNG_TRAC";
 -- #fc65b6  oklch(0.72 0.2 350)  rgb(252, 101, 182)
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
+Alt2PrimaryColor="COLOR_BZ_ROSE_LT", Alt2SecondaryColor="COLOR_BZ_WHITE",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_SKY_LT"
 WHERE Type="LEADER_XERXES_ALT";
@@ -440,8 +440,8 @@ WHERE Type="LEADER_XERXES_ALT";
 -- Persian red, pink, or green
 -- #24a592  oklch(0.65 0.11 180)  rgb(36, 165, 146)
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_AQUA_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
+--  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
+Alt2PrimaryColor="COLOR_BZ_AQUA_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
 --  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
 PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_ORANGE_LT"
 WHERE Type="LEADER_XERXES";
