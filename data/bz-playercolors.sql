@@ -127,12 +127,11 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 -- TODO: explicitly set Color3D?
 -- UPDATE Colors SET Color3D = Color where Color3D IS NULL;
 
--- TODO
 -- ADA LOVELACE: flag of Great Britain
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_BLUE_DK", Alt3SecondaryColor="COLOR_BZ_ROSE_LT",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_LT", Alt2SecondaryColor="COLOR_BZ_RED_DK",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_ADA_LOVELACE";
 
