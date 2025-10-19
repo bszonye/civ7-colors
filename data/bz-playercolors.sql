@@ -246,15 +246,14 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_GENGHIS_KHAN";
 
--- TODO
 -- HARRIET TUBMAN: flag of USA
 -- n.70001 White: lab(88.7 -0.2 5.4)  oklch(0.9018 0.0145 84.59) or oklch(0.9 0.01 90)
 -- n.70180 Old Glory Red: lab(33.9 51.2 24.7)  oklch(0.4505 0.161 20.68)
 -- n.70075 Old Glory Blue: lab(23.2 13.1 -26.4)  oklch(0.344 0.0758 281.66)
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_OLIVE_DK", Alt3SecondaryColor="COLOR_BZ_WHITE",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_HARRIET_TUBMAN";
 
