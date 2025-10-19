@@ -135,7 +135,6 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_ADA_LOVELACE";
 
--- TODO
 -- AMINA: Hausa emblem, flag of Nigeria
 -- green: L55-60 150°
 UPDATE PlayerColors SET
