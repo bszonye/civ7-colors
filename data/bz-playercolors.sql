@@ -127,6 +127,7 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 -- TODO: explicitly set Color3D?
 -- UPDATE Colors SET Color3D = Color where Color3D IS NULL;
 
+-- TODO
 -- ADA LOVELACE: flag of Great Britain
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
@@ -135,6 +136,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_ADA_LOVELACE";
 
+-- TODO
 -- AMINA: Hausa emblem, flag of Nigeria
 -- green: L55-60 150°
 UPDATE PlayerColors SET
@@ -162,14 +164,14 @@ WHERE Type="LEADER_ASHOKA";
 
 -- AUGUSTUS: Tyrian purple and gold
 -- purple: L35-45 350-10°
--- gold: 85°
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_MAGENTA_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_ROSE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_AUGUSTUS";
 
+-- TODO
 -- BENJAMIN FRANKLIN: flag of USA
 -- n.70001 White: lab(88.7 -0.2 5.4)  oklch(0.9018 0.0145 84.59) or oklch(0.9 0.01 90)
 -- n.70180 Old Glory Red: lab(33.9 51.2 24.7)  oklch(0.4505 0.161 20.68)
@@ -181,6 +183,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_BENJAMIN_FRANKLIN";
 
+-- TODO
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia (yellow, red, blue)
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
@@ -189,6 +192,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_BOLIVAR";
 
+-- TODO
 -- CATHERINE: standard of the Empress of Russia (black on gold)
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
@@ -197,6 +201,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_YELLOW_MD", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_CATHERINE";
 
+-- TODO
 -- CHARLEMAGNE: coat of arms of France (gold on blue), Tyrian purple
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
@@ -205,6 +210,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_PURPLE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_CHARLEMAGNE";
 
+-- TODO
 -- CONFUCIUS: jade
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
@@ -213,6 +219,7 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_CONFUCIUS";
 
+-- TODO
 -- FRIEDRICH_ALT (Baroque): flag of Prussia
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
@@ -221,6 +228,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_FRIEDRICH_ALT";
 
+-- TODO
 -- FRIEDRICH (Oblique): flag of Prussia
 UPDATE PlayerColors SET
 --  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
@@ -229,6 +237,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_FRIEDRICH";
 
+-- TODO
 -- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
 -- blue: cmyk(100 60 0 0)  #0066ff
 -- yellow: cmyk(0 15 100 0)  #ffd900
@@ -240,6 +249,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_GENGHIS_KHAN";
 
+-- TODO
 -- HARRIET TUBMAN: flag of USA
 -- n.70001 White: lab(88.7 -0.2 5.4)  oklch(0.9018 0.0145 84.59) or oklch(0.9 0.01 90)
 -- n.70180 Old Glory Red: lab(33.9 51.2 24.7)  oklch(0.4505 0.161 20.68)
@@ -251,6 +261,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_HARRIET_TUBMAN";
 
+-- TODO
 -- HATSHEPSUT: Egyptian blue and gold
 -- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
 UPDATE PlayerColors SET
@@ -345,6 +356,7 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_RED_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_LAFAYETTE";
 
+-- TODO
 -- LAKSHMIBAI: flag of India
 -- India Saffron: xyY(.538 .360 .215) or PMS 165 C (#ff671f)
 -- India Green: xyY(.288 .395 .089) or PMS 349 C (#046a38)
@@ -369,7 +381,6 @@ Alt1PrimaryColor="COLOR_BZ_SKY_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLUE_DK"
 WHERE Type="LEADER_MACHIAVELLI";
 
--- TODO
 -- NAPOLEON_ALT (Revolutionary): flag of the French Republic
 -- blue: L30-40 265-270°
 -- red: L55-65 25-30°
@@ -380,7 +391,6 @@ Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_NAPOLEON_ALT";
 
--- TODO
 -- NAPOLEON (Emperor): flag of the French Republic, coat of arms of France
 -- blue: L30-40 265-270°
 -- red: L55-65 25-30°
@@ -391,7 +401,6 @@ Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_NAPOLEON";
 
--- TODO
 -- PACHACUTI: Inca textiles
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_PURPLE_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
