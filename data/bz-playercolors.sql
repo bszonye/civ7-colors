@@ -292,19 +292,14 @@ UPDATE PlayerColors SET
 PrimaryColor="COLOR_BZ_RED_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_HIMIKO";
 
--- TODO
 -- IBN BATTUTA: flag of Morocco, Marinid dynasty
 -- red: PMS 193C  #bf0d3e  oklch(0.5148 0.2006 15.96)
--- #850e2c  oklch(0.4 0.15 15)  rgb(133, 14, 44)
--- ("BZ1_IBN_BATTUTA", "133,14,44,255", NULL),
 -- green: PMS 363C  #4c8c2b  oklch(0.5764 0.1459 136.84)
--- #9ad74c  oklch(0.81 0.18 130)  rgb(154, 215, 76)
--- ("BZ2_IBN_BATTUTA", "154,215,76,255", NULL),
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
-Alt1PrimaryColor="COLOR_BZ_ROSE_DK", Alt1SecondaryColor="COLOR_OLIVE_LT",
-PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_OLIVE_LT"
+Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_OLIVE_LT",
+Alt1PrimaryColor="COLOR_BZ_OLIVE_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+PrimaryColor="COLOR_BZ_OLIVE_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_IBN_BATTUTA";
 
 -- ISABELLA: flag of Spain, coat of arms of Castile and Léon
