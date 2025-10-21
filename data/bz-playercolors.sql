@@ -180,7 +180,6 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_BENJAMIN_FRANKLIN";
 
--- TODO
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia (yellow, red, blue)
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_AMBER_MD", Alt3SecondaryColor="COLOR_BZ_BLUE_DK",
@@ -189,12 +188,11 @@ Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_BOLIVAR";
 
--- TODO
 -- CATHERINE: standard of the Empress of Russia (black on gold)
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_OLIVE_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_BLACK",
 PrimaryColor="COLOR_BZ_YELLOW_MD", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_CATHERINE";
 
@@ -382,7 +380,7 @@ WHERE Type="LEADER_MACHIAVELLI";
 -- red: L55-65 25-30°
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_RED_LT", Alt3SecondaryColor="COLOR_BZ_WHITE",
-Alt2PrimaryColor="COLOR_BZ_AQUA_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt2PrimaryColor="COLOR_BZ_OLIVE_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_NAPOLEON_ALT";
