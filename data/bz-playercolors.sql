@@ -196,12 +196,11 @@ Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_BLACK",
 PrimaryColor="COLOR_BZ_YELLOW_MD", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_CATHERINE";
 
--- TODO
--- CHARLEMAGNE: coat of arms of France (gold on blue), Tyrian purple
+-- CHARLEMAGNE: Tyrian purple, coat of arms of France, Reichsadler
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_BLUE_LT", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt1PrimaryColor="COLOR_BZ_PURPLE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_PURPLE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_CHARLEMAGNE";
 
