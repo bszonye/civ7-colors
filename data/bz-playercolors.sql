@@ -212,12 +212,11 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_CONFUCIUS";
 
--- TODO
 -- FRIEDRICH_ALT (Baroque): flag of Prussia
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_SKY_LT", Alt3SecondaryColor="COLOR_BZ_BLUE_DK",
+Alt2PrimaryColor="COLOR_BZ_GRAY_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_BLACK",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_FRIEDRICH_ALT";
 
