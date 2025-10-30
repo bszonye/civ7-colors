@@ -220,12 +220,11 @@ Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_BLACK",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_FRIEDRICH_ALT";
 
--- TODO
 -- FRIEDRICH (Oblique): flag of Prussia
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_AQUA_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_LT", Alt2SecondaryColor="COLOR_BZ_BLACK",
+Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_FRIEDRICH";
 
