@@ -204,11 +204,10 @@ Alt1PrimaryColor="COLOR_BZ_PURPLE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_PURPLE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_CHARLEMAGNE";
 
--- TODO
--- CONFUCIUS: jade
+-- CONFUCIUS: jade, Yellow Dragon Flag
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_RED_DK",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_MD", Alt2SecondaryColor="COLOR_BZ_BLUE_DK",
 Alt1PrimaryColor="COLOR_BZ_AQUA_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_CONFUCIUS";
