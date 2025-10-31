@@ -258,28 +258,19 @@ WHERE Type="LEADER_HATSHEPSUT";
 
 -- TODO
 -- Himiko, High Shaman: flag of Japan, sakura
--- #f5e3e1  oklch(0.93 0.02 25)  rgb(245, 227, 225)
--- ("BZ1_HIMIKO_ALT", "245,227,225,255", NULL),
--- #b01003  oklch(0.48 0.19 30)  rgb(176, 16, 3)
--- ("BZ2_HIMIKO_ALT", "176,16,3,255", NULL),
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_BLUE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
+Alt2PrimaryColor="COLOR_BZ_ROSE_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_HIMIKO_ALT";
 
 -- TODO
 -- Himiko, Queen of Wa: imperial standard of the empress of Japan
--- red: L50 20-25°
--- #d40237  oklch(0.55 0.22 20)  rgb(212, 2, 55)
--- ("BZ1_HIMIKO", "212,2,55,255", NULL),
--- #d5cfaa  oklch(0.85 0.05 100)  rgb(213, 207, 170)
--- ("BZ2_HIMIKO", "213,207,170,255", NULL),
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_OLIVE_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_AMBER_MD", Alt2SecondaryColor="COLOR_BZ_RED_DK",
+Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_RED_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_HIMIKO";
 
