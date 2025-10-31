@@ -247,12 +247,11 @@ Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_HARRIET_TUBMAN";
 
--- TODO
--- HATSHEPSUT: Egyptian blue and gold
+-- HATSHEPSUT: Egyptian blue and gold, Kingdom of Egypt, Republic of Egypt
 -- Egyptian blue: #1034a6  oklch(0.3893 0.1862 264.71)
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_SKY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_GREEN_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_HATSHEPSUT";
