@@ -228,15 +228,11 @@ Alt1PrimaryColor="COLOR_BZ_YELLOW_MD", Alt1SecondaryColor="COLOR_BZ_BLACK",
 PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_FRIEDRICH";
 
--- TODO
 -- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
--- blue: cmyk(100 60 0 0)  #0066ff
--- yellow: cmyk(0 15 100 0)  #ffd900
--- red: cmyk(10 100 90 0)  #e60019
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_RED_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_BLUE_LT", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_GENGHIS_KHAN";
 
