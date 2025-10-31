@@ -212,11 +212,11 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_CONFUCIUS";
 
--- FRIEDRICH_ALT (Baroque): flag of Prussia
+-- FRIEDRICH_ALT (Baroque): flag of Prussia, Prussian military uniforms
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_SKY_LT", Alt3SecondaryColor="COLOR_BZ_BLUE_DK",
-Alt2PrimaryColor="COLOR_BZ_GRAY_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
-Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_BLACK",
+Alt2PrimaryColor="COLOR_BZ_BLUE_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLACK"
 WHERE Type="LEADER_FRIEDRICH_ALT";
 
@@ -224,7 +224,7 @@ WHERE Type="LEADER_FRIEDRICH_ALT";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_AQUA_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
 Alt2PrimaryColor="COLOR_BZ_YELLOW_LT", Alt2SecondaryColor="COLOR_BZ_BLACK",
-Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_YELLOW_MD", Alt1SecondaryColor="COLOR_BZ_BLACK",
 PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_FRIEDRICH";
 
