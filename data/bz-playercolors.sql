@@ -394,6 +394,7 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_GREEN_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_SAYYIDA_AL_HURRA";
 
+-- TODO
 -- TECUMSEH: seal of Shawnee tribe
 -- sky blue: #4093ab  oklch(0.622 0.0872 219.86)
 -- yellow: #efb935  oklch(0.8137 0.1517 84.8)
@@ -418,24 +419,19 @@ Alt1PrimaryColor="COLOR_BZ_AMBER_MD_TT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_TRUNG_TRAC";
 
--- TODO
--- XERXES ALT (Achaemenid): Persian textiles, flag of Iran
--- Persian blue, green, or red
--- #fc65b6  oklch(0.72 0.2 350)  rgb(252, 101, 182)
+-- XERXES ALT (Achaemenid): Persian pottery, flag of the Safavid dynasty
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
-Alt2PrimaryColor="COLOR_BZ_ROSE_LT", Alt2SecondaryColor="COLOR_BZ_WHITE",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_SKY_LT"
+Alt3PrimaryColor="COLOR_BZ_MAGENTA_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_GREEN_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_SKY_LT",
+PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_SKY_LT"
 WHERE Type="LEADER_XERXES_ALT";
 
--- TODO
--- XERXES (King): Persian textiles, flag of Iran
+-- XERXES (King): flag of the Qajar dynasty, standard of the Achaemenid Empire
 -- Persian red, pink, or green
--- #24a592  oklch(0.65 0.11 180)  rgb(36, 165, 146)
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
-Alt2PrimaryColor="COLOR_BZ_AQUA_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
-PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_ORANGE_LT"
+Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_AQUA_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_AQUA_LT", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_XERXES";
