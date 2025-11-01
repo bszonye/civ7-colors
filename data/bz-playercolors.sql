@@ -386,6 +386,14 @@ Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_ORANGE_DK", SecondaryColor="COLOR_BZ_AMBER_MD"
 WHERE Type="LEADER_PACHACUTI";
 
+-- SAYYIDA AL HURRA: Barbary pirates, flag of Morocco
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_SKY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_OLIVE_LT",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_GREEN_MD", SecondaryColor="COLOR_BZ_WHITE"
+WHERE Type="LEADER_SAYYIDA_AL_HURRA";
+
 -- TECUMSEH: seal of Shawnee tribe
 -- sky blue: #4093ab  oklch(0.622 0.0872 219.86)
 -- yellow: #efb935  oklch(0.8137 0.1517 84.8)
