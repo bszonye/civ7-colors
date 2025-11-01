@@ -144,7 +144,7 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_DK", Alt1SecondaryColor="COLOR_BZ_AMBER_MD",
 PrimaryColor="COLOR_BZ_GREEN_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_AMINA";
 
--- ASHOKA_ALT (Conqueror): lotus flower
+-- ASHOKA ALT (Conqueror): lotus flower
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_PURPLE_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt2PrimaryColor="COLOR_BZ_PURPLE_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
@@ -212,7 +212,15 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_CONFUCIUS";
 
--- FRIEDRICH_ALT (Baroque): flag of Prussia, Prussian military uniforms
+-- EDWARD TEACH: flag of Blackbeard
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_ORANGE_MD", Alt3SecondaryColor="COLOR_BZ_BLACK",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
+WHERE Type="LEADER_EDWARD_TEACH";
+
+-- FRIEDRICH ALT (Baroque): flag of Prussia, Prussian military uniforms
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_SKY_LT", Alt3SecondaryColor="COLOR_BZ_BLUE_DK",
 Alt2PrimaryColor="COLOR_BZ_BLUE_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
@@ -256,8 +264,7 @@ Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_HATSHEPSUT";
 
--- TODO
--- Himiko, High Shaman: flag of Japan, sakura
+-- HIMIKO ALT (High Shaman): flag of Japan, sakura
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_BLUE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
 Alt2PrimaryColor="COLOR_BZ_ROSE_LT", Alt2SecondaryColor="COLOR_BZ_RED_DK",
@@ -265,8 +272,7 @@ Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_HIMIKO_ALT";
 
--- TODO
--- Himiko, Queen of Wa: imperial standard of the empress of Japan
+-- HIMIKO (Queen of Wa): imperial standard of the empress of Japan
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_OLIVE_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
@@ -352,7 +358,7 @@ Alt1PrimaryColor="COLOR_BZ_SKY_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLUE_DK"
 WHERE Type="LEADER_MACHIAVELLI";
 
--- NAPOLEON_ALT (Revolutionary): flag of the French Republic
+-- NAPOLEON ALT (Revolutionary): flag of the French Republic
 -- blue: L30-40 265-270°
 -- red: L55-65 25-30°
 UPDATE PlayerColors SET
@@ -405,7 +411,7 @@ PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_TRUNG_TRAC";
 
 -- TODO
--- XERXES_ALT (Achaemenid): Persian textiles, flag of Iran
+-- XERXES ALT (Achaemenid): Persian textiles, flag of Iran
 -- Persian blue, green, or red
 -- #fc65b6  oklch(0.72 0.2 350)  rgb(252, 101, 182)
 UPDATE PlayerColors SET
