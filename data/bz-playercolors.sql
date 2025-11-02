@@ -301,19 +301,14 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_ISABELLA";
 
--- TODO
 -- José Rizal: flag of the Philippines
 -- no.80001 white
--- #e7effc  oklch(0.95 0.02 260)  rgb(231, 239, 252)
--- ("BZ1_JOSE_RIZAL", "231,239,252,255", NULL),
 -- no.80068 golden yellow: #fcd116  oklch(0.8724 0.1757 93.47)
--- #977e0d  oklch(0.6 0.12 95)  rgb(151, 126, 13)
--- ("BZ2_JOSE_RIZAL", "151,126,13,255", NULL),
 -- no.80108 crimson red: #ce1126  oklch(0.5412 0.2127 24.79)
 -- no.80173 blue: #0038a8  oklch(0.3957 0.1864 262.24)
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_YELLOW_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_YELLOW_DK"
 WHERE Type="LEADER_JOSE_RIZAL";
