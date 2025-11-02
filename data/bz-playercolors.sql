@@ -129,7 +129,7 @@ INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES
 
 -- ADA LOVELACE: flag of Great Britain
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_BLUE_DK", Alt3SecondaryColor="COLOR_BZ_ROSE_LT",
+Alt3PrimaryColor="COLOR_BZ_ROSE_LT", Alt3SecondaryColor="COLOR_BZ_WHITE",
 Alt2PrimaryColor="COLOR_BZ_YELLOW_LT", Alt2SecondaryColor="COLOR_BZ_RED_DK",
 Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_WHITE"
@@ -236,11 +236,11 @@ Alt1PrimaryColor="COLOR_BZ_YELLOW_MD", Alt1SecondaryColor="COLOR_BZ_BLACK",
 PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_FRIEDRICH";
 
--- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia
+-- GENGHIS KHAN: emblem of Mongolia, flag of Mongolia, Khanate flags
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_RED_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
-Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt1PrimaryColor="COLOR_BZ_BLUE_LT", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_LT", Alt2SecondaryColor="COLOR_BZ_RED_DK",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_GENGHIS_KHAN";
 
@@ -362,12 +362,12 @@ Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_NAPOLEON";
 
--- PACHACUTI: Inca textiles
+-- PACHACUTI: Inca textiles, gold
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_PURPLE_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
-Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_AMBER_DK", Alt2SecondaryColor="COLOR_BZ_AMBER_MD",
 Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_RED_DK",
-PrimaryColor="COLOR_BZ_ORANGE_DK", SecondaryColor="COLOR_BZ_AMBER_MD"
+PrimaryColor="COLOR_BZ_YELLOW_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_PACHACUTI";
 
 -- SAYYIDA AL HURRA: Barbary pirates, flag of Morocco
@@ -382,7 +382,7 @@ WHERE Type="LEADER_SAYYIDA_AL_HURRA";
 -- sky blue: #4093ab  oklch(0.622 0.0872 219.86)
 -- yellow: #efb935  oklch(0.8137 0.1517 84.8)
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
+Alt3PrimaryColor="COLOR_BZ_GRAY_LT", Alt3SecondaryColor="COLOR_BZ_WHITE",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_SKY_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
