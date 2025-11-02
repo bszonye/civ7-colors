@@ -30,7 +30,6 @@
                 </UpdateColors>
                 <UpdateDatabase>
                     <!-- <Item>data/bz-playercolors.sql</Item> -->
-                    <Item>data/bz-playercolors.sql</Item>
                 </UpdateDatabase>
             </Actions>
         </ActionGroup>
