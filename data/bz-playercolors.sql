@@ -378,14 +378,13 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_GREEN_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_SAYYIDA_AL_HURRA";
 
--- TODO
 -- TECUMSEH: seal of Shawnee tribe
 -- sky blue: #4093ab  oklch(0.622 0.0872 219.86)
 -- yellow: #efb935  oklch(0.8137 0.1517 84.8)
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_SKY_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_TECUMSEH";
 
