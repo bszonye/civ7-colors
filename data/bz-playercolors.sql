@@ -322,14 +322,13 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_RED_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_LAFAYETTE";
 
--- TODO
 -- LAKSHMIBAI: flag of India
 -- India Saffron: xyY(.538 .360 .215) or PMS 165 C (#ff671f)
 -- India Green: xyY(.288 .395 .089) or PMS 349 C (#046a38)
 -- navy blue: PMS 2738 C (#06038d)
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_ROSE_DK", Alt3SecondaryColor="COLOR_BZ_AQUA_LT",
+Alt2PrimaryColor="COLOR_BZ_GREEN_DK", Alt2SecondaryColor="COLOR_BZ_AMBER_MD",
 Alt1PrimaryColor="COLOR_BZ_AQUA_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_ORANGE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_LAKSHMIBAI";
