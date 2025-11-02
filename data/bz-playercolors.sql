@@ -384,7 +384,7 @@ WHERE Type="LEADER_SAYYIDA_AL_HURRA";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_LT", Alt3SecondaryColor="COLOR_BZ_WHITE",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt1PrimaryColor="COLOR_BZ_SKY_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_SKY_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_TECUMSEH";
 
