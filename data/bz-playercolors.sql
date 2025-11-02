@@ -286,8 +286,8 @@ WHERE Type="LEADER_HIMIKO";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_LT",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_OLIVE_LT",
-Alt1PrimaryColor="COLOR_BZ_OLIVE_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
-PrimaryColor="COLOR_BZ_OLIVE_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
+Alt1PrimaryColor="COLOR_BZ_OLIVE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+PrimaryColor="COLOR_BZ_OLIVE_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_IBN_BATTUTA";
 
 -- ISABELLA: flag of Spain, coat of arms of Castile and Léon
@@ -310,7 +310,7 @@ UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_YELLOW_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_YELLOW_DK"
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_AMBER_DK"
 WHERE Type="LEADER_JOSE_RIZAL";
 
 -- LAFAYETTE: family coat of arms
@@ -406,8 +406,8 @@ WHERE Type="LEADER_TRUNG_TRAC";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_MAGENTA_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt2PrimaryColor="COLOR_BZ_GREEN_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_SKY_LT",
-PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_SKY_LT"
+Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_SKY_LT",
+PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_SKY_LT"
 WHERE Type="LEADER_XERXES_ALT";
 
 -- XERXES (King): flag of the Qajar dynasty, standard of the Achaemenid Empire
