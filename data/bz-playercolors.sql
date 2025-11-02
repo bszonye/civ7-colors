@@ -267,15 +267,15 @@ WHERE Type="LEADER_HATSHEPSUT";
 -- HIMIKO ALT (High Shaman): flag of Japan, sakura
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_BLUE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
-Alt2PrimaryColor="COLOR_BZ_ROSE_LT", Alt2SecondaryColor="COLOR_BZ_RED_DK",
-Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_HIMIKO_ALT";
 
 -- HIMIKO (Queen of Wa): imperial standard of the empress of Japan
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_OLIVE_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_LT", Alt2SecondaryColor="COLOR_BZ_RED_DK",
 Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_RED_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_HIMIKO";
