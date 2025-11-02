@@ -313,18 +313,12 @@ Alt1PrimaryColor="COLOR_BZ_YELLOW_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_YELLOW_DK"
 WHERE Type="LEADER_JOSE_RIZAL";
 
--- TODO
--- LAFAYETTE: family coat of arms
+-- LAFAYETTE: family coat of arms, coat of arms of France
 -- gules, a bend or, with a bordure vair
--- #ff3e82  oklch(0.67 0.23 5)  rgb(255, 62, 130)
--- 3D: #b60254  oklch(0.5 0.2 5)  rgb(182, 2, 84)
--- ("BZ1_LAFAYETTE", "255,62,130,255", "182,2,84,255"),
--- #feea74  oklch(0.93 0.14 100)  rgb(254, 234, 116)
--- ("BZ2_LAFAYETTE", "254,234,116,255", NULL),
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
---  Alt1PrimaryColor="COLOR_BZ_XXX", Alt1SecondaryColor="COLOR_BZ_XXX",
+Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt2PrimaryColor="COLOR_BZ_BLUE_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_RED_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_LAFAYETTE";
 
