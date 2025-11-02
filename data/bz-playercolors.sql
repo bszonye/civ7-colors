@@ -415,6 +415,6 @@ WHERE Type="LEADER_XERXES_ALT";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
 Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt1PrimaryColor="COLOR_BZ_AQUA_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_AQUA_LT", SecondaryColor="COLOR_BZ_WHITE"
+Alt1PrimaryColor="COLOR_BZ_AQUA_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_XERXES";
