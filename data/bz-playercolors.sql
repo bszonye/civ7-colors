@@ -285,8 +285,8 @@ WHERE Type="LEADER_HIMIKO";
 -- green: PMS 363C  #4c8c2b  oklch(0.5764 0.1459 136.84)
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_LT",
-Alt2PrimaryColor="COLOR_BZ_OLIVE_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt1PrimaryColor="COLOR_BZ_OLIVE_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_GREEN_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_OLIVE_LT"
 WHERE Type="LEADER_IBN_BATTUTA";
 
