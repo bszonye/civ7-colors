@@ -336,10 +336,10 @@ WHERE Type="LEADER_LAKSHMIBAI";
 -- MACHIAVELLI: family coat of arms, flag of Florence
 -- argent, a cross azure, pierced by four nails
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_ROSE_LT",
-Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
-Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLUE_DK"
+Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_GRAY_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_MACHIAVELLI";
 
 -- NAPOLEON ALT (Revolutionary): flag of the French Republic
