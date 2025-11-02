@@ -333,16 +333,12 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_ORANGE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_LAKSHMIBAI";
 
--- TODO
--- MACHIAVELLI: family coat of arms
+-- MACHIAVELLI: family coat of arms, flag of Florence
 -- argent, a cross azure, pierced by four nails
--- #19affe  oklch(0.72 0.16 240)  rgb(25, 175, 254)
--- ("BZ1_MACHIAVELLI", "25,175,254,255", NULL),
--- ("BZ2_MACHIAVELLI", "249,249,249,255", NULL),
 UPDATE PlayerColors SET
---  Alt3PrimaryColor="COLOR_BZ_XXX", Alt3SecondaryColor="COLOR_BZ_XXX",
---  Alt2PrimaryColor="COLOR_BZ_XXX", Alt2SecondaryColor="COLOR_BZ_XXX",
-Alt1PrimaryColor="COLOR_BZ_SKY_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+Alt3PrimaryColor="COLOR_BZ_AQUA_DK", Alt3SecondaryColor="COLOR_BZ_ROSE_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_BLUE_DK"
 WHERE Type="LEADER_MACHIAVELLI";
 
