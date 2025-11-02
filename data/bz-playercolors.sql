@@ -146,18 +146,18 @@ WHERE Type="LEADER_AMINA";
 
 -- ASHOKA ALT (Conqueror): lotus flower
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_PURPLE_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt2PrimaryColor="COLOR_BZ_PURPLE_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt1PrimaryColor="COLOR_BZ_MAGENTA_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
-PrimaryColor="COLOR_BZ_MAGENTA_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
+Alt3PrimaryColor="COLOR_BZ_PURPLE_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_PURPLE_LT", Alt2SecondaryColor="COLOR_BZ_AMBER_DK",
+Alt1PrimaryColor="COLOR_BZ_MAGENTA_LT", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+PrimaryColor="COLOR_BZ_ROSE_LT", SecondaryColor="COLOR_BZ_AMBER_DK"
 WHERE Type="LEADER_ASHOKA_ALT";
 
 -- ASHOKA (Renouncer): lotus flower
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_RED_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_LT",
-Alt2PrimaryColor="COLOR_BZ_ROSE_MD", Alt2SecondaryColor="COLOR_BZ_AMBER_LT",
-Alt1PrimaryColor="COLOR_BZ_ROSE_DK", Alt1SecondaryColor="COLOR_BZ_AMBER_LT",
-PrimaryColor="COLOR_BZ_MAGENTA_DK", SecondaryColor="COLOR_BZ_AMBER_LT"
+Alt3PrimaryColor="COLOR_BZ_ROSE_MD", Alt3SecondaryColor="COLOR_BZ_AMBER_LT",
+Alt2PrimaryColor="COLOR_BZ_PURPLE_DK", Alt2SecondaryColor="COLOR_BZ_AMBER_MD",
+Alt1PrimaryColor="COLOR_BZ_MAGENTA_DK", Alt1SecondaryColor="COLOR_BZ_AMBER_MD",
+PrimaryColor="COLOR_BZ_ROSE_DK", SecondaryColor="COLOR_BZ_AMBER_MD"
 WHERE Type="LEADER_ASHOKA";
 
 -- AUGUSTUS: Tyrian purple and gold
