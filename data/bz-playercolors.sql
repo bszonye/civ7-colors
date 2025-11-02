@@ -313,11 +313,11 @@ Alt1PrimaryColor="COLOR_BZ_YELLOW_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_YELLOW_DK"
 WHERE Type="LEADER_JOSE_RIZAL";
 
--- LAFAYETTE: family coat of arms, coat of arms of France
+-- LAFAYETTE: family coat of arms
 -- gules, a bend or, with a bordure vair
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt2PrimaryColor="COLOR_BZ_BLUE_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_BLUE_LT", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_RED_LT", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_LAFAYETTE";
