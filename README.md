@@ -24,6 +24,7 @@ better leader colors
 - Machiavelli: family coat of arms, flag of Florence
 - Napoleon: flag of the French Republic, French military uniforms
 - Pachacuti: gold, Inca textiles
+- Sayyida al Hurra: flag of Morocco, Wattasid dynasty
 - Tecumseh: seal of the Shawnee tribe
 - Trung Trac: traditional depictions, flag of Vietnam
 - Xerxes: Safavid, Qajar, and Achaemenid standards
