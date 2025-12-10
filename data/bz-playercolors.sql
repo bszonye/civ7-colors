@@ -372,7 +372,7 @@ WHERE Type="LEADER_PACHACUTI";
 
 -- SAYYIDA AL HURRA: Barbary pirates, flag of Morocco
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_SKY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt3PrimaryColor="COLOR_BZ_SKY_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
 Alt2PrimaryColor="COLOR_BZ_GREEN_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_RED_MD", SecondaryColor="COLOR_BZ_WHITE"
