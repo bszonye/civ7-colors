@@ -374,8 +374,8 @@ WHERE Type="LEADER_PACHACUTI";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_SKY_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt2PrimaryColor="COLOR_BZ_GREEN_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_RED_DK", SecondaryColor="COLOR_BZ_AMBER_MD"
+Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
+PrimaryColor="COLOR_BZ_RED_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_SAYYIDA_AL_HURRA";
 
 -- TECUMSEH: seal of Shawnee tribe
