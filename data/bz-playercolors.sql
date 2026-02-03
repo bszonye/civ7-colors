@@ -247,8 +247,8 @@ WHERE Type="LEADER_GENGHIS_KHAN";
 -- GILGAMESH
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_ORANGE_DK",
-Alt2PrimaryColor="COLOR_BZ_ORANGE_MD", Alt2SecondaryColor="COLOR_BZ_BLUE_DK",
-Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_ORANGE_LT",
+Alt2PrimaryColor="COLOR_BZ_BLUE_MD", Alt2SecondaryColor="COLOR_BZ_ORANGE_LT",
+Alt1PrimaryColor="COLOR_BZ_ORANGE_MD", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_ORANGE_MD"
 WHERE Type="LEADER_GILGAMESH";
 
