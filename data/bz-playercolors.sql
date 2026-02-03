@@ -244,6 +244,14 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_GENGHIS_KHAN";
 
+-- GILGAMESH
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_ORANGE_DK",
+Alt2PrimaryColor="COLOR_BZ_BLUE_MD", Alt2SecondaryColor="COLOR_BZ_ORANGE_LT",
+Alt1PrimaryColor="COLOR_BZ_ORANGE_MD", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
+PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_ORANGE_MD"
+WHERE Type="LEADER_GILGAMESH";
+
 -- HARRIET TUBMAN: flag of USA
 -- n.70001 White: lab(88.7 -0.2 5.4)  oklch(0.9018 0.0145 84.59) or oklch(0.9 0.01 90)
 -- n.70180 Old Glory Red: lab(33.9 51.2 24.7)  oklch(0.4505 0.161 20.68)
@@ -416,5 +424,5 @@ UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
 Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_AQUA_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_WHITE"
+PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_GREEN_LT"
 WHERE Type="LEADER_XERXES";

@@ -1,4 +1,4 @@
-# Color Guard 2.0.0
+# Color Guard 2.1.0
 better leader colors
 
 - Ada Lovelace: flag of Great Britain
@@ -13,6 +13,7 @@ better leader colors
 - Edward Teach: Jolly Roger, flag of Blackbeard
 - Friedrich: family coat of arms, Prussian military uniforms
 - Genghis Khan: emblem of Mongolia, flag of Mongolia, Khanate flags
+- Gilgamesh: character model variations
 - Harriet Tubman: flag of the USA
 - Hatshepsut: Egyptian blue, Egyptian flags
 - Himiko: standard of the Empress of Japan, flag of Japan
