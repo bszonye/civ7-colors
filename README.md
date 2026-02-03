@@ -13,6 +13,7 @@ better leader colors
 - Edward Teach: Jolly Roger, flag of Blackbeard
 - Friedrich: family coat of arms, Prussian military uniforms
 - Genghis Khan: emblem of Mongolia, flag of Mongolia, Khanate flags
+- Gilgamesh: character model variations
 - Harriet Tubman: flag of the USA
 - Hatshepsut: Egyptian blue, Egyptian flags
 - Himiko: standard of the Empress of Japan, flag of Japan
