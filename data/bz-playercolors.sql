@@ -217,7 +217,7 @@ UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_ORANGE_MD", Alt3SecondaryColor="COLOR_BZ_BLACK",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
-PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
+PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_EDWARD_TEACH";
 
 -- FRIEDRICH ALT (Baroque): flag of Prussia, Prussian military uniforms
