@@ -17,6 +17,16 @@
         </Criteria>
     </ActionCriteria>
     <ActionGroups>
+        <ActionGroup id="bz-colors-shell" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>500</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateColors>
+                    <Item>data/bz-playercolors.sql</Item>
+                </UpdateColors>
+            </Actions>
+        </ActionGroup>
         <ActionGroup id="bz-colors-game" scope="game" criteria="always">
             <Properties>
                 <LoadOrder>500</LoadOrder>
