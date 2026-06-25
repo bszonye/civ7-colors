@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="bz-colors" version="20101" xmlns="ModInfo">
+<Mod id="bz-colors" version="2.1.1" xmlns="ModInfo">
     <Properties>
         <Name>LOC_MOD_BZ_COLORS_NAME</Name>
         <Version>2.1.1</Version>
