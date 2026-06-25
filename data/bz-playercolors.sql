@@ -138,8 +138,8 @@ WHERE Type="LEADER_ADA_LOVELACE";
 -- ALEXANDER
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_YELLOW_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt2PrimaryColor="COLOR_BZ_BLUE_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_GRAY_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_ALEXANDER";
 

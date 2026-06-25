@@ -2,6 +2,7 @@
 better leader colors
 
 - Ada Lovelace: flag of Great Britain
+- Alexander: flags of Macedonia
 - Amina: Hausa emblem, flag of Nigeria
 - Ashoka: lotus flower
 - Augustus: Tyrian purple (red shade)
@@ -27,5 +28,6 @@ better leader colors
 - Pachacuti: gold, Inca textiles
 - Sayyida al Hurra: flag of Morocco, Wattasid dynasty
 - Tecumseh: seal of the Shawnee tribe
+- Toyotomi Hideyoshi: Toyotomi clan mon
 - Trung Trac: traditional depictions, flag of Vietnam
 - Xerxes: Safavid, Qajar, and Achaemenid standards
