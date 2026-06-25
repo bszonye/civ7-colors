@@ -2,7 +2,7 @@
 better leader colors
 
 - Ada Lovelace: flag of Great Britain
-- Alexander: Macedonian flags
+- Alexander: Macedonian flags and symbols
 - Amina: Hausa emblem, flag of Nigeria
 - Ashoka: lotus flower
 - Augustus: Tyrian purple (red shade)
