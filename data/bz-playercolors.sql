@@ -135,6 +135,14 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_ADA_LOVELACE";
 
+-- ALEXANDER
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_YELLOW_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_BLUE_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
+PrimaryColor="COLOR_BZ_GRAY_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
+WHERE Type="LEADER_ALEXANDER";
+
 -- AMINA: Hausa emblem, flag of Nigeria
 -- green: L55-60 150°
 UPDATE PlayerColors SET
@@ -217,7 +225,7 @@ UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_ORANGE_MD", Alt3SecondaryColor="COLOR_BZ_BLACK",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
-PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
+PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_EDWARD_TEACH";
 
 -- FRIEDRICH ALT (Baroque): flag of Prussia, Prussian military uniforms
@@ -395,6 +403,14 @@ Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_SKY_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_TECUMSEH";
+
+-- TOYOTOMI HIDEYOSHI
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_BLUE_DK", Alt3SecondaryColor="COLOR_BZ_BLUE_LT",
+Alt2PrimaryColor="COLOR_BZ_AMBER_DK", Alt2SecondaryColor="COLOR_BZ_AMBER_MD",
+Alt1PrimaryColor="COLOR_BZ_GRAY_DK", Alt1SecondaryColor="COLOR_BZ_AMBER_MD",
+PrimaryColor="COLOR_BZ_AMBER_MD", SecondaryColor="COLOR_BZ_BLACK"
+WHERE Type="LEADER_TOYOTOMI_HIDEYOSHI";
 
 -- TRUNG TRAC: flag of Vietnam
 -- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)

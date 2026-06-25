@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="bz-colors" version="20100" xmlns="ModInfo">
+<Mod id="bz-colors" version="2.1.1" xmlns="ModInfo">
     <Properties>
         <Name>LOC_MOD_BZ_COLORS_NAME</Name>
-        <Version>2.1.0</Version>
+        <Version>2.1.1</Version>
         <Description>LOC_MOD_BZ_COLORS_DESCRIPTION</Description>
         <Authors>beezany</Authors>
         <Package>Mod</Package>
@@ -17,6 +17,16 @@
         </Criteria>
     </ActionCriteria>
     <ActionGroups>
+        <ActionGroup id="bz-colors-shell" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>500</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateColors>
+                    <Item>data/bz-playercolors.sql</Item>
+                </UpdateColors>
+            </Actions>
+        </ActionGroup>
         <ActionGroup id="bz-colors-game" scope="game" criteria="always">
             <Properties>
                 <LoadOrder>500</LoadOrder>
