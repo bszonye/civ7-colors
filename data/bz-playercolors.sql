@@ -442,3 +442,31 @@ Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_AQUA_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_GREEN_LT"
 WHERE Type="LEADER_XERXES";
+
+-- YI SUN-SIN: TODO
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_ORANGE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
+Alt2PrimaryColor="COLOR_BZ_WHITE_BG", Alt2SecondaryColor="COLOR_BZ_ORANGE_DK",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
+PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_RED_DK"
+WHERE Type="LEADER_YI_SUN_SIN";
+
+-- test pattern
+-- UPDATE PlayerColors SET
+-- Alt3PrimaryColor="COLOR_BZ_RED_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
+-- Alt2PrimaryColor="COLOR_BZ_ORANGE_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+-- Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+-- PrimaryColor="COLOR_BZ_YELLOW_MD", SecondaryColor="COLOR_BZ_WHITE"
+-- WHERE Type="LEADER_ADA_LOVELACE";
+-- UPDATE PlayerColors SET
+-- Alt3PrimaryColor="COLOR_BZ_BLUE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
+-- Alt2PrimaryColor="COLOR_BZ_PURPLE_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+-- Alt1PrimaryColor="COLOR_BZ_MAGENTA_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+-- PrimaryColor="COLOR_BZ_ROSE_MD", SecondaryColor="COLOR_BZ_WHITE"
+-- WHERE Type="LEADER_ALEXANDER";
+-- UPDATE PlayerColors SET
+-- Alt3PrimaryColor="COLOR_BZ_OLIVE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
+-- Alt2PrimaryColor="COLOR_BZ_GREEN_MD", Alt2SecondaryColor="COLOR_BZ_WHITE",
+-- Alt1PrimaryColor="COLOR_BZ_AQUA_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+-- PrimaryColor="COLOR_BZ_SKY_MD", SecondaryColor="COLOR_BZ_WHITE"
+-- WHERE Type="LEADER_AMINA";
