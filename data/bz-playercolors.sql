@@ -417,10 +417,10 @@ WHERE Type="LEADER_TOYOTOMI_HIDEYOSHI";
 -- red: PMS 1788 C  #ee2737  oklch(0.6119 0.2287 24.19)
 INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES  -- colors with Trung Nhi
 ("COLOR_BZ_YELLOW_MD_TT",  "254,217,23,255",  "238,9,47,255"),
-("COLOR_BZ_YELLOW_DK_TT",  "147,124,5,255",   "238,9,47,255"),
-("COLOR_BZ_AMBER_MD_TT",   "252,170,43,255",  "238,9,47,255");
+("COLOR_BZ_AMBER_MD_TT",   "252,170,43,255",  "238,9,47,255"),
+("COLOR_BZ_GRAY_DK_TT",    "51,51,51,255",    "238,9,47,255");
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_YELLOW_DK_TT", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt3PrimaryColor="COLOR_BZ_GRAY_DK_TT", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
 Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_AMBER_MD_TT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_DK"
