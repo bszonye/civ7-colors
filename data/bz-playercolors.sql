@@ -445,10 +445,10 @@ WHERE Type="LEADER_XERXES";
 
 -- YI SUN-SIN: TODO
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_ORANGE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
-Alt2PrimaryColor="COLOR_BZ_WHITE_BG", Alt2SecondaryColor="COLOR_BZ_ORANGE_DK",
-Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
-PrimaryColor="COLOR_BZ_BLUE_LT", SecondaryColor="COLOR_BZ_RED_DK"
+Alt3PrimaryColor="COLOR_BZ_RED_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_SKY_LT",
+PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_ROSE_LT"
 WHERE Type="LEADER_YI_SUN_SIN";
 
 -- test pattern
