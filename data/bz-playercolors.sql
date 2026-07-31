@@ -190,7 +190,7 @@ WHERE Type="LEADER_BENJAMIN_FRANKLIN";
 
 -- BOLIVAR: flag of Gran Colombia, flag of Colombia (yellow, red, blue)
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_AMBER_MD", Alt3SecondaryColor="COLOR_BZ_BLUE_DK",
+Alt3PrimaryColor="COLOR_BZ_AMBER_MD", Alt3SecondaryColor="COLOR_BZ_RED_DK",
 Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
