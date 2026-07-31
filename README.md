@@ -1,4 +1,4 @@
-# Color Guard 2.1.2
+# Color Guard 2.2.0
 better leader colors
 
 - Ada Lovelace: flag of Great Britain
@@ -31,3 +31,4 @@ better leader colors
 - Toyotomi Hideyoshi: Toyotomi clan mon
 - Trung Trac: traditional depictions, flag of Vietnam
 - Xerxes: Safavid, Qajar, and Achaemenid standards
+- Yi Sun-sin: Korean flags, Korean cardinal colors

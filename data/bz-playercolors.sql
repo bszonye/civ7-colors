@@ -252,7 +252,7 @@ Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_MD",
 PrimaryColor="COLOR_BZ_BLUE_MD", SecondaryColor="COLOR_BZ_YELLOW_MD"
 WHERE Type="LEADER_GENGHIS_KHAN";
 
--- GILGAMESH
+-- GILGAMESH: lapis lazuli and bronze
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_AMBER_MD",
 Alt2PrimaryColor="COLOR_BZ_ORANGE_DK", Alt2SecondaryColor="COLOR_BZ_AMBER_MD",
@@ -283,16 +283,16 @@ WHERE Type="LEADER_HATSHEPSUT";
 -- HIMIKO ALT (High Shaman): flag of Japan, sakura
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_BLUE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
-Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_HIMIKO_ALT";
 
 -- HIMIKO (Queen of Wa): imperial standard of the empress of Japan
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_OLIVE_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt2PrimaryColor="COLOR_BZ_YELLOW_LT", Alt2SecondaryColor="COLOR_BZ_RED_DK",
-Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt3PrimaryColor="COLOR_BZ_OLIVE_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_RED_MD", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_HIMIKO";
 
@@ -372,7 +372,7 @@ WHERE Type="LEADER_NAPOLEON_ALT";
 -- blue: L30-40 265-270°
 -- red: L55-65 25-30°
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
+Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_YELLOW_DK",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt1PrimaryColor="COLOR_BZ_BLUE_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
@@ -381,7 +381,7 @@ WHERE Type="LEADER_NAPOLEON";
 -- PACHACUTI: Inca textiles, gold
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_PURPLE_LT", Alt3SecondaryColor="COLOR_BZ_AMBER_DK",
-Alt2PrimaryColor="COLOR_BZ_AMBER_DK", Alt2SecondaryColor="COLOR_BZ_AMBER_MD",
+Alt2PrimaryColor="COLOR_BZ_ORANGE_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt1PrimaryColor="COLOR_BZ_AMBER_MD", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_YELLOW_DK", SecondaryColor="COLOR_BZ_YELLOW_LT"
 WHERE Type="LEADER_PACHACUTI";
@@ -416,11 +416,16 @@ WHERE Type="LEADER_TOYOTOMI_HIDEYOSHI";
 -- yellow: PMS Yellow C  #fedd00  oklch(0.8978 0.185652 98.2159)
 -- red: PMS 1788 C  #ee2737  oklch(0.6119 0.2287 24.19)
 INSERT OR REPLACE INTO Colors (Type, Color, Color3D) VALUES  -- colors with Trung Nhi
+("COLOR_BZ_YELLOW_LT_TT",  "254,239,177,255", "238,9,47,255"),
 ("COLOR_BZ_YELLOW_MD_TT",  "254,217,23,255",  "238,9,47,255"),
+("COLOR_BZ_YELLOW_DK_TT",  "147,124,5,255",   "238,9,47,255"),
+("COLOR_BZ_AMBER_LT_TT",   "252,211,160,255", "238,9,47,255"),
 ("COLOR_BZ_AMBER_MD_TT",   "252,170,43,255",  "238,9,47,255"),
-("COLOR_BZ_ORANGE_DK_TT",  "153,68,7,255",    "238,9,47,255");
+("COLOR_BZ_AMBER_DK_TT",   "110,70,4,255",    "238,9,47,255"),
+("COLOR_BZ_ORANGE_DK_TT",  "153,68,7,255",    "238,9,47,255"),
+("COLOR_BZ_ROSE_DK_TT",    "180,6,95,255",    "238,9,47,255");
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_ORANGE_DK_TT", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt3PrimaryColor="COLOR_BZ_YELLOW_DK_TT", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt2PrimaryColor="COLOR_BZ_RED_MD", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt1PrimaryColor="COLOR_BZ_AMBER_MD_TT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_DK"
