@@ -28,21 +28,21 @@ const BZ_HEAD_STYLE = [
 `
 ];
 BZ_HEAD_STYLE.map(style => {
-    const e = document.createElement('style');
+    const e = document.createElement("style");
     e.textContent = style;
     document.head.appendChild(e);
 });
 document.body.classList.add("bz-colors");
 
-const colors = Database.query('gameplay', 'SELECT * FROM Colors');
+const colors = Database.query("gameplay", "SELECT * FROM Colors");
 if (colors) {
     function convertToHex(rgba) {
         const { r, g, b, a } = rgba;
         const ax = a != null && a != 255 ? a.toString(16) : "";
-        return '#' + ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0') + ax;
+        return "#" + ((r << 16) | (g << 8) | b).toString(16).padStart(6, "0") + ax;
     }
     function parseRGB(rgbText) {
-        const [r, g, b, a] = rgbText.split(',');
+        const [r, g, b, a] = rgbText.split(",");
         const rgba = { r: Number(r), g: Number(g), b: Number(b), a: Number(a ?? 255) };
         const color = Color.convertToPackedSRGB(rgba);
         const hex = convertToHex(rgba);
@@ -76,8 +76,8 @@ if (colors) {
                 const cd1 = cd.cd1;
                 const cd2 = cd.cd2 ?? 10;
                 if (i == 0 || cd1 < 4 || cd1 + cd2 < 10) {
-                    const cd1 = cd.cd1.toFixed(2).padStart(6, ' ');
-                    const cd2 = cd.cd2?.toFixed(2).padStart(7, ' ') ?? "";
+                    const cd1 = cd.cd1.toFixed(2).padStart(6, " ");
+                    const cd2 = cd.cd2?.toFixed(2).padStart(7, " ") ?? "";
                     console.warn(`TRIX MIN ${cd1}${cd2} ${cd.ka} ${cd.kb}`);
                 }
             }
