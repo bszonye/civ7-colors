@@ -228,6 +228,14 @@ Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_EDWARD_TEACH";
 
+-- ELIZABETH: flag of England
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_ORANGE_DK",
+Alt2PrimaryColor="COLOR_BZ_PURPLE_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_MD"
+WHERE Type="LEADER_ELIZABETH";
+
 -- FRIEDRICH ALT (Baroque): flag of Prussia, Prussian military uniforms
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_SKY_LT", Alt3SecondaryColor="COLOR_BZ_BLUE_DK",
@@ -450,6 +458,11 @@ Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_SKY_LT",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_ROSE_LT"
 WHERE Type="LEADER_YI_SUN_SIN";
+
+-- City-States
+UPDATE PlayerColors SET
+PrimaryColor="COLOR_BZ_WHITE", SecondaryColor="COLOR_BZ_BLACK"
+WHERE Type="PLAYERCOLOR_LIGHT_YELLOW_MINOR";
 
 -- test pattern
 -- UPDATE PlayerColors SET
