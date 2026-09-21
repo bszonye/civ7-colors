@@ -2,9 +2,32 @@ Controls.loadStyle("/bz-colors/ui/bz-colors/bz-colors.css");
 document.body.classList.add("bz-colors");
 
 function convertToHex(rgba) {
-    const { r, g, b, a } = rgba;
-    const ax = a != null && a != 255 ? a.toString(16) : "";
-    return "#" + ((r << 16) | (g << 8) | b).toString(16).padStart(6, "0") + ax;
+  const { r, g, b, a } = rgba;
+  const hex = "#" + ((r << 16) | (g << 8) | b).toString(16).padStart(6, "0");
+  return a != null && a != 255 ? hex + a.toString(16).padStart(2, "0") : hex;
+}
+function convertToLinear(rgba) {
+  const G = (c) => Math.pow(c / 255, 2.4);
+  const r = G(rgba.r);
+  const g = G(rgba.g);
+  const b = G(rgba.b);
+  if (rgba.a != null) return { r, g, b, a: rgba.a / 255 };
+  return { r, g, b };
+}
+function getLuminance(c) {
+  c = convertToLinear(c);
+  return 0.2126729 * c.r + 0.7151522 * c.g + 0.0721750 * c.b;
+}
+function getColorLc(bg, fg) {
+    const Y = getLuminance
+    const Bclip = 1.414, Bthrsh = 0.022;
+    const fsc = (y) => y < 0 ? 0 : y < Bthrsh ? Math.pow(Bthrsh - y, Bclip) : y;
+    const Ybg = fsc(Y(Color.convertToSRGB(bg)));
+    const Yfg = fsc(Y(Color.convertToSRGB(fg)));
+    const [Xbg, Xfg] = Yfg < Ybg ? [0.56, 0.57] : [0.65, 0.62];
+    const Wscale = 1.14, Woffset = 0.027;
+    const Sapc = (Math.pow(Ybg, Xbg) - Math.pow(Yfg, Xfg)) * Wscale;
+    return Math.abs(Sapc) < 0.1 ? 0 : 100 * (Sapc - Math.sign(Sapc) * Woffset);
 }
 
 const colors = Database.query("gameplay", "SELECT * FROM Colors");
@@ -71,21 +94,9 @@ if (colors) {
     const dkcolors = mapColors(colors, /^COLOR_BZ_[A-Z]+_DK$/, /^COLOR_BZ_/);
     showClosest(dkcolors);
 }
-function Lc(bg, fg) {
-    const G = (c) => Math.pow(c / 255, 2.4);
-    const Y = (c) => 0.2126729 * G(c.r) + 0.7151522 * G(c.g) + 0.0721750 * G(c.b);
-    const Bclip = 1.414, Bthrsh = 0.022;
-    const fsc = (y) => y < 0 ? 0 : y < Bthrsh ? Math.pow(Bthrsh - y, Bclip) : y;
-    const Ybg = fsc(Y(Color.convertToSRGB(bg)));
-    const Yfg = fsc(Y(Color.convertToSRGB(fg)));
-    const [Xbg, Xfg] = Yfg < Ybg ? [0.56, 0.57] : [0.65, 0.62];
-    const Wscale = 1.14, Woffset = 0.027;
-    const Sapc = (Math.pow(Ybg, Xbg) - Math.pow(Yfg, Xfg)) * Wscale;
-    return Math.abs(Sapc) < 0.1 ? 0 : 100 * (Sapc - Math.sign(Sapc) * Woffset);
-}
 const leaderLc = [];
 function dumpLc(name, bg, fg) {
-    const lc = Lc(bg, fg).toFixed(2).padStart(7, " ");
+    const lc = getColorLc(bg, fg).toFixed(2).padStart(7, " ");
     bg = convertToHex(Color.convertToSRGB(bg));
     fg = convertToHex(Color.convertToSRGB(fg));
     name = Locale.compose(name);
