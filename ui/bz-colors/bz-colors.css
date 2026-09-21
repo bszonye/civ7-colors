@@ -1,0 +1,15 @@
+/* diplo-ribbon: remove color distortion and soften shadows */
+.bz-colors .diplo-ribbon__front-banner {
+    fxs-border-image-tint: var(--player-color-primary);
+}
+.bz-colors .diplo-ribbon__front-banner-overlay {
+    opacity: 0.75;
+}
+
+/* city-states: use configured colors instead of black & white */
+.bz-colors .city-banner.city-banner--citystate .city-banner__stretch-bg {
+    fxs-border-image-tint: var(--player-color-primary);
+}
+.bz-colors .city-banner.city-banner--citystate .city-banner__name-container {
+    color: var(--player-color-secondary);
+}
