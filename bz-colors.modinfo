@@ -37,6 +37,9 @@
                 <LoadOrder>500</LoadOrder>
             </Properties>
             <Actions>
+                <ImportFiles>
+                    <Item>ui/bz-colors/bz-colors.css</Item>
+                </ImportFiles>
                 <UIScripts>
                     <Item>ui/bz-colors/bz-colors.js</Item>
                 </UIScripts>

@@ -443,7 +443,7 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_GREEN_LT"
 WHERE Type="LEADER_XERXES";
 
--- YI SUN-SIN: TODO
+-- YI SUN-SIN
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_RED_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",

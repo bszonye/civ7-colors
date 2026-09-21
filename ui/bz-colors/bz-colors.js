@@ -1,37 +1,4 @@
-const BZ_HEAD_STYLE = [
-// diplo-ribbon: remove color distortion and soften shadows
-`
-.bz-colors .diplo-ribbon__front-banner {
-    fxs-border-image-tint: var(--player-color-primary);
-}
-.bz-colors .diplo-ribbon__front-banner-shadow {
-    fxs-border-image-tint: #0008;
-}
-`,
-// city-states: use configured colors instead of black & white
-`
-.bz-colors .city-banner.city-banner--citystate .city-banner__stretch-bg {
-    fxs-border-image-tint: var(--player-color-primary);
-}
-.bz-colors .city-banner.city-banner--citystate .city-banner__name-container {
-    color: var(--player-color-secondary);
-}
-.bz-colors city-banner.city-banner .city-banner__city-state-ring {
-    fxs-border-image-tint: var(--player-color-secondary);
-}
-.bz-colors .city-banner.city-banner--town .city-banner__city-state-ring {
-    fxs-border-image-tint: transparent;
-}
-.bz-colors .city-banner.city-banner--village .city-banner__city-state-ring {
-    fxs-border-image-tint: white;
-}
-`
-];
-BZ_HEAD_STYLE.map(style => {
-    const e = document.createElement("style");
-    e.textContent = style;
-    document.head.appendChild(e);
-});
+Controls.loadStyle("/bz-colors/ui/bz-colors/bz-colors.css");
 document.body.classList.add("bz-colors");
 
 function convertToHex(rgba) {
@@ -105,38 +72,28 @@ if (colors) {
     showClosest(dkcolors);
 }
 function Lc(bg, fg) {
-    const Nfg = 0.57;
-    const Nbg = 0.56;
-    const Rfg = 0.62;
-    const Rbg = 0.65;
-    const Bclip = 1.414;
-    const Bthrsh = 0.022;
-    const Wscale = 1.14;
-    const Woffset = 0.027;
-    const Wclamp = 0.1;
     const G = (c) => Math.pow(c / 255, 2.4);
     const Y = (c) => 0.2126729 * G(c.r) + 0.7151522 * G(c.g) + 0.0721750 * G(c.b);
+    const Bclip = 1.414, Bthrsh = 0.022;
     const fsc = (y) => y < 0 ? 0 : y < Bthrsh ? Math.pow(Bthrsh - y, Bclip) : y;
-    const Cbg = Color.convertToSRGB(bg);  // srgb
-    const Cfg = Color.convertToSRGB(fg);
-    const Ysbg = Y(Cbg);
-    const Ysfg = Y(Cfg);
-    const Ybg = fsc(Ysbg);
-    const Yfg = fsc(Ysfg);
-    const Sapc = Yfg < Ybg ?
-        (Math.pow(Ybg, Nbg) - Math.pow(Yfg, Nfg)) * Wscale :
-        (Math.pow(Ybg, Rbg) - Math.pow(Yfg, Rfg)) * Wscale;
-    return Math.abs(Sapc) < Wclamp ? 0 : 100 * (Sapc - Math.sign(Sapc) * Woffset);
+    const Ybg = fsc(Y(Color.convertToSRGB(bg)));
+    const Yfg = fsc(Y(Color.convertToSRGB(fg)));
+    const [Xbg, Xfg] = Yfg < Ybg ? [0.56, 0.57] : [0.65, 0.62];
+    const Wscale = 1.14, Woffset = 0.027;
+    const Sapc = (Math.pow(Ybg, Xbg) - Math.pow(Yfg, Xfg)) * Wscale;
+    return Math.abs(Sapc) < 0.1 ? 0 : 100 * (Sapc - Math.sign(Sapc) * Woffset);
 }
+const leaderLc = [];
 function dumpLc(name, bg, fg) {
     const lc = Lc(bg, fg).toFixed(2).padStart(7, " ");
     bg = convertToHex(Color.convertToSRGB(bg));
     fg = convertToHex(Color.convertToSRGB(fg));
     name = Locale.compose(name);
-    console.warn(`TRIX Lc ${lc}  ${bg}  ${fg}  ${name}`);
+    leaderLc.push({ lc, bg, fg, name });
 }
 if (UI.isInShell()) {
-    const leaders = Database.query("config", "select LeaderType, LeaderName from Leaders");
+    const leaders =
+        Database.query("config", "select LeaderType, LeaderName from Leaders");
     for (const {LeaderType, LeaderName} of leaders) {
         const hash = Database.makeHash(LeaderType);
         const colors = UI.Color.getDefaultColorsAsHex(hash);
@@ -147,4 +104,8 @@ if (UI.isInShell()) {
         const colors = UI.Color.getPlayerColors(player.id);
         if (colors) dumpLc(player.leaderName, colors.primaryColor, colors.secondaryColor);
     }
+}
+leaderLc.sort((a, b) => Math.abs(b.lc) - Math.abs(a.lc));
+for (const { lc, bg, fg, name } of leaderLc) {
+    console.warn(`TRIX Lc ${lc} ${bg} ${fg} ${name}`);
 }
