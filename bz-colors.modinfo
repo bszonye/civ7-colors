@@ -24,6 +24,9 @@
                 <LoadOrder>500</LoadOrder>
             </Properties>
             <Actions>
+                <UIScripts>
+                    <Item>ui/bz-colors/bz-colors.js</Item>
+                </UIScripts>
                 <UpdateColors>
                     <Item>data/bz-playercolors.sql</Item>
                 </UpdateColors>
