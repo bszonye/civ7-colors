@@ -1,12 +1,12 @@
 Controls.loadStyle("/bz-colors/ui/bz-colors/bz-colors.css");
 document.body.classList.add("bz-colors");
 
-function convertToHex(rgba) {
+function srgbToHex(rgba) {
   const { r, g, b, a } = rgba;
   const hex = "#" + ((r << 16) | (g << 8) | b).toString(16).padStart(6, "0");
   return a != null && a != 255 ? hex + a.toString(16).padStart(2, "0") : hex;
 }
-function convertToLinear(rgba) {
+function srgbToLinear(rgba) {
   const G = (c) => Math.pow(c / 255, 2.4);
   const r = G(rgba.r);
   const g = G(rgba.g);
@@ -15,19 +15,24 @@ function convertToLinear(rgba) {
   return { r, g, b };
 }
 function getLuminance(c) {
-  c = convertToLinear(c);
+  c = srgbToLinear(c);
   return 0.2126729 * c.r + 0.7151522 * c.g + 0.0721750 * c.b;
 }
+const Bclip = 1.414, Bthrsh = 0.022;
+const Nbg = 0.56, Nfg = 0.57, Rbg = 0.65, Rfg = 0.62;
+const Wscale = 1.14, Woffset = 0.027;
+const fsc = (Y) => Y < 0 ? 0 : Y < Bthrsh ? Y + Math.pow(Bthrsh - Y, Bclip) : Y;
+function getYLc(bg, fg) {
+  const Ybg = fsc(bg);
+  const Yfg = fsc(fg);
+  const [Xbg, Xfg] = Yfg < Ybg ? [Nbg, Nfg] : [Rbg, Rfg];
+  const Sapc = (Math.pow(Ybg, Xbg) - Math.pow(Yfg, Xfg)) * Wscale;
+  return Math.abs(Sapc) < 0.1 ? 0 : 100 * (Sapc - Math.sign(Sapc) * Woffset);
+}
 function getColorLc(bg, fg) {
-    const Y = getLuminance
-    const Bclip = 1.414, Bthrsh = 0.022;
-    const fsc = (y) => y < 0 ? 0 : y < Bthrsh ? Math.pow(Bthrsh - y, Bclip) : y;
-    const Ybg = fsc(Y(Color.convertToSRGB(bg)));
-    const Yfg = fsc(Y(Color.convertToSRGB(fg)));
-    const [Xbg, Xfg] = Yfg < Ybg ? [0.56, 0.57] : [0.65, 0.62];
-    const Wscale = 1.14, Woffset = 0.027;
-    const Sapc = (Math.pow(Ybg, Xbg) - Math.pow(Yfg, Xfg)) * Wscale;
-    return Math.abs(Sapc) < 0.1 ? 0 : 100 * (Sapc - Math.sign(Sapc) * Woffset);
+  bg = getLuminance(Color.convertToSRGB(bg));
+  fg = getLuminance(Color.convertToSRGB(fg));
+  return getYLc(bg, fg);
 }
 
 const colors = Database.query("gameplay", "SELECT * FROM Colors");
@@ -36,7 +41,7 @@ if (colors) {
         const [r, g, b, a] = rgbText.split(",");
         const rgba = { r: Number(r), g: Number(g), b: Number(b), a: Number(a ?? 255) };
         const color = Color.convertToPackedSRGB(rgba);
-        const hex = convertToHex(rgba);
+        const hex = srgbToHex(rgba);
         return { rgba, color, hex };
     }
     function mapColors(colors, match, trim) {
@@ -97,8 +102,8 @@ if (colors) {
 const leaderLc = [];
 function dumpLc(name, bg, fg) {
     const lc = getColorLc(bg, fg).toFixed(2).padStart(7, " ");
-    bg = convertToHex(Color.convertToSRGB(bg));
-    fg = convertToHex(Color.convertToSRGB(fg));
+    bg = srgbToHex(Color.convertToSRGB(bg));
+    fg = srgbToHex(Color.convertToSRGB(fg));
     name = Locale.compose(name);
     leaderLc.push({ lc, bg, fg, name });
 }
