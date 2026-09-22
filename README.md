@@ -12,8 +12,10 @@ better leader colors
 - Charlemagne: Tyrian purple (blue shade)
 - Confucius: jade, Yellow Dragon Flag
 - Edward Teach: Jolly Roger, flag of Blackbeard
+- Elizabeth: flag of England
 - Friedrich: family coat of arms, Prussian military uniforms
 - Genghis Khan: emblem of Mongolia, flag of Mongolia, Khanate flags
+- George Washington: flag of tthe USA
 - Gilgamesh: character model variations
 - Harriet Tubman: flag of the USA
 - Hatshepsut: Egyptian blue, Egyptian flags
