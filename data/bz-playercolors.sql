@@ -436,10 +436,10 @@ WHERE Type="LEADER_TRUNG_TRAC";
 
 -- WASHINGTON
 UPDATE PlayerColors SET
-Alt3PrimaryColor="COLOR_BZ_GREEN_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
 Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
-Alt1PrimaryColor="COLOR_BZ_WHITE_BG", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
-PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_YELLOW_MD"
+Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
+PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_WHITE"
 WHERE Type="LEADER_WASHINGTON";
 
 -- XERXES ALT (Achaemenid): Persian pottery, flag of the Safavid dynasty
