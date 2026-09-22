@@ -232,8 +232,8 @@ WHERE Type="LEADER_EDWARD_TEACH";
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_ORANGE_DK",
 Alt2PrimaryColor="COLOR_BZ_PURPLE_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
-Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_MD"
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_ELIZABETH";
 
 -- FRIEDRICH ALT (Baroque): flag of Prussia, Prussian military uniforms
@@ -293,7 +293,7 @@ UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_BLUE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
 Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
+PrimaryColor="COLOR_BZ_YELLOW_LT", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_HIMIKO_ALT";
 
 -- HIMIKO (Queen of Wa): imperial standard of the empress of Japan
