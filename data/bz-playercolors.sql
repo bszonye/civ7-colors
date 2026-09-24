@@ -228,6 +228,14 @@ Alt1PrimaryColor="COLOR_BZ_GRAY_MD", Alt1SecondaryColor="COLOR_BZ_YELLOW_LT",
 PrimaryColor="COLOR_BZ_GRAY_DK", SecondaryColor="COLOR_BZ_AMBER_LT"
 WHERE Type="LEADER_EDWARD_TEACH";
 
+-- ELIZABETH: flag of England
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_YELLOW_LT", Alt3SecondaryColor="COLOR_BZ_ORANGE_DK",
+Alt2PrimaryColor="COLOR_BZ_PURPLE_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_MD",
+Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
+PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
+WHERE Type="LEADER_ELIZABETH";
+
 -- FRIEDRICH ALT (Baroque): flag of Prussia, Prussian military uniforms
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_SKY_LT", Alt3SecondaryColor="COLOR_BZ_BLUE_DK",
@@ -285,7 +293,7 @@ UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_BLUE_MD", Alt3SecondaryColor="COLOR_BZ_WHITE",
 Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_RED_MD", Alt1SecondaryColor="COLOR_BZ_WHITE",
-PrimaryColor="COLOR_BZ_WHITE_BG", SecondaryColor="COLOR_BZ_RED_DK"
+PrimaryColor="COLOR_BZ_YELLOW_LT", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_HIMIKO_ALT";
 
 -- HIMIKO (Queen of Wa): imperial standard of the empress of Japan
@@ -426,6 +434,14 @@ Alt1PrimaryColor="COLOR_BZ_AMBER_MD_TT", Alt1SecondaryColor="COLOR_BZ_RED_DK",
 PrimaryColor="COLOR_BZ_YELLOW_MD_TT", SecondaryColor="COLOR_BZ_RED_DK"
 WHERE Type="LEADER_TRUNG_TRAC";
 
+-- WASHINGTON
+UPDATE PlayerColors SET
+Alt3PrimaryColor="COLOR_BZ_GRAY_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt2PrimaryColor="COLOR_BZ_RED_DK", Alt2SecondaryColor="COLOR_BZ_YELLOW_LT",
+Alt1PrimaryColor="COLOR_BZ_YELLOW_LT", Alt1SecondaryColor="COLOR_BZ_BLUE_DK",
+PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_WHITE"
+WHERE Type="LEADER_WASHINGTON";
+
 -- XERXES ALT (Achaemenid): Persian pottery, flag of the Safavid dynasty
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_MAGENTA_DK", Alt3SecondaryColor="COLOR_BZ_YELLOW_LT",
@@ -443,13 +459,18 @@ Alt1PrimaryColor="COLOR_BZ_AQUA_LT", Alt1SecondaryColor="COLOR_BZ_WHITE",
 PrimaryColor="COLOR_BZ_AQUA_DK", SecondaryColor="COLOR_BZ_GREEN_LT"
 WHERE Type="LEADER_XERXES";
 
--- YI SUN-SIN: TODO
+-- YI SUN-SIN
 UPDATE PlayerColors SET
 Alt3PrimaryColor="COLOR_BZ_RED_MD", Alt3SecondaryColor="COLOR_BZ_YELLOW_MD",
 Alt2PrimaryColor="COLOR_BZ_YELLOW_DK", Alt2SecondaryColor="COLOR_BZ_WHITE",
 Alt1PrimaryColor="COLOR_BZ_RED_DK", Alt1SecondaryColor="COLOR_BZ_SKY_LT",
 PrimaryColor="COLOR_BZ_BLUE_DK", SecondaryColor="COLOR_BZ_ROSE_LT"
 WHERE Type="LEADER_YI_SUN_SIN";
+
+-- City-States
+UPDATE PlayerColors SET
+PrimaryColor="COLOR_BZ_WHITE", SecondaryColor="COLOR_BZ_BLACK"
+WHERE Type="PLAYERCOLOR_LIGHT_YELLOW_MINOR";
 
 -- test pattern
 -- UPDATE PlayerColors SET
